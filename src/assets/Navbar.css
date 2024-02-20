@@ -1,0 +1,78 @@
+/*For Permanent Navbar Component */
+.navdetails {
+    display:flex;
+    padding:1%;
+    justify-content: space-between;
+    font-weight:600;
+}
+.cdetails, .pdetails, .codetails, .navlinks ,.navlinkslinks{
+    display:flex;
+}
+.cdetails {
+    font-size:0.8rem;
+}
+.pdetails, .codetails, .pdetails div, .codetails div {
+    padding:5%;
+}
+.navlinks{
+    gap:15%;
+    padding:1%;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+/*Fixed Navbar */
+
+.fnavbar {
+    display:flex;
+    padding:1%;
+    justify-content: space-between;
+    font-weight:600;
+    margin:0% 5% 0% 5%;
+}
+.hidden-listicon{
+    display:none;
+}
+
+/* Mobile View*/
+
+@media only screen and (max-width: 500px) {
+    /* Styling The PermanentNavbar*/
+   body {
+    width:100%;
+    margin:0;
+    padding:0;
+   }
+   .navdetails{
+     display:flex;
+     flex-direction: column;
+     padding:2.5%;
+
+     .navlinksselect{
+        padding:2.5%;
+        width:50%;
+    }
+    .hidden-listicon{
+        display:block;
+        margin:0% 0% 5% 5%;
+    }
+   }
+   .navlinks {
+     display:none;
+        div{
+            padding-bottom:5%;
+            margin-left:5%;
+        }
+    }
+    .navlinksactive{
+        padding:5%;
+        div {
+            margin-bottom:2%;
+        }
+    }
+    .fnavbarlinksmain{
+        display:none;
+    }
+}

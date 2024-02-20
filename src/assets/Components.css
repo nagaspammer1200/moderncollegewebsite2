@@ -1,0 +1,21 @@
+.detailscontainer{
+    display:flex;
+    gap:1%;
+    padding:1%;
+
+    div img {
+        width:85%;
+        height:70%;
+        margin-left:15%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .detailscontainer{
+        display:flex;
+        flex-direction: column;
+        width:60%;
+        gap:5%;
+        padding:4%;
+        margin-left: 15%;;
+    }
+}

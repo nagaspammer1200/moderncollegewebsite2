@@ -1,0 +1,88 @@
+.carousel-control-prev span, .carousel-control-next span {
+    color:blue;
+}
+.vision {
+    padding:5%;
+    gap:10%;
+    ul {
+        list-style-image: url('./src/images/circlefill.svg');
+      }
+}
+.sublinksection {
+    padding:5%;
+    gap:5%;
+    img {
+        height:30%;
+        width:50%;
+    }
+}
+.events {
+    display:flex;
+    padding:5%;
+    gap:5%;
+}
+.quicklinks1 {
+    padding:2%;
+    
+    .quicklinks2{
+        padding:5%;
+        a {
+            color:inherit;
+        }
+    }
+}
+.extrasection {
+    width:80%;
+    margin-left:20%;
+    .es1,.es2,.es3 {
+        width:25%;
+        padding:5%;
+    }
+}
+.bannercontainer, .linkscontainer {
+    display:flex;
+    gap:5%;
+    width:80%;
+    margin-left:10%;
+    padding:2%;
+}
+
+
+/* Mobile View*/
+
+@media only screen and (max-width: 500px) {
+ /*General Styling */
+
+    body{
+        margin:0;
+        padding:0;
+    }
+    .sublinksection img {
+            display:none;
+        }
+    .events{
+        display:block;
+    }
+    .bannercontainer{
+        display:flex;
+        flex-direction: column;
+        padding:20%;   
+
+        div {
+            margin-bottom:40%;
+        }
+    }
+    .extrasection, .linkscontainer{
+        display:flex;
+        flex-direction: column;
+        margin-left:10%;
+        .es1,.es2,.es3{
+            width:100%;
+        }
+    }
+    .extrasection, .linkscontainer{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
