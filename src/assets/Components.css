@@ -4,9 +4,9 @@
     padding:1%;
 
     div img {
-        width:85%;
-        height:70%;
-        margin-left:15%;
+        width:45%;
+        height:50%;
+        margin-left:45%;
     }
 }
 @media only screen and (max-width: 500px){
@@ -18,4 +18,12 @@
         padding:4%;
         margin-left: 15%;;
     }
+}
+
+
+/* Styling for Announcements*/
+
+.acontainer{
+    width:35%;
+    padding:5%;
 }

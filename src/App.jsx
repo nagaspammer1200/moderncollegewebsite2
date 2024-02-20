@@ -8,6 +8,9 @@ import About from "./pages/About"
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Principal from './pages/Principal';
 import PDean from './pages/PDean';
+import UDean from './pages/UDean';
+import RDean from './pages/RDean';
+import SIADean from './pages/SIADean';
 
 
 const App = () => {
@@ -20,6 +23,9 @@ const App = () => {
         <Route path="/about" element={<About/>}/>
         <Route path="/principal" element={<Principal/>}/>
         <Route path="/pgdean" element={<PDean/>}/>
+        <Route path="/ugdean" element={<UDean/>}/>
+        <Route path="/researchdean" element={<RDean/>}/>
+        <Route path="/studentandinternationalaffairdean" element={<SIADean/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

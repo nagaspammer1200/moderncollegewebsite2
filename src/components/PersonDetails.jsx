@@ -1,7 +1,7 @@
 import React from 'react'
 import "../assets/Components.css"
 
-const PersonDetails = ({personimage,personname,persondepartment,personemail,personnumber,persondesignation,persondesignationplace,personphd,personmtech,personbtech,personresearch,personprofile}) => {
+const PersonDetails = ({personimage,personname,persondepartment,personemail,personnumber,persondesignation,personspec,persondesignationplace,personphd,personmtech,personbtech,personresearch,personprofile}) => {
   return (
     <div>
       <div className="detailscontainer">
@@ -28,6 +28,9 @@ const PersonDetails = ({personimage,personname,persondepartment,personemail,pers
               <p>{personphd}</p>
               <p>{personmtech}</p>
               <p>{personbtech}</p>
+            </div>
+            <div className="ps-3">
+              <p>{personspec}</p>
             </div>
             <div className="ps-3">
               <p>{personresearch}</p>

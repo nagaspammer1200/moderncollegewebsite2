@@ -22,9 +22,9 @@ const FixedNavbar = () => {
                         <a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Dean</a>
                         <ul className="dropdown-menu">
                           <li><a href="/pgdean" className="dropdown-item">PG Dean</a></li>
-                          <li><a href="#" className="dropdown-item">Student Dean and International Affairs</a></li>
-                          <li><a href="#" className="dropdown-item">UG Dean</a></li>
-                          <li><a href="#" className="dropdown-item">Research Dean</a></li>
+                          <li><a href="/studentandinternationalaffairdean" className="dropdown-item">Student Dean and International Affairs</a></li>
+                          <li><a href="/ugdean" className="dropdown-item">UG Dean</a></li>
+                          <li><a href="/researchdean" className="dropdown-item">Research Dean</a></li>
                         </ul>
                       </li>
                       <li className="dropstart">

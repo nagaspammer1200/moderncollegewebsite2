@@ -1,6 +1,4 @@
 import React,{useState,useEffect} from 'react'
-import { database } from '../firebase.js'
-import { getDocs,collection } from 'firebase/firestore'
 
 const ImageSlider = () => {
   
