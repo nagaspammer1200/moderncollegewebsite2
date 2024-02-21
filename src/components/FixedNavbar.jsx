@@ -6,7 +6,7 @@ const FixedNavbar = () => {
     <div>
       <div className="fnavbar">
         <div className="fnavbarimg">
-          <img src="src/images/logobh.png" class="img-fluid" alt="GECB Logo" />
+          <a href="/"><img src="src/images/logobh.png" class="img-fluid" alt="GECB Logo" /></a>
         </div>
         <div className="fnavbarlinksmain">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -18,6 +18,21 @@ const FixedNavbar = () => {
                       About The College
                     </a>
                     <ul className="dropdown-menu">
+                      <li><a className="dropdown-item" href="/about">About GECBH</a></li>
+                      <li><a href="#" className="dropdown-item">Board of Governers</a></li>
+                      <li><a className="dropdown-item" href="/principal">Principal</a></li>
+                      <li><a href="http://gecbh.ac.in/static/docs/College%20Council.pdf" className="dropdown-item">College Council</a></li>
+                      <li className="dropstart">
+                        <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Administration</a>
+                        <ul className="dropdown-menu">
+                          <li><a href="/adminstaff" className="dropdown-item">Staff</a></li>
+                          <li><a href="#" className="dropdown-item">Right To Information</a></li>
+                          <li><a href="#" className="dropdown-item">Tenders and Questions</a></li>
+                          <li><a href="#" className="dropdown-item">Service Rules</a></li>
+                          <li><a href="#" className="dropdown-item">Budget Utilization</a></li>
+                          <li><a href="#" className="dropdown-item">Commitees</a></li>
+                        </ul>
+                      </li>
                       <li className="dropstart">
                         <a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Dean</a>
                         <ul className="dropdown-menu">
@@ -27,24 +42,8 @@ const FixedNavbar = () => {
                           <li><a href="/researchdean" className="dropdown-item">Research Dean</a></li>
                         </ul>
                       </li>
-                      <li className="dropstart">
-                        <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Administration</a>
-                        <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">Staff</a></li>
-                          <li><a href="#" className="dropdown-item">Right To Information</a></li>
-                          <li><a href="#" className="dropdown-item">Tenders and Questions</a></li>
-                          <li><a href="#" className="dropdown-item">Service Rules</a></li>
-                          <li><a href="#" className="dropdown-item">Budget Utilization</a></li>
-                          <li><a href="#" className="dropdown-item">Commitees</a></li>
-                        </ul>
-                      </li>
-                      <li><a className="dropdown-item" href="/about">About GECBH</a></li>
-                      <li><a className="dropdown-item" href="/principal">Principal</a></li>
-                      <li><a href="http://gecbh.ac.in/static/docs/College%20Council.pdf" className="dropdown-item">College Council</a></li>
-                      <li><a href="#" className="dropdown-item">Board of Governers</a></li>
-                      <li><a href="#" className="dropdown-item">Head of Departments</a></li>
+                      <li><a href="/hods" className="dropdown-item">Head of Departments</a></li>
                       <li><a href="#" className="dropdown-item">Former Principals</a></li>
-                      <li><a href="#" className="dropdown-item">Gallery</a></li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown">

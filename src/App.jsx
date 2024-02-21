@@ -11,6 +11,8 @@ import PDean from './pages/PDean';
 import UDean from './pages/UDean';
 import RDean from './pages/RDean';
 import SIADean from './pages/SIADean';
+import Head from './pages/Head';
+import Staff from './pages/Staff';
 
 
 const App = () => {
@@ -26,6 +28,8 @@ const App = () => {
         <Route path="/ugdean" element={<UDean/>}/>
         <Route path="/researchdean" element={<RDean/>}/>
         <Route path="/studentandinternationalaffairdean" element={<SIADean/>}/>
+        <Route path="/hods" element={<Head/>}/>
+        <Route path="/adminstaff" element={<Staff/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

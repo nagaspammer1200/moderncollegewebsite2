@@ -14,7 +14,7 @@ const RDean = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="d-flex gap-1">
+          <div className="d-flex gap-1 personcontainer">
             <PersonDetails personimage="src/images/people/dinesh.jpg" personname="Dr.Dinesh Gopinath" persondepartment="Professor, Dept. of Electrical & Electronics Engineering" personnumber="+91-&nbsp;8547550783" persondesignation="Professor,Department of Electrical and Electronics Govt.Engineering College Barton Hill, Thiruvanathapuram" personprofile="http://gecbh.ac.in/media/docs/Profile_for_website_GECBH_3.docx" />
             <AnnouncementsBar/>
           </div>

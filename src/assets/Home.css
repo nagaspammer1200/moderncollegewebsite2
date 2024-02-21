@@ -57,11 +57,15 @@
         margin:0;
         padding:0;
     }
-    .sublinksection img {
+    .sublinksection img , .textslider{
             display:none;
         }
     .events{
         display:block;
+
+        .latestevents img{
+            width:75%;
+        }
     }
     .bannercontainer{
         display:flex;
