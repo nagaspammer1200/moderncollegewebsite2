@@ -4,9 +4,9 @@ import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
 import PermanentFooter from '../components/PermanentFooter'
 import PersonDetails from '../components/PersonDetails'
+import AnnouncementsBar from '../components/AnnouncementsBar'
 import "../assets/Home.css"
 import "../assets/About.css"
-import AnnouncementsBar from '../components/AnnouncementsBar'
 
 const RDean = () => {
   return (

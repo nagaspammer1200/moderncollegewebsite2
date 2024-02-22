@@ -1,14 +1,14 @@
+import React,{useState,useEffect} from 'react'
+import { db } from '../pages/firebase.js'
+import { getDocs,collection } from 'firebase/firestore'
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
 import PermanentFooter from '../components/PermanentFooter'
 import PersonDetails from '../components/PersonDetails'
+import AnnouncementsBar from '../components/AnnouncementsBar'
 import "../assets/Home.css"
 import "../assets/About.css"
-import AnnouncementsBar from '../components/AnnouncementsBar'
-import React,{useState,useEffect} from 'react'
-import { db } from '../pages/firebase.js'
-import { getDocs,collection } from 'firebase/firestore'
 
 const Head = () => {
 

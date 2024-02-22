@@ -13,6 +13,8 @@ import RDean from './pages/RDean';
 import SIADean from './pages/SIADean';
 import Head from './pages/Head';
 import Staff from './pages/Staff';
+import Service from './pages/Service';
+import Budget from './pages/Budget';
 
 
 const App = () => {
@@ -30,6 +32,8 @@ const App = () => {
         <Route path="/studentandinternationalaffairdean" element={<SIADean/>}/>
         <Route path="/hods" element={<Head/>}/>
         <Route path="/adminstaff" element={<Staff/>}/>
+        <Route path="/service" element={<Service/>}/>
+        <Route path="/budget" element={<Budget/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

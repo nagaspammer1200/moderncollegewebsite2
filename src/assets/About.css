@@ -102,14 +102,41 @@
 
 
 @media only screen and (max-width: 500px){
+    /* Reesponsive Design for Deans*/
     .personcontainer{
         display:flex;
         flex-direction: column;
         margin-left:15%;
     }
-
+    /* Responsive Design for HoD*/
     .hodcontainer{
         display:flex;
         flex-direction: column;
+    }
+}
+
+/* Styling the Service*/
+
+.rulecontainer{
+    margin-left:30%;
+    padding:10%;
+}
+
+/*Styling the Budget */
+
+.personcontainer2 {
+    gap:10%;
+}
+.rulecontainer2{
+    margin:5% 0% 0% 20%;
+}
+@media only screen and (max-width: 500px){
+    .personcontainer2{
+        display:flex;
+        flex-direction: column;
+        gap:10%;
+    }
+    .rulecontainer2{
+        margin-left:-10%;
     }
 }

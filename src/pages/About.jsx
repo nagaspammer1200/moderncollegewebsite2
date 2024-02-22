@@ -5,8 +5,6 @@ import BannerFooter from '../components/BannerFooter'
 import PermanentFooter from '../components/PermanentFooter'
 import "../assets/Home.css"
 import "../assets/About.css"
-import { ImportContactsSharp } from '@mui/icons-material'
-ImportContactsSharp
 
 
 const About = () => {
@@ -15,7 +13,7 @@ const About = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div>
+          <div className="aboutcontainer">
             <div className="card text-bg-dark w-70 h-50">
               <img src="src/images/college_abt.jpg" className="card-img w-70" alt="..."/>
               <div className="card-img-overlay">

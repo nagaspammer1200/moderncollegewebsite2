@@ -36,7 +36,7 @@ a {
     display:none;
 }
 
-/* Mobile View*/
+/* Mobile View for Fixed Navbar*/
 
 @media only screen and (max-width: 500px) {
     /* Styling The PermanentNavbar*/

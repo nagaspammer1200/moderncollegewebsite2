@@ -28,8 +28,8 @@ const FixedNavbar = () => {
                           <li><a href="/adminstaff" className="dropdown-item">Staff</a></li>
                           <li><a href="#" className="dropdown-item">Right To Information</a></li>
                           <li><a href="#" className="dropdown-item">Tenders and Questions</a></li>
-                          <li><a href="#" className="dropdown-item">Service Rules</a></li>
-                          <li><a href="#" className="dropdown-item">Budget Utilization</a></li>
+                          <li><a href="/service" className="dropdown-item">Service Rules</a></li>
+                          <li><a href="/budget" className="dropdown-item">Budget Utilization</a></li>
                           <li><a href="#" className="dropdown-item">Commitees</a></li>
                         </ul>
                       </li>

@@ -1,3 +1,4 @@
+/* Styling for PersonDetails*/
 .detailscontainer{
     display:flex;
     gap:1%;
@@ -16,7 +17,7 @@
         width:60%;
         gap:5%;
         padding:4%;
-        margin-left:5%;
+        margin-left:15%;
     }
 }
 
@@ -26,6 +27,7 @@
 .acontainer{
     width:40%;
     padding:5%;
+    margin-left:20%;
 }
 
 @media only screen and (max-width: 500px){
