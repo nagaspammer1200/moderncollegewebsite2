@@ -30,7 +30,7 @@ const FixedNavbar = () => {
                           <li><a href="#" className="dropdown-item">Tenders and Questions</a></li>
                           <li><a href="/service" className="dropdown-item">Service Rules</a></li>
                           <li><a href="/budget" className="dropdown-item">Budget Utilization</a></li>
-                          <li><a href="#" className="dropdown-item">Commitees</a></li>
+                          <li><a href="/com" className="dropdown-item">Commitees</a></li>
                         </ul>
                       </li>
                       <li className="dropstart">
@@ -44,6 +44,48 @@ const FixedNavbar = () => {
                       </li>
                       <li><a href="/hods" className="dropdown-item">Head of Departments</a></li>
                       <li><a href="#" className="dropdown-item">Former Principals</a></li>
+                    </ul>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Academics
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li className="dropstart">
+                        <a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Programmes</a>
+                        <ul className="dropdown-menu">
+                          <li><a href="#" className="dropdown-item">Bachelor of Technology</a></li>
+                          <li><a href="#" className="dropdown-item">Master of Technology</a></li>
+                          <li><a href="#" className="dropdown-item">Research Programmes</a></li>
+                          <li><a href="#" className="dropdown-item">TPL Programmes</a></li>
+                          <li><a href="#" className="dropdown-item">Short Term Programmes</a></li>
+                          <li><a href="#" className="dropdown-item">ADAM</a></li>
+                        </ul>
+                      </li>
+                      <li className="dropdown-item">Admissions</li>
+                      <li className="dropstart">
+                        <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
+                        <ul className="dropdown-menu">
+                          <li><a href="#" className="dropdown-item">Information Technology</a></li>
+                          <li><a href="#" className="dropdown-item">Mechanical Engineering</a></li>
+                          <li><a href="#" className="dropdown-item">Electronics and Communication Engineering</a></li>
+                          <li><a href="#" className="dropdown-item">Electrical and Electronics Engineering</a></li>
+                          <li><a href="#" className="dropdown-item">Civil Engineering</a></li>
+                          <li><a href="#" className="dropdown-item">General Science</a></li>
+                          <li><a href="#" className="dropdown-item">Physical Education</a></li>
+                        </ul>
+                      </li>
+                      <li className="dropstart">
+                        <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                        <ul className="dropdown-menu">
+                          <li><a href="#" className="dropdown-item">AICTE</a></li>
+                          <li><a href="#" className="dropdown-item">TEQIP</a></li>
+                          <li><a href="https://drive.google.com/file/d/1KrkzevoakzhoZvKy0vktVgsfkpbnkg_-/view?pli=1" className="dropdown-item">Mandatory Disclosure</a></li>
+                          <li><a href="#" className="dropdown-item">IQAC</a></li>
+                          <li><a href="#" className="dropdown-item">News Letter</a></li>
+                          <li><a href="#" className="dropdown-item">Downloads</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown">
@@ -86,48 +128,7 @@ const FixedNavbar = () => {
                       <li><a className="dropdown-item" href="#">Event Calendar</a></li>
                     </ul>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Academics
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="dropstart">
-                        <a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Programmes</a>
-                        <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">Bachelor of Technology</a></li>
-                          <li><a href="#" className="dropdown-item">Master of Technology</a></li>
-                          <li><a href="#" className="dropdown-item">Research Programmes</a></li>
-                          <li><a href="#" className="dropdown-item">TPL Programmes</a></li>
-                          <li><a href="#" className="dropdown-item">Short Term Programmes</a></li>
-                          <li><a href="#" className="dropdown-item">ADAM</a></li>
-                        </ul>
-                      </li>
-                      <li className="dropdown-item">Admissions</li>
-                      <li className="dropstart">
-                        <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
-                        <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">Information Technology</a></li>
-                          <li><a href="#" className="dropdown-item">Mechanical Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">Electronics and Communication Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">Electrical and Electronics Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">Civil Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">General Science</a></li>
-                          <li><a href="#" className="dropdown-item">Physical Education</a></li>
-                        </ul>
-                      </li>
-                      <li className="dropstart">
-                        <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
-                        <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">AICTE</a></li>
-                          <li><a href="#" className="dropdown-item">TEQIP</a></li>
-                          <li><a href="#" className="dropdown-item">Mandatory Disclosure</a></li>
-                          <li><a href="#" className="dropdown-item">IQAC</a></li>
-                          <li><a href="#" className="dropdown-item">News Letter</a></li>
-                          <li><a href="#" className="dropdown-item">Downloads</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
+                
                   <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">Placements and Careers</a>
                   </li>

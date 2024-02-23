@@ -15,7 +15,7 @@ const About = () => {
           <div><FixedNavbar/></div>
           <div className="aboutcontainer">
             <div className="card text-bg-dark w-70 h-50">
-              <img src="src/images/college_abt.jpg" className="card-img w-70" alt="..."/>
+              <img src="src/images/about/college_abt.jpg" className="card-img w-70" alt="..."/>
               <div className="card-img-overlay">
                   <h4 className="card-title text-success">Know Us Better</h4>
                   <h1 className="card-text text-black">About Us</h1> 
@@ -25,7 +25,7 @@ const About = () => {
               <div className="pitem">
                 <div className="text-start p-3">
                   <h3 className="border-success border-bottom border-3 mb-3"><b>GECBH at a Glance</b></h3>
-                  <img src="src/images/college4.jpeg" className="w-60 h-60" alt="" />
+                  <img src="src/images/about/college4.jpeg" className="w-60 h-60" alt="" />
                 </div>
                 <div>
                   <p><b>Government Engineering College, Barton Hill</b> was established by the Government of Kerala in the academic year 1999-2000. Within a short span of time since inception, the college has achieved notable academic excellence. The college is affiliated to APJ Abdul kalam Kerala Technological University. It is under the administrative control of the Director of Technical Education, Government of Kerala.</p>
@@ -37,7 +37,7 @@ const About = () => {
               <div className="pitem">
                 <div className="text-start p-3">
                   <h3 className="border-success border-bottom border-3 mb-3"><b>History</b></h3>
-                  <img src="src/images/history.jpg" alt="" />
+                  <img src="src/images/about/history.jpg" alt="" />
                 </div>
                 <div>
                   <p><b>Government Engineering College, Barton Hill</b> located near PMG junction, in the heart of the Thiruvananthapuram city. Our college is situated at scenic hills of Barton hill; William Barton designed and built the new Secretariat building in Trivandrum, AD 1869, who was the chief engineer of Travancore. It was built based on Roman Architecture. Later it became the administration centre of Thiru – Kochi and then for whole Kerala. Barton Hill, which was the site of the bungalow of civil engineer Walthew Clarance Barton, who led the construction of the Secretariat, which he could see from the top of the 41-metre hill</p>
@@ -85,12 +85,12 @@ const About = () => {
                       </div>
                     </div>
                   <div className="w-50 latimg">
-                    <img src="src/images/people2.jpg" width="90%" height="100%"alt="" />
+                    <img src="src/images/about/people2.jpg" width="90%" height="100%"alt="" />
                   </div>
               </div>
               <div className="d-flex gap-3 p-5 m-1 structure">
                     <div className="w-50 rat">
-                      <img src="src/images/masters.jpg" width="100%" height="100%"alt="" />
+                      <img src="src/images/about/masters.jpg" width="100%" height="100%"alt="" />
                     </div> 
                     <div className="p-3 rat2">
                     <div><i className="bi bi-mortarboard"></i></div>
@@ -115,12 +115,12 @@ const About = () => {
                       <div><p>The faculty members are from the pool of Professors, Associate Professors and Assistant Professors under the Department of Technical Education, who are arguably the best in the state. It is the same pool which provides the faculty to all the nine Government Engineering Colleges in the State. The 65 strong faculty team of the college consists of 16 Ph.D holders and 49 PG degree holders.</p></div>
                     </div>
                   <div className="w-50 latimg">
-                    <img src="src/images/faculty.jpg" width="90%" height="100%" alt="" />
+                    <img src="src/images/about/faculty.jpg" width="90%" height="100%" alt="" />
                   </div>
               </div>
               <div className="d-flex gap-3 p-5 m-1 structure">
                     <div className="w-50 rat">
-                      <img src="src/images/admission.jpg" width="90%" height="100%" alt="" />
+                      <img src="src/images/about/admission.jpg" width="90%" height="100%" alt="" />
                     </div> 
                     <div className="p-3 rat2">
                     <div><i className="bi bi-journal-bookmark-fill"></i></div>
@@ -135,7 +135,7 @@ const About = () => {
                       <div><p>TThe alumni of the college have already secured their places in the B. Tech. rank list of Kerala University and in the top sections of all India GATE rank lists. The alumni of the college have also secured admissions to top research institutions and business schools including foreign universities, IITs and IIMs . The placement record of the college has been phenomenal with majority of the students having received job offers to reputed firms from the campus itself.</p></div>
                     </div>
                   <div className="w-50 latimg">
-                    <img src="src/images/alumni.jpg" width="90%" height="100%" alt="" />
+                    <img src="src/images/about/alumni.jpg" width="90%" height="100%" alt="" />
                   </div>
               </div>
             </div>

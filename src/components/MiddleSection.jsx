@@ -22,7 +22,7 @@ const MiddleSection = () => {
       <div className="sublinksection d-flex">
         <div className="d-flex sublinksectionitem">
             <div>
-                <img src="src/images/1.png" alt="" />
+                <img src="src/images/home/1.png" alt="" />
             </div>
             <div>
                 <h3>Social Acts</h3>
@@ -31,7 +31,7 @@ const MiddleSection = () => {
         </div>
         <div className="d-flex sublinksectionitem">
             <div>
-                <img src="src/images/2.png" alt="" />
+                <img src="src/images/home/2.png" alt="" />
             </div>
             <div>
                 <h3>Tech Know</h3>
@@ -40,7 +40,7 @@ const MiddleSection = () => {
         </div>
         <div className="d-flex sublinksectionitem">
             <div>
-                <img src="src/images/3.png" alt="" />
+                <img src="src/images/home/3.png" alt="" />
             </div>
             <div>
                 <h3>Sports</h3>
@@ -49,7 +49,7 @@ const MiddleSection = () => {
         </div>
         <div className="d-flex sublinksectionitem">
             <div>
-                <img src="src/images/4.png" alt="" />
+                <img src="src/images/home/4.png" alt="" />
             </div>
             <div>
                 <h3>Arts and Cultural</h3>
@@ -59,7 +59,7 @@ const MiddleSection = () => {
       </div>
       <div className="events">
         <div className="latestevents">
-            <div className="mb-4"><img src="src/images/past_events.jpg" alt="" /></div>
+            <div className="mb-4"><img src="src/images/home/past_events.jpg" alt="" /></div>
             <div className="mb-4"><h1>Release of Hand Written Magazine</h1></div>
             <div className="mb-4"><h5>Women's Day Celebration</h5></div>
             <div className="mb-4"><button class="btn btn-success btn-lg" type="submit">More Past Events</button></div>

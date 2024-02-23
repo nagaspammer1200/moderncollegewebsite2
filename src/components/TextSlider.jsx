@@ -14,7 +14,7 @@ const TextSlider = () => {
               </div>
               <div className="carousel-inner h-30">
                 <div className="carousel-item active">
-                  <img src="src/images/white.jpg" className="d-block w-100" alt="..."/>
+                  <img src="src/images/home/white.jpg" className="d-block w-100" alt="..."/>
                   <div className="carousel-caption d-none d-md-block">
                     <h5 className="text-primary">Graduation Ceremony 2023 - Date : 20 th January 2024 (Saturday) at Tagore Theatre, Thiruvananthapuram</h5>
                     <a href="http://14.139.189.91/register.html" className="text-black">More Information</a><br />
@@ -23,7 +23,7 @@ const TextSlider = () => {
                   </div>
                 </div>
                 <div className="carousel-item text-primary">
-                  <img src="src/images/white.jpg" className="d-block w-100" alt="..."/>
+                  <img src="src/images/home/white.jpg" className="d-block w-100" alt="..."/>
                   <div className="carousel-caption d-none d-md-block">
                     <h5 className="text-primary">Students Grievance Redressal Committee (SGRC) NBA Accreditation Team, NSS Advisory Committee, Discipline Monitoring Committee</h5>
                     <a href="http://gecbh.ac.in/media/uploads/sgrc09012024.pdf" className="text-black">More Information</a><br />
@@ -32,7 +32,7 @@ const TextSlider = () => {
                   </div>
                 </div>
                 <div className="carousel-item text-primary">
-                  <img src="src/images/white.jpg" className="d-block w-100 h-70" alt="..."/>
+                  <img src="src/images/home/white.jpg" className="d-block w-100 h-70" alt="..."/>
                   <div className="carousel-caption d-none d-md-block">
                     <h5 className="text-primary">CIRCULAR - Punishments for Malpractice cases - Examination Manual 2022 modified-APJAKTU</h5>
                     <a href="https://drive.google.com/file/d/1u0yKHN_mHSKWkGeSz226M5xcaR6WR4Xh/view?usp=drive_link" className="text-black">Click Here</a>

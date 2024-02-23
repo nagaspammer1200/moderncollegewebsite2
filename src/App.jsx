@@ -15,6 +15,10 @@ import Head from './pages/Head';
 import Staff from './pages/Staff';
 import Service from './pages/Service';
 import Budget from './pages/Budget';
+import Committee from './pages/Committee';
+import PTA from './pages/pta';
+import IPR from './pages/IPR';
+import Rag from './pages/Rag';
 
 
 const App = () => {
@@ -34,6 +38,10 @@ const App = () => {
         <Route path="/adminstaff" element={<Staff/>}/>
         <Route path="/service" element={<Service/>}/>
         <Route path="/budget" element={<Budget/>}/>
+        <Route path="/com" element={<Committee/>}/>
+        <Route path="/pta" element={<PTA/>}/>
+        <Route path="/ipr" element={<IPR/>}/>
+        <Route path="/antiragging" element={<Rag/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

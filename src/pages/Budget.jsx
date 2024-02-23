@@ -18,7 +18,7 @@ const Budget = () => {
           <div className="d-flex personcontainer2">
             <div className="rulecontainer2">
                 <div className="d-flex flex-column text-center">
-                    <div className="mb-5">
+                    <div className="mb-5 mt-3">
                         <div className="text-primary"><a href="http://gecbh.ac.in/static/docs/2020-21%20_m.pdf"><h6>Budget 2020-2021</h6></a></div>
                     </div>
                     <div className="mb-5">

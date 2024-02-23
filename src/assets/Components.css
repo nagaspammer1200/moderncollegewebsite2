@@ -10,7 +10,15 @@
         margin-left:35%;
     }
 }
+/* Styling for Announcements*/
+
+.acontainer{
+    width:40%;
+    padding:5%;
+    margin-left:20%;
+}
 @media only screen and (max-width: 500px){
+    /* Person Details*/
     .detailscontainer{
         display:flex;
         flex-direction: column;
@@ -19,18 +27,8 @@
         padding:4%;
         margin-left:15%;
     }
-}
 
-
-/* Styling for Announcements*/
-
-.acontainer{
-    width:40%;
-    padding:5%;
-    margin-left:20%;
-}
-
-@media only screen and (max-width: 500px){
+    /*Announcements */
     .acontainer{
         width:80%;
         padding:4%;
