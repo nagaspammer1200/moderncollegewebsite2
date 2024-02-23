@@ -27,7 +27,7 @@ const Rag = () => {
                         <p>Ragging may also attract punishment as per section 4 of the “The Kerala Prohibition of Raggig Act 1998” which leads to imprisonment, for a term of maximum 2 years and a fine for ten thousand rupees in conviction.</p>
                         </div>
                         <div className="ptaimage">
-                            <img src="src/images/rag.png" alt="" /> 
+                            <img src="src/images/rag.png" alt="Anti Ragging Logo" /> 
                         </div>
                     </div>
                     <div className="mb-5 text-secondary text-start">
@@ -91,8 +91,8 @@ const Rag = () => {
                         <h4>Anti-ragging Committee</h4>
                     </div>
                     <div className="mb-5 d-flex text-secondary bg-white text-start">
-                        <div className="ragchair">
-                            <ul>
+                        <div>
+                            <ul  className="list-unstyled">
                                 <li className="mb-3 mt-3 p-2 text-dark">Chairperson</li>
                                 <li className="mb-3 mt-3 p-2 text-dark">Convener</li>
                                 <li className="mb-3 mt-3 p-2 text-dark">Representative of faculty members</li>
@@ -103,8 +103,8 @@ const Rag = () => {
                                 <li className="mb-3 mt-3 p-2 text-dark">Representative of Non Teaching Staff	</li>
                             </ul>
                         </div>
-                        <div className="ragchair"> 
-                            <ul>
+                        <div> 
+                            <ul  className="list-unstyled">
                             <li className="mb-3 mt-3 p-2">Principal</li>
                             <li className="mb-3 mt-3 p-2">Dr. Ranaprathap A.O Asst Professor in Physical Education</li>
                             <li className="mb-3 mt-3 p-2">All HODs, PTA Secretary 1st Year Senior Staff Advisers from each branch</li>

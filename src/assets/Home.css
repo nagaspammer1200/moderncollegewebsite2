@@ -88,5 +88,8 @@
         display:flex;
         flex-direction: column;
     }
+    .spacelist div{
+        padding:5%;
+    }
 }
 

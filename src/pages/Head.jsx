@@ -38,7 +38,7 @@ const Head = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="d-flex hodcontainer p-3 mt-3">
+          <div className="d-flex hodcontainer gap-3 p-3 mt-3">
             <div>
                 {headList.map((movie) => (
                 <div className="mb-4">
@@ -46,7 +46,7 @@ const Head = () => {
                 </div>
                 ))}
             </div>
-                <AnnouncementsBar/>
+              <AnnouncementsBar/>
           </div>
           <div><BannerFooter/></div>
           <div><PermanentFooter/></div>

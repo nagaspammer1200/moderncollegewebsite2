@@ -5,7 +5,7 @@ const PersonDetails = ({personimage,personname,persondepartment2,persondepartmen
   return (
     <div>
       <div className="detailscontainer">
-        <div><img src={personimage} alt="" /></div>
+        <div><img src={personimage} alt="profileimage" /></div>
         <div>
           <div className="ps-3">
             <h3>{personname}</h3>

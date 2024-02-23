@@ -17,6 +17,9 @@
     padding:5%;
     margin-left:20%;
 }
+.aitemcontainer:hover{
+    background-color: rgb(160, 160, 160);
+}
 @media only screen and (max-width: 500px){
     /* Person Details*/
     .detailscontainer{

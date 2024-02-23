@@ -14,7 +14,7 @@ const Principal = () => {
           <div><FixedNavbar/></div>
           <div className="d-flex gap-2 pdc">
             <div>
-                <div className="principalimage"><img src="src/images/people/principal.jpeg" width="45%" height="35%" alt="" /></div>
+                <div className="principalimage"><img src="src/images/people/principal.jpeg" width="45%" height="35%" alt="Principal Shiny" /></div>
                 <div className="d-flex gap-3 pe-3 ps-3">
                     <div><i className="bi bi-envelope-open"></i></div>
                     <div><p>principal@gecbh.ac.in</p></div>

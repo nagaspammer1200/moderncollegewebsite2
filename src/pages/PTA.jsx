@@ -31,7 +31,7 @@ const PTA = () => {
                         <p>The PTA provides financial assistance to meritorious and needy students with consistent academic record. The best student in each branch of engineering is awarded by the PTA. Cash awards are also given to top scorers of even semesters in the university examination.</p>
                     </div>
                     <div className="mb-5 ptaimage">
-                        <img src="src/images/pta/pta.jpg" alt="" />
+                        <img src="src/images/pta/pta.jpg" alt="Parents Teachers Association Meeting" />
                     </div>
                     <div className="mb-5 text-secondary">
                         <h6>The following endowments were constituted by the PTA for the students:</h6>

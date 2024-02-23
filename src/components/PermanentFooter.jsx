@@ -17,11 +17,11 @@ const PermanentFooter = () => {
             </div>
         </div>
         <div className="p-3">
-          <div className="border-3 border-success border-bottom text-whsite p-3">
+          <div className="border-3 border-success border-bottom text-white p-3">
             <h5>Internal Links</h5>
           </div>
           <div>
-            <ul className="p-3 list-unstyled">
+            <ul className="p-3 list-unstyled spacelist">
               <div><li><a href="/about">About Us</a></li></div>
               <div><li><a href="#">Programmes</a></li></div>
               <div><li><a href="#">Departments</a></li></div>
@@ -33,17 +33,17 @@ const PermanentFooter = () => {
           </div>
         </div>
         <div className="p-3">
-          <div className="border-3 border-success border-bottom text-whsite p-3">
+          <div className="border-3 border-success border-bottom text-white p-3">
             <h5>More Links</h5>
           </div>
           <div>
-            <ul className="p-3 list-unstyled">
+            <ul className="p-3 list-unstyled spacelist">
               <div><li><a href="#">NBA Accreditations</a></li></div>
-              <div><li><a href="#">Anti-Ragging</a></li></div>
+              <div><li><a href="/antiragging">Anti-Ragging</a></li></div>
               <div><li><a href="#">Safety Policy</a></li></div>
               <div><li><a href="#">Right to Information</a></li></div>
               <div><li><a href="#">Tenders</a></li></div>
-              <div><li><a href="#">E-Journals</a></li></div>
+              <div><li><a href="https://gecbhlibrary.knimbus.com/user#/home">E-Journals</a></li></div>
               <div><li><a href="#">Downloads</a></li></div>
               <div><li><a href="#">Prevention of Caste Discrimination</a></li></div>
             </ul>
@@ -54,7 +54,7 @@ const PermanentFooter = () => {
             <h5>External Links</h5>
           </div>
           <div>
-            <ul className="p-3 list-unstyled">
+            <ul className="p-3 list-unstyled spacelist">
               <div><li><a href="https://kerala.gov.in/">Government of Kerala</a></li></div>
               <div><li><a href="https://www.ktu.edu.in/">APJ Abdul Kalam Technological University</a></li></div>
               <div><li><a href="https://www.dtekerala.gov.in/">DTE Kerala</a></li></div>

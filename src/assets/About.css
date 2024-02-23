@@ -72,12 +72,6 @@
         padding-left: 5%;
     }
 }
-/* Styling the Anti Ragging*/
-.ragchair{
-    ul {
-        list-style:none;
-    }
-}
 
 @media only screen and (max-width: 500px) {
 
