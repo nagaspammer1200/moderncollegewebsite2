@@ -25,6 +25,21 @@ import Download from './pages/Download';
 import Btech from './pages/Btech';
 import Mtech from './pages/Mtech';
 import Adam from './pages/Adam';
+import NSS from './pages/NSS';
+import IEEE from './pages/IEEE';
+import ISTE from './pages/ISTE';
+import CSI from './pages/CSI';
+import IEDC from './pages/IEDC';
+import CERD from './pages/CERD';
+import IGS from './pages/IGS';
+import ASME from './pages/ASME';
+import Canteen from './pages/Canteen';
+import Bus from './pages/Bus';
+import TBI from './pages/TBI';
+import IIIC from './pages/IIIC';
+import Hostel from './pages/Hostel';
+import Video from './pages/Video';
+import CW from './pages/CW';
 
 const App = () => {
   return (
@@ -53,6 +68,21 @@ const App = () => {
         <Route path="/btech" element={<Btech/>}/>
         <Route path="/mtech" element={<Mtech/>}/>
         <Route path="/adam" element={<Adam/>}/>
+        <Route path="/nss" element={<NSS/>}/>
+        <Route path="/ieee" element={<IEEE/>}/>
+        <Route path="/iste" element={<ISTE/>}/>
+        <Route path="/csi" element={<CSI/>}/>
+        <Route path="/iedc" element={<IEDC/>}/>
+        <Route path="/cerd" element={<CERD/>}/>
+        <Route path="/igs" element={<IGS/>}/>
+        <Route path="/asme" element={<ASME/>}/>
+        <Route path="/canteen" element={<Canteen/>}/>
+        <Route path="/video" element={<Video/>}/>
+        <Route path="/bus" element={<Bus/>}/>
+        <Route path="/tbi" element={<TBI/>}/>
+        <Route path="/iiic" element={<IIIC/>}/>
+        <Route path="/hostel" element={<Hostel/>}/>
+        <Route path="/campuswifi" element={<CW/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

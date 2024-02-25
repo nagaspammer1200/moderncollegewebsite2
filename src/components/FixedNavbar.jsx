@@ -94,16 +94,15 @@ const FixedNavbar = () => {
                       <li className="dropstart">
                         <a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Communes</a>
                         <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">National Service Scheme</a></li>
-                          <li><a href="#" className="dropdown-item">IEEE Student Branch</a></li>
-                          <li><a href="#" className="dropdown-item">ISTE Student Chapter</a></li>
-                          <li><a href="#" className="dropdown-item">Computer Society of India</a></li>
-                          <li><a href="#" className="dropdown-item">IEDC</a></li>
-                          <li><a href="#" className="dropdown-item">CERD</a></li>
-                          <li><a href="#" className="dropdown-item">ASME</a></li>
-                          <li><a href="#" className="dropdown-item">Indian Geotechnical Society</a></li>
+                          <li><a href="/nss" className="dropdown-item">National Service Scheme</a></li>
+                          <li><a href="/ieee" className="dropdown-item">IEEE Student Branch</a></li>
+                          <li><a href="/iste" className="dropdown-item">ISTE Student Chapter</a></li>
+                          <li><a href="/csi" className="dropdown-item">Computer Society of India</a></li>
+                          <li><a href="/iedc" className="dropdown-item">IEDC</a></li>
+                          <li><a href="/cerd" className="dropdown-item">CERD</a></li>
+                          <li><a href="/asme" className="dropdown-item">ASME</a></li>
+                          <li><a href="/igs" className="dropdown-item">Indian Geotechnical Society</a></li>
                           <li><a href="#" className="dropdown-item">Staff Club</a></li>
-                          <li><a href="#" className="dropdown-item">College Union</a></li>
                         </ul>
                       </li>
                       <li className="dropstart">
@@ -112,17 +111,16 @@ const FixedNavbar = () => {
                         <li><a href="#" className="dropdown-item">Central Library</a></li>
                           <li><a href="#" className="dropdown-item">Central Computing Facility</a></li>
                           <li><a href="#" className="dropdown-item">Women Cell</a></li>
-                          <li><a href="#" className="dropdown-item">Continuing Education Cell</a></li>
-                          <li><a href="#" className="dropdown-item">Technology Business Incubator</a></li>
-                          <li><a href="#" className="dropdown-item">Campus WiFi</a></li>
-                          <li><a href="#" className="dropdown-item">Industry Institute Interaction</a></li>
-                          <li><a href="#" className="dropdown-item">College Bus</a></li>
-                          <li><a href="#" className="dropdown-item">College Hostel</a></li>
-                          <li><a href="#" className="dropdown-item">Video Conferencing</a></li>
-                          <li><a href="#" className="dropdown-item">Canteen</a></li>
+                          <li><a href="" className="dropdown-item">Continuing Education Cell</a></li>
+                          <li><a href="/tbi" className="dropdown-item">Technology Business Incubator</a></li>
+                          <li><a href="/campuswifi" className="dropdown-item">Campus WiFi</a></li>
+                          <li><a href="/iiic" className="dropdown-item">Industry Institute Interaction</a></li>
+                          <li><a href="/bus" className="dropdown-item">College Bus</a></li>
+                          <li><a href="/hostel" className="dropdown-item">College Hostel</a></li>
+                          <li><a href="/video" className="dropdown-item">Video Conferencing</a></li>
+                          <li><a href="/canteen" className="dropdown-item">Canteen</a></li>
                         </ul>
                       </li>
-                      <li><a className="dropdown-item" href="#">News</a></li>
                       <li><a className="dropdown-item" href="#">Event Calendar</a></li>
                     </ul>
                   </li>

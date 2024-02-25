@@ -86,13 +86,17 @@
     margin: 10% 0% 0% 60%;
     width:100%;
 }
-/*Styling the Adam */
+/*Styling the Adam and Campus Wifi*/
 .listdiv2 {
     ul {
         list-style-image: url('./src/images/circle.svg');
         text-align: left;
         padding-left: 5%;
     }
+}
+/* Styling the NSS*/
+.nsscontainer{
+    margin-left:7%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -193,5 +197,11 @@
     .rulecontainer4{
         margin-left:25%;
         width:50%;
+    }
+    /* Responsive Design for NSS*/
+    .nsscontainer1 {
+        display:flex;
+        flex-direction: column;
+        gap:5%;
     }
 }
