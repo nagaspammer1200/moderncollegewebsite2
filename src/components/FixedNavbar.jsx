@@ -54,12 +54,10 @@ const FixedNavbar = () => {
                       <li className="dropstart">
                         <a className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Programmes</a>
                         <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">Bachelor of Technology</a></li>
-                          <li><a href="#" className="dropdown-item">Master of Technology</a></li>
-                          <li><a href="#" className="dropdown-item">Research Programmes</a></li>
-                          <li><a href="#" className="dropdown-item">TPL Programmes</a></li>
-                          <li><a href="#" className="dropdown-item">Short Term Programmes</a></li>
-                          <li><a href="#" className="dropdown-item">ADAM</a></li>
+                          <li><a href="/btech" className="dropdown-item">Bachelor of Technology</a></li>
+                          <li><a href="/mtech" className="dropdown-item">Master of Technology</a></li>
+                          <li><a href="http://www.tplc.gecbh.ac.in/" className="dropdown-item">TPL Programmes</a></li>
+                          <li><a href=" /adam" className="dropdown-item">ADAM</a></li>
                         </ul>
                       </li>
                       <li className="dropdown-item">Admissions</li>
@@ -78,12 +76,12 @@ const FixedNavbar = () => {
                       <li className="dropstart">
                         <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
                         <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">AICTE</a></li>
-                          <li><a href="#" className="dropdown-item">TEQIP</a></li>
+                          <li><a href="/aicte" className="dropdown-item">AICTE</a></li>
+                          <li><a href="/teqip" className="dropdown-item">TEQIP</a></li>
                           <li><a href="https://drive.google.com/file/d/1KrkzevoakzhoZvKy0vktVgsfkpbnkg_-/view?pli=1" className="dropdown-item">Mandatory Disclosure</a></li>
                           <li><a href="#" className="dropdown-item">IQAC</a></li>
                           <li><a href="#" className="dropdown-item">News Letter</a></li>
-                          <li><a href="#" className="dropdown-item">Downloads</a></li>
+                          <li><a href="/download" className="dropdown-item">Downloads</a></li>
                         </ul>
                       </li>
                     </ul>

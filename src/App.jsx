@@ -19,7 +19,12 @@ import Committee from './pages/Committee';
 import PTA from './pages/pta';
 import IPR from './pages/IPR';
 import Rag from './pages/Rag';
-
+import AICTE from './pages/AICTE';
+import TEQIP from './pages/TEQIP';
+import Download from './pages/Download';
+import Btech from './pages/Btech';
+import Mtech from './pages/Mtech';
+import Adam from './pages/Adam';
 
 const App = () => {
   return (
@@ -42,6 +47,12 @@ const App = () => {
         <Route path="/pta" element={<PTA/>}/>
         <Route path="/ipr" element={<IPR/>}/>
         <Route path="/antiragging" element={<Rag/>}/>
+        <Route path="/aicte" element={<AICTE/>}/>
+        <Route path="/teqip" element={<TEQIP/>}/>
+        <Route path="/download" element={<Download/>}/>
+        <Route path="/btech" element={<Btech/>}/>
+        <Route path="/mtech" element={<Mtech/>}/>
+        <Route path="/adam" element={<Adam/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

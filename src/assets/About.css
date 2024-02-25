@@ -47,6 +47,10 @@
         padding-left:30%;
     }
 }
+/* Styling the HOD*/
+.hodcontainer {
+    gap:10%;
+}
 /* Styling the Service*/
 .rulecontainer{
     margin-left:30%;
@@ -68,6 +72,24 @@
 .listdiv {
     ul {
         list-style-image: url('./src/images/hand-thumbs-up.svg');
+        text-align: left;
+        padding-left: 5%;
+    }
+}
+
+/* Styling the Download*/
+.personcontainer4{
+    display:flex;
+    gap:25%;
+}
+.rulecontainer4{
+    margin: 10% 0% 0% 60%;
+    width:100%;
+}
+/*Styling the Adam */
+.listdiv2 {
+    ul {
+        list-style-image: url('./src/images/circle.svg');
         text-align: left;
         padding-left: 5%;
     }
@@ -162,5 +184,14 @@
             width:50%;
             height:30%;
         }
+    }
+    .personcontainer4{
+        display:flex;
+        flex-direction: column;
+        gap:5%;
+    }
+    .rulecontainer4{
+        margin-left:25%;
+        width:50%;
     }
 }
