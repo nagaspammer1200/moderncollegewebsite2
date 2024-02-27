@@ -33,6 +33,7 @@ import IEDC from './pages/IEDC';
 import CERD from './pages/CERD';
 import IGS from './pages/IGS';
 import ASME from './pages/ASME';
+import Staffclub from './pages/Staffclub';
 import Canteen from './pages/Canteen';
 import Bus from './pages/Bus';
 import TBI from './pages/TBI';
@@ -76,6 +77,7 @@ const App = () => {
         <Route path="/cerd" element={<CERD/>}/>
         <Route path="/igs" element={<IGS/>}/>
         <Route path="/asme" element={<ASME/>}/>
+        <Route path="/staffclub" element={<Staffclub/>}/>
         <Route path="/canteen" element={<Canteen/>}/>
         <Route path="/video" element={<Video/>}/>
         <Route path="/bus" element={<Bus/>}/>

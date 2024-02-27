@@ -16,7 +16,7 @@ const IEEE = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
           <div className="bg-primary p-5 text-white"><h2>Institute of Electrical and Electronics Engineers</h2></div>
-          <div className="d-flex personcontainer3 p-3 ms-3">
+          <div className="d-flex personcontainer2 p-3 ms-3">
             <div className="p-3">
                 <div className="text-primary mb-3 ms-3"><h3>IEEE SB</h3></div>
                 <div className="mb-3 text-center"><img src="src/images/ieee/logo.png" width="15%" height="20%" alt="ieee logo" /></div>

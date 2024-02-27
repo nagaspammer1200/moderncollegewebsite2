@@ -102,7 +102,7 @@ const FixedNavbar = () => {
                           <li><a href="/cerd" className="dropdown-item">CERD</a></li>
                           <li><a href="/asme" className="dropdown-item">ASME</a></li>
                           <li><a href="/igs" className="dropdown-item">Indian Geotechnical Society</a></li>
-                          <li><a href="#" className="dropdown-item">Staff Club</a></li>
+                          <li><a href="/staffclub" className="dropdown-item">Staff Club</a></li>
                         </ul>
                       </li>
                       <li className="dropstart">

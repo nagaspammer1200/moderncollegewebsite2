@@ -63,11 +63,17 @@
 }
 .rulecontainer2{
     margin:5% 0% 0% 20%;
+    width:60%;
 }
 
 /*Styling the PTA*/
 .rulecontainer3{
     margin:5% 0% 0% 7%;
+}
+.personcontainer3{
+    display:flex;
+    gap: 20%;
+    padding:5%;
 }
 .listdiv {
     ul {
@@ -167,13 +173,16 @@
     }
     /* Responsive Design of PTA*/
     .rulecontainer3{
-        margin:5% 0% 0% 7%;
+        margin:5% 0% 0% 0%;
     }
     .personcontainer3{
         display:flex;
         flex-direction: column;
-        gap:5%;
-        padding:5%;
+        gap:20%;
+    }
+    /* Styling the AICTE */ 
+    .reporttext{
+        margin-left:50%;
     }
     .ptaimage img {
         width:350px;
@@ -203,5 +212,10 @@
         display:flex;
         flex-direction: column;
         gap:5%;
+
+        img {
+            width:200px;
+            height:200px;
+        }
     }
 }

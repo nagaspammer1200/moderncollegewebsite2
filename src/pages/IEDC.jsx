@@ -16,7 +16,7 @@ const IEDC = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
           <div className="bg-primary p-5 text-white"><h2>Innovation and Entrepreneurship Development Cell</h2></div>
-          <div className="d-flex personcontainer3 p-3 ms-5">
+          <div className="d-flex personcontainer3 p-3">
             <div>
                 <div className="p-3 border-bottom border-success border-3">
                     <div className="text-primary mb-3 ms-3"><h3>IEDC</h3></div>

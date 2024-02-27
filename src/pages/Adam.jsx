@@ -20,7 +20,7 @@ const Adam = () => {
             <div className="mb-5"><h2>ADAM</h2></div>
           </div>
           <div>
-            <div className="d-flex personcontainer3 p-3 gap-2">
+            <div className="personcontainer3">
                <div  className="rulecontainer3">
                     <div className="mb-3 text-primary">Advanced Diploma in Automotive Mechatronics (ADAM)</div>
                     <div className="mb-3">
@@ -50,7 +50,7 @@ const Adam = () => {
                         </div>
                     </div>
                </div>
-               <div className="bg-dark p-4">
+               <div className="bg-dark p-2">
                     <div className="mb-3 text-white">Department Contact Info</div>
                     <div className="mb-3 text-success">ADAM</div>
                     <div className="mb-3 text-white">GEC <br />Barton Hill <br />Thiruvananthapuram, Kerala.</div>
@@ -61,10 +61,6 @@ const Adam = () => {
                     <div className="mb-3 text-success">Mon – Fri 9:00A.M. – 5:00P.M.</div>
                     <div className="mb-3 text-white">Social Info</div>
                </div>
-            </div>
-            <div>
-                <div></div>
-
             </div>
           </div>
           <div><BannerFooter/></div>
