@@ -41,6 +41,8 @@ import IIIC from './pages/IIIC';
 import Hostel from './pages/Hostel';
 import Video from './pages/Video';
 import CW from './pages/CW';
+import CCE from './pages/CCE';
+import WC from './pages/WC';
 
 const App = () => {
   return (
@@ -85,6 +87,8 @@ const App = () => {
         <Route path="/iiic" element={<IIIC/>}/>
         <Route path="/hostel" element={<Hostel/>}/>
         <Route path="/campuswifi" element={<CW/>}/>
+        <Route path="/cce" element={<CCE/>}/>
+        <Route path="/womenscell" element={<WC/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

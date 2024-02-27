@@ -17,7 +17,7 @@ const CW = () => {
           <div><FixedNavbar/></div>
           <div className="bg-primary p-3 text-white"><h2>Campus Wi-Fi</h2></div>
           <div className="d-flex personcontainer3 p-3">
-            <div className="p-3">
+            <div className="p-3 ms-4">
                 <div className="text-primary mb-3 ms-3"><h3>Campus Wi-Fi</h3></div>
                 <div className="mb-5 p-3"><p>The college is a member of the National Knowledge Network (NKN) which is a high-speed network backbone interconnecting major educational and research institutions. NKN is maintained by National Informatics Network (NIC), Government of India. NKN provides a bandwidth of 1000 Mbps (1 Gbps) to the college. In addition, a 16 Mbps internet connection has been taken from BSNL. This connection is being maintained as a backup to be used in the rare event of an NKN connection failure.</p></div>
                 <div className="d-flex mb-5 gap-5 nsscontainer1 ms-3">

@@ -17,7 +17,7 @@ const Hostel = () => {
           <div><FixedNavbar/></div>
           <div className="bg-primary p-5 text-white"><h2>College Hostel</h2></div>
           <div className="d-flex personcontainer3 p-3 ms-3">
-            <div className="p-3">
+            <div className="p-3 ms-4">
                 <div className="text-primary mb-3 ms-3"><h3>Hostel</h3></div>
                 <div className="mb-5 p-3"><p>We have a wonderful building at the corner of our college – Ladies Hostel , a secure home for the female students. This hostel is constructed in an Eco friendly manner to provide a green and fresh breath to its inmates. This is filled with 53 rooms which can accommodate 216 students including both M.Tech & B.Tech students.It provides an attractive shelter to the students, as it is adorned with spacious rooms, proper lighting facilities, study tables and required furnishings. Each of its 4 floors(including base) is lined with long verandas, which gifts you a sweet path due to an open quadrangle located at the center.</p></div>
                 <div className="mb-5 p-3"><p>TBesides being a shelter in terms of basic needs such as food, purified water, it provides extra facilities such as wifi – connectivity, indoor and outdoor game equipment, resources rich reading corners etc. It has a spacious mess hall which serves tasty and worthy dishes, run by a mess committee headed by the inmates itself. Charge of this mess committee is rounded twice a month so that every student can go through it.</p></div>

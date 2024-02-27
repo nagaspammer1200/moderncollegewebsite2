@@ -110,8 +110,8 @@ const FixedNavbar = () => {
                         <ul className="dropdown-menu">
                         <li><a href="#" className="dropdown-item">Central Library</a></li>
                           <li><a href="#" className="dropdown-item">Central Computing Facility</a></li>
-                          <li><a href="#" className="dropdown-item">Women Cell</a></li>
-                          <li><a href="" className="dropdown-item">Continuing Education Cell</a></li>
+                          <li><a href="/womenscell" className="dropdown-item">Women Cell</a></li>
+                          <li><a href="/cce" className="dropdown-item">Continuing Education Cell</a></li>
                           <li><a href="/tbi" className="dropdown-item">Technology Business Incubator</a></li>
                           <li><a href="/campuswifi" className="dropdown-item">Campus WiFi</a></li>
                           <li><a href="/iiic" className="dropdown-item">Industry Institute Interaction</a></li>
