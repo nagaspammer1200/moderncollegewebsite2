@@ -9,11 +9,12 @@
       }
 }
 .sublinksection {
+    display:flex;
     padding:5%;
-    gap:5%;
+    gap:10%;
     img {
-        height:30%;
-        width:50%;
+        height:90px;
+        width:80px;
     }
 }
 .events {
@@ -57,9 +58,11 @@
         margin:0;
         padding:0;
     }
-    .sublinksection img , .textslider{
-            display:none;
-        }
+    .sublinksection{
+        display: flex;
+        flex-direction: column;
+        padding-left:25%;
+    }
     .events{
         display:block;
 

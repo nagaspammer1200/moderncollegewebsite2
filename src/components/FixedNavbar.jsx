@@ -43,7 +43,7 @@ const FixedNavbar = () => {
                         </ul>
                       </li>
                       <li><a href="/hods" className="dropdown-item">Head of Departments</a></li>
-                      <li><a href="#" className="dropdown-item">Former Principals</a></li>
+                      <li><a href="/formerprincipals" className="dropdown-item">Former Principals</a></li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown">

@@ -2,7 +2,6 @@ import React from 'react'
 import PermanentNavbar from '../components/PermanentNavbar';
 import FixedNavbar from '../components/FixedNavbar';
 import ImageSlider from '../components/ImageSlider';
-import TextSlider from '../components/TextSlider';
 import MiddleSection from '../components/MiddleSection';
 import BannerFooter from '../components/BannerFooter';
 import PermanentFooter from '../components/PermanentFooter';
@@ -15,7 +14,6 @@ const Home = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div className="mb-4"><FixedNavbar/></div>
           <div ><ImageSlider/></div>
-          <div><TextSlider/></div>
           <div className="mb-4"><MiddleSection/></div>
           <div><BannerFooter/></div>
           <div><PermanentFooter/></div>

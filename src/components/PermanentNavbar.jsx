@@ -15,18 +15,18 @@ const PermanentNavbar = () => {
             <div><p>principal@gecbh.ac.in</p></div>
           </div>
           <div className="codetails">
-            <div><i className="bi bi-telephone-fill"></i></div>
-            <div><p>&nbsp;+91-&nbsp;0471-&nbsp;2300484</p></div>
+            <div><i className="bi bi-telephone-fill"></i></div>&nbsp;
+            <div><p>+91&nbsp;-0471&nbsp;-2300484&nbsp;</p></div>&nbsp;
           </div>
         </div>
         <div className="hidden-listicon" onClick={displaySettings}>
           <i className="bi bi-list"></i>
         </div>
         <div className={menuValue?"navlinksactive":"navlinks"}>
-            <div><a href="#">Admission&nbsp;2023-&nbsp;24</a></div>
+            <div><a href="#">Admission&nbsp;2023&nbsp;-&nbsp;24</a></div>
             <div><a href="#">DDFS</a></div>
             <div><a href="#">Tenders</a></div>
-            <div><a href="#">e-&nbsp;Journals</a></div>
+            <div><a href="#">&nbsp;eJournal</a></div>
         </div>
         <div className="navlinksselect">
               <select className="form-select">

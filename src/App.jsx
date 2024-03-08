@@ -43,6 +43,7 @@ import Video from './pages/Video';
 import CW from './pages/CW';
 import CCE from './pages/CCE';
 import WC from './pages/WC';
+import FP from './pages/FP';
 
 const App = () => {
   return (
@@ -89,6 +90,7 @@ const App = () => {
         <Route path="/campuswifi" element={<CW/>}/>
         <Route path="/cce" element={<CCE/>}/>
         <Route path="/womenscell" element={<WC/>}/>
+        <Route path="/formerprincipals" element={<FP/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

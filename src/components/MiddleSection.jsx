@@ -19,66 +19,34 @@ const MiddleSection = () => {
             </ul>
         </div>
       </div>
-      <div className="sublinksection d-flex">
-        <div className="d-flex sublinksectionitem">
-            <div>
-                <img src="src/images/home/1.png" alt="Social acts" />
-            </div>
-            <div>
-                <h3>Social Acts</h3>
-                <p>GEC-BH and Society</p>
-            </div>
+      <div className="sublinksection bg-white text-success">
+        <div>
+                <div className="mb-2"><img src="src/images/home/solidarity.png" alt="Social acts" /></div>
+                <div className="mb-2"><h3>Social Acts</h3></div>
+                <div className="mb-2"><p>GEC-BH and Society</p></div>
         </div>
-        <div className="d-flex sublinksectionitem">
-            <div>
-                <img src="src/images/home/2.png" alt="Tech Knowledge" />
-            </div>
-            <div>
-                <h3>Tech Know</h3>
-                <p>Tech. Initiatives</p>
-            </div>
+        <div>
+                <div className="mb-2"><img src="src/images/home/satellite.png" alt="Tech Knowledge" /></div>
+                <div className="mb-2"><h3>Tech Know</h3></div>
+                <div className="mb-2"><p>Tech. Initiatives</p></div>
         </div>
-        <div className="d-flex sublinksectionitem">
-            <div>
-                <img src="src/images/home/3.png" alt="Sports GECB" />
-            </div>
-            <div>
-                <h3>Sports</h3>
-                <p>Sports and Games</p>
-            </div>
+        <div>
+            <div className="mb-2"><img src="src/images/home/sports.png" alt="Sports GECB" /></div>
+            <div className="mb-2"><h3>Sports</h3></div>
+            <div className="mb-2"><p>Sports and Games</p></div>
         </div>
-        <div className="d-flex sublinksectionitem">
-            <div>
-                <img src="src/images/home/4.png" alt="Arts and cultural" />
-            </div>
-            <div>
-                <h3>Arts and Cultural</h3>
-                <p>Activities and Events</p>
-            </div>
+        <div>
+            <div><img src="src/images/home/paint.png" alt="Arts and cultural" /></div>
+            <div><h3>Arts and Cultural</h3></div>
+            <div><p>Activities and Events</p></div>
         </div>
       </div>
       <div className="events">
-        <div className="latestevents">
-            <div className="mb-4"><img src="src/images/home/past_events.jpg" alt="Women's Day Celebration" /></div>
-            <div className="mb-4"><h1>Release of Hand Written Magazine</h1></div>
-            <div className="mb-4"><h5>Women's Day Celebration</h5></div>
-            <div className="mb-4"><button class="btn btn-success btn-lg" type="submit">More Past Events</button></div>
-        </div>
-        <div className="eventscont">
-            <div><h4>Upcoming Events</h4></div>
-            <hr />
-            <div className='d-flex p-2'>
-                <div><h5 className="border-bottom border-3 p-3  border-success">20 <br />JAN</h5></div>
-                <div className="p-4">
-                    <h4>Graduation Ceremony 2023</h4>
-                    <p><i class="bi bi-calendar"></i>&emsp;Jan. 20, 2024 - Jan. 20, 2024&emsp;&emsp;<i class="bi bi-clock"></i>&emsp;10:30 a.m. - 5 p.m.&emsp;&emsp; 
-                    <i class="bi bi-geo-alt-fill"></i>&emsp;Tagore Theatre, Thiruvananthapuram</p>
-                </div>
-            </div>
-            <div>
-                <h5><a href="#">View All Events&ensp;<i className="bi bi-arrow-right"></i></a></h5>
-            </div>
-            <hr />
+      <div className="d-flex flex-column">
+            <div className="w-10 border-bottom border-success border-3 text-danger mb-3"><h4>About Us</h4></div>
+            <div className="text-primary mb-2"><h1>WELCOME TO GEC</h1></div>
+            <div className="text-success mb-2"><h2>BARTON HILL</h2></div>
+            <div className="text-secondary mb-3"><p>Government Engineering College, Barton Hill was established by the Government of Kerala in the academic year 1999-2000. Within a short span of time since inception, the college has achieved notable academic excellence. The college is affiliated to the University of Kerala for final year B.tech batch and APJ Abdul kalam Kerala Technological University for all other batches.</p></div>
         </div>
         <div className="quicklinks1 bg-dark text-primary">
             <div>
