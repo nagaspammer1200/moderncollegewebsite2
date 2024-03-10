@@ -12,16 +12,16 @@ const ImageSlider = () => {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="2500">
+            <div className="carousel-item active" data-bs-interval="1800">
                 <img src="src/images/home/students.jpg" className="d-block w-100" alt="Students Image"/>
             </div>
-            <div className="carousel-item" data-bs-interval="2500">
+            <div className="carousel-item" data-bs-interval="1800">
                 <img src="src/images/home/gokul.jpg" className="d-block w-100" alt="Gokul Image"/>
             </div>
-            <div className="carousel-item" data-bs-interval="2500">
+            <div className="carousel-item" data-bs-interval="1800">
                 <img src="src/images/home/people.jpeg" className="d-block w-100" alt="Graduation Ceremony"/>
             </div>
-            <div className="carousel-item" data-bs-interval="2500">
+            <div className="carousel-item" data-bs-interval="1800">
                 <img src="src/images/home/toppers.jpg" className="d-block w-100" alt="IT Department Toppers"/>
             </div>
         </div>

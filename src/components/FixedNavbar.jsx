@@ -26,8 +26,7 @@ const FixedNavbar = () => {
                         <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Administration</a>
                         <ul className="dropdown-menu">
                           <li><a href="/adminstaff" className="dropdown-item">Staff</a></li>
-                          <li><a href="#" className="dropdown-item">Right To Information</a></li>
-                          <li><a href="#" className="dropdown-item">Tenders and Questions</a></li>
+                          <li><a href="/righttoinformation" className="dropdown-item">Right To Information</a></li>
                           <li><a href="/service" className="dropdown-item">Service Rules</a></li>
                           <li><a href="/budget" className="dropdown-item">Budget Utilization</a></li>
                           <li><a href="/com" className="dropdown-item">Commitees</a></li>
@@ -108,8 +107,8 @@ const FixedNavbar = () => {
                       <li className="dropstart">
                         <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Facilities</a>
                         <ul className="dropdown-menu">
-                        <li><a href="#" className="dropdown-item">Central Library</a></li>
-                          <li><a href="#" className="dropdown-item">Central Computing Facility</a></li>
+                        <li><a href="/centrallibrary" className="dropdown-item">Central Library</a></li>
+                          <li><a href="/centralcomputingfacility" className="dropdown-item">Central Computing Facility</a></li>
                           <li><a href="/womenscell" className="dropdown-item">Women Cell</a></li>
                           <li><a href="/cce" className="dropdown-item">Continuing Education Cell</a></li>
                           <li><a href="/tbi" className="dropdown-item">Technology Business Incubator</a></li>
@@ -126,7 +125,7 @@ const FixedNavbar = () => {
                   </li>
                 
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Placements and Careers</a>
+                    <a className="nav-link active" aria-current="page" href="/placement">Placements and Careers</a>
                   </li>
                 </ul>
               </div>

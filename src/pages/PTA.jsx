@@ -40,7 +40,119 @@ const PTA = () => {
                         <p>Prof. Krishnankutty Memorial Endowment Award: Highest CGPA scorers in each branch <br /> Prof. T. S. Sunilkumar Memorial Endowment Award: Highest CGPA scorers in first year of each branch (Constituted by Staff & Faculty) <br />Sri. Madhavan Pillai – K. N. Seetha Memorial Endowment Award: Highest GATE scorer (Constituted by Prof. M. Mahadevan, Ex. Principal) <br />Prof. B. Anil Endowment Award: Best Outgoing Student (Constituted by Prof. B. Anil, Ex. Principal) <br />Sri. E. J. Somaraj Memorial Endowment Award: Highest Mark Scorer for Subject Electrical Machines 1 & 2 (Constituted by Prof. Sheela, Ex. HoD, Electrical) <br />Rev. Fr. John Chathoth Endowment Award: Highest Mark Scorer for Subject Geotechnical Engineering 1 & 2 (Constituted by Prof. Mary John, Ex. HoD, Civil) <br />The awards will be distributed during the PTA annual general body meeting.</p> 
                     </div>
                     <div className="mb-5">
-                        
+                        <div className="table-responsive tablecontainer me-5">
+                        <table className="table  table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name of the Principal</th>
+                                    <th scope="col">Designation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>  
+                                    <td>Dr. Shiny G.</td>
+                                    <td className="p-1">President</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>  
+                                    <td>Smt. Ajitha S. Lal</td>
+                                    <td className="p-1">Vice President</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>  
+                                    <td>Dr. Bindu S.</td>
+                                    <td className="p-1">Secretary</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>  
+                                    <td>Smt. Devia Rathinamala</td>
+                                    <td className="p-1">Joint Secretary</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>  
+                                    <td>Dr Vinod M.</td>
+                                    <td className="p-1">Treasurer</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>  
+                                    <td>Sri. Anil Kumar P.A.</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>  
+                                    <td>Sri. Arul C Wilson</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>  
+                                    <td>Sri. Helton Haju</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>  
+                                    <td>Sri. Ajith Nair</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10</th>  
+                                    <td>Sri.Farook A.</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11</th>  
+                                    <td>Sri. Rajesh S.V.</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>  
+                                    <td>Smt. Cicil H.</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13</th>  
+                                    <td>Sri. M. Christhudas</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">14</th>  
+                                    <td>Sri. Mahadevan</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">15</th>  
+                                    <td>Sri. Ramesh V.S.</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">16</th>  
+                                    <td>Dr. Radhakrishnan</td>
+                                    <td className="p-1">PG Dean</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">17</th>  
+                                    <td>Sri Manoj Kumar</td>
+                                    <td className="p-1">Member(Parent)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">18</th>  
+                                    <td>HODs of all Departments</td>
+                                    <td className="p-1"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">19</th>  
+                                    <td>PG Dean</td>
+                                    <td className="p-1"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">20</th>  
+                                    <td>UG Dean</td>
+                                    <td className="p-1"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     </div>
                 </div>
             </div>

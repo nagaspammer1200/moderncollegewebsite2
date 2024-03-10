@@ -44,6 +44,15 @@ import CW from './pages/CW';
 import CCE from './pages/CCE';
 import WC from './pages/WC';
 import FP from './pages/FP';
+import SGAC from './pages/SGAC';
+import DA from './pages/DA';
+import IC from './pages/IC';
+import SW from './pages/SW';
+import RTI from './pages/RTI';
+import CL from './pages/CL';
+import CCF from './pages/CCF';
+import Admission from './pages/Admission';
+import Placement from './pages/Placement';
 
 const App = () => {
   return (
@@ -91,6 +100,15 @@ const App = () => {
         <Route path="/cce" element={<CCE/>}/>
         <Route path="/womenscell" element={<WC/>}/>
         <Route path="/formerprincipals" element={<FP/>}/>
+        <Route path="/grievancecell" element={<SGAC/>}/>
+        <Route path="/disciplinaryaction" element={<DA/>}/>
+        <Route path="/internalcomplaints" element={<IC/>}/>
+        <Route path="/studentswelfare" element={<SW/>}/>
+        <Route path="/righttoinformation" element={<RTI/>}/>
+        <Route path="/centrallibrary" element={<CL/>}/>
+        <Route path="/centralcomputingfacility" element={<CCF/>}/>
+        <Route path="/admission" element={<Admission/>}/>
+        <Route path="/placement" element={<Placement/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

@@ -28,19 +28,16 @@ const Committee = () => {
                         <div className="text-primary"><a href="/antiragging"><h6>Anti-Ragging Committee</h6></a></div>
                     </div>
                     <div className="mb-5">
-                        <div className="text-primary"><a href="http://gecbh.ac.in/static/docs/2022-23m.pdf"><h6>Grievance and Redressal Cell</h6></a></div>
+                        <div className="text-primary"><a href="/grievancecell"><h6>Grievance Cell</h6></a></div>
                     </div>
                     <div className="mb-5">
-                        <div className="text-primary"><a href="http://gecbh.ac.in/static/docs/2022-23m.pdf"><h6>Disciplinary Action</h6></a></div>
+                        <div className="text-primary"><a href="/disciplinaryaction"><h6>Disciplinary Action</h6></a></div>
                     </div>
                     <div className="mb-5">
-                        <div className="text-primary"><a href="http://gecbh.ac.in/static/docs/2022-23m.pdf"><h6>Internal Complaints</h6></a></div>
+                        <div className="text-primary"><a href="/internalcomplaints"><h6>Internal Complaints</h6></a></div>
                     </div>
                     <div className="mb-5">
-                        <div className="text-primary"><a href="http://gecbh.ac.in/static/docs/2022-23m.pdf"><h6>SC/ST Welfare</h6></a></div>
-                    </div>
-                    <div className="mb-5">
-                        <div className="text-primary"><a href="http://gecbh.ac.in/static/docs/2022-23m.pdf"><h6>Exam Cell</h6></a></div>
+                        <div className="text-primary"><a href="/studentswelfare"><h6>Student Welfare</h6></a></div>
                     </div>
                 </div>
             </div>
