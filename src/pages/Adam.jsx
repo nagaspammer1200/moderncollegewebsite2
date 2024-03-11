@@ -50,7 +50,7 @@ const Adam = () => {
                         </div>
                     </div>
                </div>
-               <div className="bg-dark p-2">
+               <div className="bg-dark p-4">
                     <div className="mb-3 text-white">Department Contact Info</div>
                     <div className="mb-3 text-success">ADAM</div>
                     <div className="mb-3 text-white">GEC <br />Barton Hill <br />Thiruvananthapuram, Kerala.</div>

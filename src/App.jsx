@@ -53,6 +53,9 @@ import CL from './pages/CL';
 import CCF from './pages/CCF';
 import Admission from './pages/Admission';
 import Placement from './pages/Placement';
+import GS from './pages/GS';
+import PE from './pages/PE';
+import IT from './pages/IT';
 
 const App = () => {
   return (
@@ -109,6 +112,9 @@ const App = () => {
         <Route path="/centralcomputingfacility" element={<CCF/>}/>
         <Route path="/admission" element={<Admission/>}/>
         <Route path="/placement" element={<Placement/>}/>
+        <Route path="/generalscience" element={<GS/>}/>
+        <Route path="/physicaleducation" element={<PE/>}/>
+        <Route path="/informationtechnology" element={<IT/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

@@ -13,7 +13,7 @@ const Home = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div className="mb-4"><FixedNavbar/></div>
-          <div ><ImageSlider/></div>
+          <div ><ImageSlider imgone="src/images/home/students.jpg" imgtwo="src/images/home/gokul.jpg" imgthree="src/images/home/people.jpeg" imgfour="src/images/home/toppers.jpg" altone="Students Image" alttwo="Gokul Image" altthree="Graduation Ceremony" altfour="IT Department Toppers"/></div>
           <div className="mb-4"><MiddleSection/></div>
           <div><BannerFooter/></div>
           <div><PermanentFooter/></div>

@@ -1,12 +1,12 @@
 /* Styling for PersonDetails*/
 .detailscontainer{
     display:flex;
-    gap:1%;
+    gap:35%;
     padding:1%;
 
     div img {
-        width:45%;
-        height:50%;
+        width:150px;
+        height:150=px;
         margin-left:35%;
     }
 }
@@ -28,7 +28,7 @@
         width:60%;
         gap:5%;
         padding:4%;
-        margin-left:15%;
+        margin-left:8%;
     }
 
     /*Announcements */

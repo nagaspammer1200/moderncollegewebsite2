@@ -63,13 +63,13 @@ const FixedNavbar = () => {
                       <li className="dropstart">
                         <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
                         <ul className="dropdown-menu">
-                          <li><a href="#" className="dropdown-item">Information Technology</a></li>
+                          <li><a href="/informationtechnology" className="dropdown-item">Information Technology</a></li>
                           <li><a href="#" className="dropdown-item">Mechanical Engineering</a></li>
                           <li><a href="#" className="dropdown-item">Electronics and Communication Engineering</a></li>
                           <li><a href="#" className="dropdown-item">Electrical and Electronics Engineering</a></li>
                           <li><a href="#" className="dropdown-item">Civil Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">General Science</a></li>
-                          <li><a href="#" className="dropdown-item">Physical Education</a></li>
+                          <li><a href="/generalscience" className="dropdown-item">General Science</a></li>
+                          <li><a href="/physicaleducation" className="dropdown-item">Physical Education</a></li>
                         </ul>
                       </li>
                       <li className="dropstart">

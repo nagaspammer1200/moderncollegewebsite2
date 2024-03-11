@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageSlider = () => {
+const ImageSlider = ({imgone,imgtwo,imgthree,imgfour,altone,alttwo,altthree,altfour}) => {
   
   return (
     <div>
@@ -13,16 +13,16 @@ const ImageSlider = () => {
         </div>
         <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="1800">
-                <img src="src/images/home/students.jpg" className="d-block w-100" alt="Students Image"/>
+                <img src={imgone} className="d-block w-100" alt={altone}/>
             </div>
             <div className="carousel-item" data-bs-interval="1800">
-                <img src="src/images/home/gokul.jpg" className="d-block w-100" alt="Gokul Image"/>
+                <img src={imgtwo} className="d-block w-100" alt={alttwo}/>
             </div>
             <div className="carousel-item" data-bs-interval="1800">
-                <img src="src/images/home/people.jpeg" className="d-block w-100" alt="Graduation Ceremony"/>
+                <img src={imgthree} className="d-block w-100" alt={altthree}/>
             </div>
             <div className="carousel-item" data-bs-interval="1800">
-                <img src="src/images/home/toppers.jpg" className="d-block w-100" alt="IT Department Toppers"/>
+                <img src={imgfour} className="d-block w-100" alt={altfour}/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

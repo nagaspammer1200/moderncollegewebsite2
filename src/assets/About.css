@@ -49,7 +49,7 @@
 }
 /* Styling the HOD*/
 .hodcontainer {
-    gap:10%;
+    gap:40%;
 }
 /* Styling the Service*/
 .rulecontainer{
@@ -115,6 +115,19 @@
 }
 .tablecontainer {
     margin-left:20%;
+}
+.cardcontainer{
+    width:50%;
+}
+
+/* Styling the Department Pages*/
+.departmentcontainer{
+    gap:15%;
+    width:70%;
+}
+.physicaldepartment{
+    display:flex;
+    gap:10%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -250,5 +263,18 @@
         display:flex;
         flex-direction: column;
         gap:10%;
+    }
+    /*Responsive Design for Department*/
+    .departmentcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .physicaldepartment{
+        display:flex;
+        flex-direction: column;
+        gap:10%;
+    }
+    .cardcontainer{
+        width:100%;
     }
 }

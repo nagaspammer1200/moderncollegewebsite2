@@ -42,7 +42,7 @@ const Staff = () => {
             <div>
                 {staffList.map((movie) => (
                 <div className="mb-4">
-                        <PersonDetails personimage={movie.img} personname={movie.name} persondepartment={movie.desig} personnumber={movie.pnum} personemail={movie.email} persondesignation={movie.desig3} persondepartment2={movie.desig2} />
+                        <PersonDetails personimage={movie.img} personname={movie.name}  personnumber={movie.pnum} personemail={movie.email} persondesignation={movie.desig2} />
                 </div>
                 ))}
             </div>
