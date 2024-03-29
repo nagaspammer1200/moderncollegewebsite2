@@ -17,11 +17,7 @@ const AnnouncementsBar = () => {
           <button type="button" className="btn btn-success m-1"><a href="https://istegecb.in/">ISTE</a></button>
           <button type="button" className="btn btn-success m-1"><a href="https://www.csigecbh.in/sb.html">CSI</a></button>
           <button type="button" className="btn btn-success m-1"><a href="https://drive.google.com/file/d/1KrkzevoakzhoZvKy0vktVgsfkpbnkg_-/view?usp=drivesdk">MANDATORY DISCLOSURE</a></button>
-          <button type="button" className="btn btn-success m-1"><a href="">SOCIAL</a></button>
-          <button type="button" className="btn btn-success m-1"><a href="">SPORTS</a></button>
-          <button type="button" className="btn btn-success m-1"><a href="">TECH KNOW</a></button>
-          <button type="button" className="btn btn-success m-1"><a href="">ARTS AND CULTURAL</a></button>
-          <button type="button" className="btn btn-success m-1"><a href="">SCHOLARSHIPS</a></button>
+          <button type="button" className="btn btn-success m-1"><a href="/scholarships">SCHOLARSHIPS</a></button>
       </div>  
     </div>
   )

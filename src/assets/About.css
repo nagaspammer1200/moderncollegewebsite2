@@ -280,4 +280,6 @@
     .departmentcollapsecontrol{
         display:block;
     }
-}
+    .emailcontainer p{
+        width:50%;
+}   }

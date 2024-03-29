@@ -66,13 +66,23 @@ a {
             margin-left:5%;
         }
     }
+    .fnavbarimg{
+        display:none;
+    }
+    .fnavbar{
+        padding:none;
+        margin:none;
+        justify-content: none;
+    }
+    .fnavbarlinksmain{
+        display:block;
+        width:500%;
+        color:red;
+    }
     .navlinksactive{
         padding:5%;
         div {
             margin-bottom:2%;
         }
-    }
-    .fnavbarlinksmain{
-        display:none;
     }
 }

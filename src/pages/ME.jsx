@@ -10,7 +10,7 @@ import "../assets/Home.css"
 import "../assets/About.css"
 import "../assets/Components.css"
 
-const IT = () => {
+const ME = () => {
     const [readMenuOne,setReadMenuOne] = useState(false);
     const [readMenuTwo,setReadMenuTwo] = useState(false);
     const changeMenuOne  = () => {
@@ -24,16 +24,16 @@ const IT = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="bg-primary p-5 text-white"><h2>Department of Information Technology</h2></div>
+          <div className="bg-primary p-5 text-white"><h2>Department of Mechanical Engineering</h2></div>
           <div className="d-flex personcontainer3 p-3 ms-3">
             <div className="p-3">
                 <div className="mb-5"><ImageSlider imgone="src/images/departments/it1.jpg" imgtwo="src/images/departments/it2.jpg" imgthree="src/images/departments/it3.jpg" imgfour="src/images/departments/it2.jpg" altone="IT Toppers" alttwo="IT Block" altthree="IT Lab" altfour="IT Block"/></div>
                 <div className="text-primary mb-3 ms-3"><h3>About the Department</h3></div>
-                <div className="mb-5 p-3"><p>The Department of Information Technology at Government Engineering College, Barton hill was established in the academic year 1999, offering a four year B.Tech. course in Information Technology. M.Tech. Course in Information Technology with specialization in Network Engineering commenced from the academic year 2011-2012. <br />The Department lays strong emphasis on ensuring that the students have a thorough idea of core concepts. Further, the department focuses on nurturing the analytical abilities of students and exposes them to the latest technologies and equips them with industry-specific skills.</p></div>
+                <div className="mb-5 p-3"><p>The Department of Mechanical Engineering at Government Engineering College, Barton hill was established in the academic year 1999, offering a four-year B.Tech course in Mechanical Engineering. The annual intake is 60 students. Department is planning to start an M.Tech course in Computational Mechanics and AICTE approval for the same is awaited. All the students are allotted from among the top ranked students of the Common Entrance Examination (CEE) conducted by the Govt. of Kerala. Many of the students bagged top ranks in the Kerala University. Most of the students passed out from the department are working in top ranked international and multinational companies. A number of students from the department pursue their higher studies at IITs and IIMs and also at top ranked foreign universities. <br /><br />The academic focus of the department is to impart state of the art technical knowledge to the students. Conceptual understanding supported with experimental knowledge moulds our students competent enough to face the technical challenges of our nation. The faculty of Mechanical Engineering are well qualified and academic as well as industrial expertise is not at dearth. Most of the faculty members have obtained higher qualifications from premier institutions, both national and international. Faculty members actively pursue research through students and many undertake projects funded through Govt. agencies.</p></div>
                 <div className="physicaldepartment p-3">
                     <div className="cardcontainer">
                         <div className="text-primary mb-3 ms-3"><h3>VISION</h3></div>
-                        <div className="mb-2 p-3"><p><i>To be a centre of higher learning in Information Technology that imparts qualityclose engineering education and</i></p></div>
+                        <div className="mb-2 p-3"><p><i>Identify ourselves as a globally recognized department for its outstanding education, research, and outreach</i></p></div>
                         <div className="mb-5 ">
                             <p>
                             <button className="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1" onClick={changeMenuOne}>{readMenuOne?"Close":"Read More"}
@@ -42,7 +42,7 @@ const IT = () => {
                             <div>
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample1">
                                     <div className="card card-body shadow p-2">
-                                    engineering education and fosters innovative research reaching out to the society.
+                                    programs that transform our students into competent, innovative and socially responsible engineers
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ const IT = () => {
                     </div>
                     <div className="cardcontainer mb-5">
                         <div className="text-primary mb-3 ms-3"><h3>MISSION</h3></div>
-                        <div className="mb-2 p-3"><p><i>Establish conducive learning environment in the field of Information Technology</i></p></div>
+                        <div className="mb-2 p-3"><p><i>Impart quality engineering education to students by providing scientific, technical and mathematical skills.</i></p></div>
                         <div>
                             <p>
                             <button className="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" onClick={changeMenuTwo}>{readMenuTwo?"Close":"Read More"}
@@ -59,7 +59,8 @@ const IT = () => {
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                     <div className="card card-body p-2" >
-                                    <p>Mould IT professionals with ethical values to address the needs of the society. Collaborate with academic, industrial, and research organization of repute.</p>
+                                        <p>Impart training on leadership skills, communication skills and social awareness to transform the students into engineering professionals with integrity. <br />Nurture capabilities in research, innovation and sustainability to make the students globally competitive. <br />Network with renowned institutions in industry, academics and research. <br />
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -68,9 +69,6 @@ const IT = () => {
                 </div>
                 <div className="mb-3">
                         <div class="gap-1">
-                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                About
-                            </a><br /><br />
                             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
                                 Program Education Objectives(PEOs)
                             </button><br /><br />
@@ -90,32 +88,26 @@ const IT = () => {
                                 Faculty
                             </button><br /><br />
                         </div>
-                        <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
-                                <div className="mb-5 p-3"><p>The college now offers five full time B. Tech degree courses. The duration of the Under Graduate Programme is four years. As per the AICTE norms, the annual intake of each UG course is sixty.</p></div>
-                                <div className="mb-5 ms-3"><img src="src/images/departments/it4.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
-                                <div className="mb-5 p-3"><p>The faculty and staff of the department are well qualified and many of them are alumni of IITs and NITs. Currently we have 3 Ph.D holders in our faculty list. The department has well-equipped labs with state-of–the art technologies.</p></div>
-                            <div className="mb-5 ms-3"><img src="src/images/departments/it5.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
-                            </div>
-                        </div>
                         <div class="collapse" id="collapseExample1">
                             <div class="card card-body">
                                 <div className="text-primary"><h4><u>PEO 1</u></h4></div>
-                                <div className="text-secondary"><p>Achieve professional competency in the field of Information Technology to become successful IT solution providers and entrepreneurs.</p></div>
+                                <div className="text-secondary"><p>To prepare students for successful careers in industry/ research/ academics/ administration and to become successful entrepreneurs.</p></div>
                                 <div className="text-primary"><h4><u>PEO 2</u></h4></div>
-                                <div className="text-secondary"><p>Acquire scientific and engineering knowledge to pursue higher education and research.</p></div>
+                                <div className="text-secondary"><p>To train students with solid foundation in mathematics, science and engineering to develop innovative and sustainable solutions for engineering problems and new products.</p></div>
                                 <div className="text-primary"><h4><u>PEO 3</u></h4></div>
-                                <div className="text-secondary"><p>Become professionals with effective interpersonal skills, leadership qualities and social concern.</p></div>
+                                <div className="text-secondary"><p>To equip students with the necessary skills, attitudes and ethics to undertake and execute challenging problems based on societal and environmental needs as well as to develop ability to relate engineering issues in a broader social context.</p></div>
+                                <div className="text-primary"><h4><u>PEO 4</u></h4></div>
+                                <div className="text-secondary"><p>To prepare students with capabilities for effective communication, management and team work through a multidisciplinary approach.</p></div>
+                                <div className="text-primary"><h4><u>PEO 5</u></h4></div>
+                                <div className="text-secondary"><p>To provide an environment that promotes leadership qualities, provides awareness to latest developments in engineering practices and creates a quest for lifelong learning.</p></div>
                             </div>
                         </div>
                         <div class="collapse" id="collapseExample2">
                             <div class="card card-body">
                                 <div className="text-primary"><h4><u>PSO 1</u></h4></div>
-                                <div className="text-secondary"><p>Design, implement and manage efficient and secure networking solutions with state-of-the- art Information and Communication Technologies.</p></div>
+                                <div className="text-secondary"><p>Apply scientific and mathematical principles to the design, analysis and synthesis of mechanical engineering systems.</p></div>
                                 <div className="text-primary"><h4><u>PSO 2</u></h4></div>
-                                <div className="text-secondary"><p>Design and develop solutions for real world problems using suitable programming languages and appropriate platforms by following the best software engineering principles and methodologies.</p></div>
-                                <div className="text-primary"><h4><u>PSO 3</u></h4></div>
-                                <div className="text-secondary"><p>Develop innovative solutions in the emerging areas of Information Technology.</p></div>
+                                <div className="text-secondary"><p>Apply modern management tools and mechanical engineering principles to resolve complex industrial and real life problems.</p></div>
                             </div>
                         </div>
                         <div class="collapse" id="collapseExample3">
@@ -142,53 +134,40 @@ const IT = () => {
                                 <div className="text-secondary"><p><i className="bi bi-star-fill"></i> B.Tech Degree course in Information Technology</p></div>
                                 <div className="text-secondary"><p><i className="bi bi-star-fill"></i>Lateral entry for Diploma holders</p></div>
                                 <div className="text-secondary"><p>All the students for B.Tech course are allotted from among the top ranked students of Kerala Engineering Entrance Examination. Many of the students bagged top ranks in the Kerala Technological University. Most of the students passed out from the department are working in top ranked international and multinational companies. Lots of students from the department got selection for PG programmes in Indian Institute of Technologies and top ranked foreign universities.</p></div>
-                                <div className="text-secondary"><p><i className="bi bi-star-fill"></i> M.Tech in Network Engineering</p></div>
-                                <div className="text-secondary"><p><i className="bi bi-star-fill"></i>Research</p></div>
-                                <div className="text-secondary"><p>1. Mobile Adhoc Networking <br /><br />2. Performance evaluation of computer systems<br /><br />3. Network Security<br /><br />4. Parallel computing<br /><br />5. Artificial Neural Networks<br /><br />6. Natural Language processing<br /><br />7. Digital Image Processing<br /><br />8. Advanced Data Structures<br /><br />
-</p></div>
                             </div>
                         </div>
                         <div class="collapse" id="collapseExample5">
                             <div class="card card-body">
                                 <div className="text-primary mb-3 ms-3"><h3>Department Facilities</h3></div>
-                                <div className="mb-5 p-3"><p>The Department of Information Technology has a video conferencing facility, a central server room and Seven laboratories. The department has the necessary software and hardware infrastructure for the conduct of all the 10 laboratory/practical subjects in the B.Tech and M.Tech curriculum. All the student projects are done in-house. Each laboratory room has networked printers over Ethernet LAN. Although the emphasis is on the use of Linux and open source software, other popular proprietary software platforms are also supported. In addition,the department provides the necessary technical support for the smooth functioning of the campus-wide network in the college. A 100Mbps internet connection via firewall provided to the entire campus through fibre optic links. Also have 10 Mbps NMEICT connection and 10 Mbps Leased line connections.</p></div>
-                                <div className="mb-5 p-3"><p>The IT department is managing the entire campus network including Administrative office, Library, and other departments and sections in the campus. More over the computer laboratories are under the IT department are also functioning as the option facilitation centre during the time of the Centralized Allotment process (CAP) of the Commissioner for Entrance Examinations. In additions to these, Biometric Punching, WIFI management, Website management, DDFS, Conducting Online Exams/Training programmes for CGPU,Govt.(ASAP/NASSCOM) and other organizations (Online banking recruitments) etc. are handled by the IT Department.</p></div>
+                                <div className="mb-5 p-3"><p>Department of Mechanical Engineering has six laboratories. This include Computer aided Design Lab, Mechanical Engineering Lab, Thermal Engineering Lab, Strength of Materials Lab and Engineering Workshop. IC Engines Lab and Fluid Mechanics & Machines Lab are nearing completion.</p></div>
                                 <div className="text-primary mb-3 ms-3"><h3>Department Library</h3></div>
-                                <div className="mb-5 p-3"><p>A robust and dynamic library is vital to the academic life of the students as well as the Faculty. The library provides an environment for discovery, reflection, and expansion of knowledge. The department library serves as a central organ of academic activity in the IT Department. The Department has a rich & vast collection of more than 300 books, periodicals and reports. It also has one copy each of all B.Tech. Projects and M.Tech.Thesis work carried out in the department in recent years. The library serves to provide a calm and cosy ambience conductive to long hours of study. The library opens on all working days of the Institute from 9 AM to 4:00 PM. The faculty in charge of the Library is Prof.Jayasree P</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>The video conferencing facility</h3></div>
-                                <div className="mb-5 p-3"><p>The video conferencing facility was officially inaugurated by Sri. K. Muraleedharan, MLA on 27th March 2015. This room is equipped with LifeSize VC module, LED TV sets, LCD projectors, Audio Mixers, Microphones and Speakers. The VC room facilitate Direct Video conferencing with 3 centers at a time with seating capacity 72 and IP based dedicated VC units.</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Server Room</h3></div>
-                                <div className="mb-5 p-3"><p>Server room has 6 blade servers and 4 rack servers. The OS platforms provided are CentOS, Red hat, Ubuntu and Windows 2008 Server. Different servers are set apart for managing various activities. For Networking/Security purpose there are central firewall Fortigate 200B,Forti Analyser 100C,CISCO Router- Layer 3,SAN – HD F850-CBSS 110P Hitachi Unified storage 110 Base, controller Box – SFF 24X24 with accessories- 20 TB, Ruckus Zone Director-Wi-Fi Network, Cisco Managed switches-24 port 4 SFT.</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Web Application Laboratory</h3></div>
-                                <div className="mb-5 p-3"><p>This lab has 72 Windows based desktops with internet connectivity. This lab is also used for conducting online examinations.</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Programming Laboratory</h3></div>
-                                <div className="mb-5 p-3"><p>This lab has 68 dual boot desktops with internet connectivity.</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Internet Laboratory</h3></div>
-                                <div className="mb-5 p-3"><p>This lab runs on thin-client machines running under EnterpriseLinux as wellas desktops running under Windows. 36terminals areprovided forInternetconnectivityand running various software labsinthecurriculum.</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Network Laboratory</h3></div>
-                                <div className="mb-5 p-3"><p>This lab has 8 Cisco routers,switches,high- speed modems and 36 dual-boot desktop machines. A wireless LAN laboratory with wireless access points/routers,wireless site survey kit and other equipmentset up here.</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Software Testing Laboratory</h3></div>
-                                <div className="mb-5 p-3"><p>This lab has 15 desktops with Windows 8 Professional, Intel Core i5 Processors with internet connectivity. The Functional Testing software (QTP) hasbeenset uphere.</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Network security Laboratory</h3></div>
-                                <div className="mb-5 p-3"><p>This lab has 19 desktops with Windows 8 Professional, Intel Core i5 Processors with internet connectivity. Six number ofCisco Router 1901 series and six numbers of Cisco catalyst 1960 Switch 48 Ethernet 10/100 ports with 2 10/100/1000TX</p></div>
-                                <div className="text-primary mb-3 ms-3"><h3>Project Laboratory</h3></div>
-                                <div className="mb-5 p-3"><p>This lab has 15 desktops with Windows 8 Professional, Intel Core i5 Processors with internet connectivity.</p></div>
+                                <div className="mb-5 p-3"><p>Our department library has over 280 books. It is spread over 3 bookshelves and text books and seminar reports and project reports. Complimentary copies received from publishers and donated by faculty/ students are kept in the department library. Location of the library is HOD(ME) room, books are lend to students as well as faculty for reference.</p></div>
+                                <div className="text-primary mb-3 ms-3"><h3>Computer Aided Design Laboratory (CAD Lab)</h3></div>
+                                <div className="mb-5 p-3"><p>This lab has altogether 37 numbers of latest Core2Duo desktops and workstations. Other facilities include network printers, scanners and multimedia projectors. The design software available includes AutoDesk Inventor, SolidEdge and AutoCAD. Finite Element software ANSYS is used for the numerical computations. Computer Aided Drafting and Modeling Lab of Third semester and Cad Analysis Lab of sixth semester are conducted in this laboratory.</p></div>
+                                <div className="text-primary mb-3 ms-3"><h3>Mechanical Engineering Laboratory</h3></div>
+                                <div className="mb-5 p-3"><p>Main facilities of this lab include CNC machines (both lathe and milling machines), Toolmaker’s microscope, profile projectors, sine bar and other measuring instruments. PLC programmer and Hydraulic power pack are the new additions in this lab. Programmable Robotic Arm will soon join the list.Mechanical Engineering Lab of seventh semester is conducted in this lab.</p></div>
+                                <div className="text-primary mb-3 ms-3"><h3>Thermal Engineering Laboratory</h3></div>
+                                <div className="mb-5 p-3"><p>This lab has heat transfer, refrigeration and air conditioning experimental setups. Heat transfer experiments include free convection, forced convection, composite wall, and heat exchange apparatus. Performance study setup on blowers and multistage compressors are also available. Thermal engineering lab of seventh semester is conducted in this lab.</p></div>
+                                <div className="text-primary mb-3 ms-3"><h3>Strength of Materials Laboratory</h3></div>
+                                <div className="mb-5 p-3"><p>This facility include universal testing machine, spring testing machine, hardness-testing machine and impact test machine. Torsion meter, torsion pendulum and moment of inertia setups are also included. Civil Engineering lab of third semester is conducted in this lab.</p></div>
+                                <div className="text-primary mb-3 ms-3"><h3>Engineering Workshop</h3></div>
+                                <div className="mb-5 p-3"><p>All branch of students of this college perform workshop experiments in the first year of UG course. Workshop includes carpentry, sheet metal, smithy, plumbing, fitting, welding and foundry sections.</p></div>
                             </div>
                         </div>
                         <div class="collapse" id="collapseExample6">
                             <div class="card card-body">
                                 <div className="text-primary mb-3 ms-3"><h3>Faculty</h3></div>
                                 <div className="text-primary mb-3 bg-dark gap-3">
-                                    <PersonDetails personimage="src/images/people/default.png" personname="Shamna HR" personnumber="+9446422003" persondesignation="Professor" />
-                                    <PersonDetails personimage="src/images/people/default.png" personname="Vijayanand KS" personnumber="9447865892" persondesignation="Professor" personemail="vijayanand.ks@gecbh.ac.in"/>
-                                    <PersonDetails personimage="src/images/people/default.png" personname="Manju R" personnumber="9961330220" persondesignation="Associate Professor" />
-                                    <PersonDetails personimage="src/images/people/default.png" personname="Haripriya AP" personnumber=" 9446084405" persondesignation="Associate Professor" />
+                                    <PersonDetails personimage="src/images/people/default.png" personname="DR BIJULAL D." personnumber="9846500146" persondesignation="Professor" />
+                                    <PersonDetails personimage="src/images/people/default.png" personname="DR K BINDU KUMAR" personnumber="8129401020" persondesignation="Professor" />
+                                    <PersonDetails personimage="src/images/people/default.png" personname="HASHIM M." personnumber="8281892648" persondesignation="Associate Professor" personemail="hashim.m@gecbh.ac.in"/>
+                                    <PersonDetails personimage="src/images/people/default.png" personname="DR. RAKESH P" personnumber="9497574370" persondesignation="Associate Professor" />
                                 </div>
                                 <div className="text-primary mb-3 ms-3"><h3>Technical Staff</h3></div>
                                 <div className="text-primary mb-3 bg-dark gap-3">
-                                    <PersonDetails personimage="src/images/people/default.png" personname="Shamna HR" personnumber="+9446422003" persondesignation="Professor" />
-                                    <PersonDetails personimage="src/images/people/default.png" personname="Vijayanand KS" personnumber="9447865892" persondesignation="Professor" personemail="vijayanand.ks@gecbh.ac.in"/>
-                                    <PersonDetails personimage="src/images/people/default.png" personname="Manju R" personnumber="9961330220" persondesignation="Associate Professor" />
+                                    <PersonDetails personimage="src/images/people/default.png" personname="MICLE K" personnumber="+9495829630" persondesignation="Trade Instructor" />
+                                    <PersonDetails personimage="src/images/people/default.png" personname="SHONY .S" personnumber="8075051395" persondesignation="Trade Instructor Grade I" />
+                                    <PersonDetails personimage="src/images/people/default.png" personname="GIREESAN A K" personnumber="9497571800" persondesignation="Trade Instructor Grade I" />
                                 </div>
                             </div>
                         </div>
@@ -197,8 +176,8 @@ const IT = () => {
                     <div className="mb-5"><img src="src/images/people/default.png" width="150px" height="150px" alt="Haripriya" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
-                        <div className="mb-2"><h5>Dr. Haripriya A. P.</h5></div>
-                        <div><p>Associate Professor</p></div>
+                        <div className="mb-2"><h5>Dr. K. Bindu Kumar</h5></div>
+                        <div><p>Professor</p></div>
                     </div>
                 </div>
             </div>
@@ -211,5 +190,5 @@ const IT = () => {
   )
 }
 
-export default IT
+export default ME
 

@@ -56,6 +56,12 @@ import Placement from './pages/Placement';
 import GS from './pages/GS';
 import PE from './pages/PE';
 import IT from './pages/IT';
+import ME from './pages/ME';
+import EC from './pages/EC';
+import EE from './pages/EE';
+import CE from './pages/CE';
+import BOG from './pages/BOG';
+import Scholarships from './pages/Scholarships';
 
 const App = () => {
   return (
@@ -115,6 +121,12 @@ const App = () => {
         <Route path="/generalscience" element={<GS/>}/>
         <Route path="/physicaleducation" element={<PE/>}/>
         <Route path="/informationtechnology" element={<IT/>}/>
+        <Route path="/mechanicalengineering" element={<ME/>}/>
+        <Route path="/electronicsandcommunication" element={<EC/>}/>
+        <Route path="/electricalandelectronics" element={<EE/>}/>
+        <Route path="/civilengineering" element={<CE/>}/>
+        <Route path="/boardofgoverners" element={<BOG/>}/>
+        <Route path="/scholarships" element={<Scholarships/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

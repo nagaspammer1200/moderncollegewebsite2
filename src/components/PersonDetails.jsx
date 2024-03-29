@@ -13,7 +13,7 @@ const PersonDetails = ({personimage,personname,personemail,personnumber,personde
           <div className="ps-3">
             <p>{persondept}</p>
           </div>
-          <div className="d-flex gap-3 p-3 rounded shadow-sm">
+          <div className="d-flex gap-3 p-3 rounded emailcontainer shadow-sm">
               <div><i className="bi bi-envelope-open"></i></div>
               <div><p>{personemail}</p></div>
           </div>

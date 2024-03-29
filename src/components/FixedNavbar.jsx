@@ -8,7 +8,7 @@ const FixedNavbar = () => {
         <div className="fnavbarimg">
           <a href="/"><img src="src/images/logobh.png" class="img-fluid" alt="GECB Logo" /></a>
         </div>
-        <div className="fnavbarlinksmain">
+        <div className="n">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -19,7 +19,7 @@ const FixedNavbar = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li><a className="dropdown-item" href="/about">About GECBH</a></li>
-                      <li><a href="#" className="dropdown-item">Board of Governers</a></li>
+                      <li><a href="/boardofgoverners" className="dropdown-item">Board of Governers</a></li>
                       <li><a className="dropdown-item" href="/principal">Principal</a></li>
                       <li><a href="http://gecbh.ac.in/static/docs/College%20Council.pdf" className="dropdown-item">College Council</a></li>
                       <li className="dropstart">
@@ -64,10 +64,10 @@ const FixedNavbar = () => {
                         <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
                         <ul className="dropdown-menu">
                           <li><a href="/informationtechnology" className="dropdown-item">Information Technology</a></li>
-                          <li><a href="#" className="dropdown-item">Mechanical Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">Electronics and Communication Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">Electrical and Electronics Engineering</a></li>
-                          <li><a href="#" className="dropdown-item">Civil Engineering</a></li>
+                          <li><a href="/mechanicalengineering" className="dropdown-item">Mechanical Engineering</a></li>
+                          <li><a href="/electronicsandcommunication" className="dropdown-item">Electronics and Communication Engineering</a></li>
+                          <li><a href="/electricalandelectronics" className="dropdown-item">Electrical and Electronics Engineering</a></li>
+                          <li><a href="/civilengineering" className="dropdown-item">Civil Engineering</a></li>
                           <li><a href="/generalscience" className="dropdown-item">General Science</a></li>
                           <li><a href="/physicaleducation" className="dropdown-item">Physical Education</a></li>
                         </ul>
@@ -78,8 +78,6 @@ const FixedNavbar = () => {
                           <li><a href="/aicte" className="dropdown-item">AICTE</a></li>
                           <li><a href="/teqip" className="dropdown-item">TEQIP</a></li>
                           <li><a href="https://drive.google.com/file/d/1KrkzevoakzhoZvKy0vktVgsfkpbnkg_-/view?pli=1" className="dropdown-item">Mandatory Disclosure</a></li>
-                          <li><a href="#" className="dropdown-item">IQAC</a></li>
-                          <li><a href="#" className="dropdown-item">News Letter</a></li>
                           <li><a href="/download" className="dropdown-item">Downloads</a></li>
                         </ul>
                       </li>
