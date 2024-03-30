@@ -56,7 +56,7 @@ const FixedNavbar = () => {
                           <li><a href="/btech" className="dropdown-item">Bachelor of Technology</a></li>
                           <li><a href="/mtech" className="dropdown-item">Master of Technology</a></li>
                           <li><a href="http://www.tplc.gecbh.ac.in/" className="dropdown-item">TPL Programmes</a></li>
-                          <li><a href=" /adam" className="dropdown-item">ADAM</a></li>
+                          <li><a href="/adam" className="dropdown-item">ADAM</a></li>
                         </ul>
                       </li>
                       <li className="dropdown-item">Admissions</li>
@@ -116,6 +116,8 @@ const FixedNavbar = () => {
                           <li><a href="/hostel" className="dropdown-item">College Hostel</a></li>
                           <li><a href="/video" className="dropdown-item">Video Conferencing</a></li>
                           <li><a href="/canteen" className="dropdown-item">Canteen</a></li>
+                          <li><a href="/QEEE" className="dropdown-item">QEEE</a></li>
+                          <li><a href="/languagelab" className="dropdown-item">Language Lab</a></li>
                         </ul>
                       </li>
                       <li><a className="dropdown-item" href="#">Event Calendar</a></li>

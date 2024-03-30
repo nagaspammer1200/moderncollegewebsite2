@@ -23,10 +23,8 @@ const PermanentNavbar = () => {
           <i className="bi bi-list"></i>
         </div>
         <div className={menuValue?"navlinksactive":"navlinks"}>
-            <div><a href="/admission">Admission&nbsp;2023&nbsp;-&nbsp;24</a></div>
-            <div><a href="#">DDFS</a></div>
-            <div><a href="#">Tenders</a></div>
-            <div><a href="#">&nbsp;eJournal</a></div>
+            <div><a href="/admission">Admission&nbsp;2023-24</a></div>
+            <div><a href="/tenders">Tenders</a></div>
         </div>
         <div className="navlinksselect">
               <select className="form-select">
@@ -35,6 +33,7 @@ const PermanentNavbar = () => {
               </select>
         </div>
       </div>
+
     </div>
   )
   }

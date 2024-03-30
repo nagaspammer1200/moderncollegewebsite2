@@ -14,7 +14,7 @@ const Principal = () => {
           <div><FixedNavbar/></div>
           <div className="d-flex gap-2 pdc">
             <div>
-                <div className="principalimage"><img src="src/images/people/principal.jpeg" width="45%" height="35%" alt="Principal Shiny" /></div>
+                <div className="principalimage"><img src="src/images/people/principal.jpeg" width="200px" height="200px" alt="Principal Shiny" /></div>
                 <div className="d-flex gap-3 pe-3 ps-3">
                     <div><i className="bi bi-envelope-open"></i></div>
                     <div><p>principal@gecbh.ac.in</p></div>
@@ -36,44 +36,58 @@ const Principal = () => {
                     <div className="text-success">"If you’re looking to progress into engineering and technology, or planning and development role, this is the best institution for you."</div>
                 </div>
                 <div className="p-3 border-bottom border-3 border-success">
-                    <div className="mb-3"><h5>Area of Research</h5></div>
-                    <div className="principallist">
-                        <ul>
-                            <li className="mb-2">Power Electronics and Drives</li>
-                            <li className="mb-2">Biomedical Engineering</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="border-bottom border-3 border-success p-3">
-                    <div className="mb-3"><h5>Professional Experience</h5></div>
-                    <div className="principallist">
-                        <ul>
-                            <li className="mb-2">College of Engineering Trivandrum : 2022 June onwards</li>
-                            <li className="mb-2">Govt. College of Engineering, Kannur : 2019 – 2022</li>
-                            <li className="mb-2">College of Engineering Trivandrum : 2005 – 2019</li>
-                            <li className="mb-2">Govt. Engineering College, West Hill, Kozhikide : 2002 – 2005</li>
-                            <li className="mb-2">Govt. Poytechnic College, Neyyattinakara, Thiruvananthapuram : 1998 – 2002</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="border-bottom border-3 border-success p-3">
-                    <div className="mb-3"><h5>Responsibilities/Position (Department, College and University/Organization)</h5></div>
-                    <div className="principallist">
-                        <ul>
-                            <li className="mb-2">Controller of Examinations, APJAKTU (Full additional charge)</li>
-                            <li className="mb-2">Dean – Research, APJAKTU (Full additional charge)</li>
-                            <li className="mb-2">Director-Research (APJAKTU)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="border-bottom border-3 border-success p-3 mb-2">
-                    <div className="mb-3"><h5>Education</h5></div>
-                    <div className="principallist">
-                        <ul>
-                            <li className="mb-2">PhD – University of Kerala</li>
-                            <li className="mb-2">M.Tech – Applied Electronics and Instrumentation – University of Kerala</li>
-                            <li className="mb-2">B.E – Electronics and Communication – Maduari Kamaraj Univetsity</li>
-                        </ul>
+                    <div className="mb-3">
+                        <div class="gap-1">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Area of Research
+                            </a><br /><br />
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                            Professional Experience
+                            </button><br /><br />
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                            Responsibilities/Position (Department, College and University/Organization)
+                            </button><br /><br />
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                            Education
+                            </button><br /><br />
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                                <div className="principallist">
+                                    <ul>
+                                        <li className="mb-2">Power Electronics and Drives</li>
+                                        <li className="mb-5">Biomedical Engineering</li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="collapse" id="collapseExample1">
+                                <div className="principallist">
+                                    <ul>
+                                        <li className="mb-2">College of Engineering Trivandrum : 2022 June onwards</li>
+                                        <li className="mb-2">Govt. College of Engineering, Kannur : 2019 – 2022</li>
+                                        <li className="mb-2">College of Engineering Trivandrum : 2005 – 2019</li>
+                                        <li className="mb-2">Govt. Engineering College, West Hill, Kozhikide : 2002 – 2005</li>
+                                        <li className="mb-5">Govt. Poytechnic College, Neyyattinakara, Thiruvananthapuram : 1998 – 2002</li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="collapse" id="collapseExample2">
+                            <div className="principallist">
+                                <ul>
+                                    <li className="mb-2">Controller of Examinations, APJAKTU (Full additional charge)</li>
+                                    <li className="mb-2">Dean – Research, APJAKTU (Full additional charge)</li>
+                                    <li className="mb-5">Director-Research (APJAKTU)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseExample3">
+                            <div className="principallist">
+                                <ul>
+                                    <li className="mb-2">PhD – University of Kerala</li>
+                                    <li className="mb-2">M.Tech – Applied Electronics and Instrumentation – University of Kerala</li>
+                                    <li className="mb-5">B.E – Electronics and Communication – Maduari Kamaraj Univetsity</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -11,8 +11,9 @@ const AnnouncementsBar = () => {
           <h6>Important Links</h6>
       </div>
       <div className="p-3">
-          <button type="button" className="btn btn-success m-1"><a href="">DEPARTMENTS</a></button>
-          <button type="button" className="btn btn-success m-1"><a href="#">ADMISSIONS</a></button>
+          <button type="button" className="btn btn-success m-1"><a href="/departments">DEPARTMENTS</a></button>
+          <button type="button" className="btn btn-success m-1"><a href="/admission">ADMISSIONS</a></button>
+          <button type="button" className="btn btn-success m-1"><a href="/programmes">PROGRAMMES</a></button>
           <button type="button" className="btn btn-success m-1"><a href="https://www.ieeegecbh.org/index.html">IEEE</a></button>
           <button type="button" className="btn btn-success m-1"><a href="https://istegecb.in/">ISTE</a></button>
           <button type="button" className="btn btn-success m-1"><a href="https://www.csigecbh.in/sb.html">CSI</a></button>

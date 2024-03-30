@@ -78,8 +78,8 @@ const MiddleSection = () => {
             <div className="text-white"><p>The Translational research and Professional Leadership centre (TPLC), Sharing knowledge between research institutions and the society.</p></div>
         </div>
         <div className="text-white bg-dark es3">
-            <div><h4>R & D</h4></div>
-            <div><p>Approved KTU Research Center</p></div>
+            <div className="text-primary"><h4><u>R & D</u></h4></div>
+            <div className="text-white"><p>Approved KTU Research Center</p></div>
         </div>
       </div>
     </div>

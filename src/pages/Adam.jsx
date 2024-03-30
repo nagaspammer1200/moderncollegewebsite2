@@ -49,6 +49,13 @@ const Adam = () => {
                             </ol>
                         </div>
                     </div>
+                    <div className="w-50 ms-5 mb-5">
+                      <div className="bg-dark p-4 text-center">
+                        <div className="mb-3 text-white"><h6><a href="https://drive.google.com/file/d/1jaImxN7frJI8l1Y2QpprQ3F9_jHGn51O/view?usp=sharing">Notification</a></h6></div>
+                        <div className="mb-3 text-white"><h6><a href="https://drive.google.com/file/d/1ejKJk3bXnW_WPv7Yj0qCB_1HZuhQPbRJ/view?usp=sharing">More Details</a></h6></div>
+                        <div className="mb-3 text-white"><h6><a href="https://drive.google.com/file/d/1NKM_BAjq8BbpgAfS6iv7rJrRHmUOJo9O/view?usp=sharing">Sample Questions</a></h6></div>
+                      </div>
+                    </div>
                </div>
                <div className="bg-dark p-4">
                     <div className="mb-3 text-white">Department Contact Info</div>

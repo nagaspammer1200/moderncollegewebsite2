@@ -2,7 +2,7 @@
 .navdetails {
     display:flex;
     padding:1%;
-    justify-content: space-between;
+    gap:25%;
     font-weight:600;
 }
 .cdetails, .pdetails, .codetails, .navlinks ,.navlinkslinks{

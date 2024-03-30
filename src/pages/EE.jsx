@@ -195,7 +195,7 @@ const EE = () => {
                         </div>
                     </div>
                 <div className="d-flex p-3 text-white bg-primary mb-5 departmentcontainer"> 
-                    <div className="mb-5"><img src="src/images/people/default.png" width="150px" height="150px" alt="Haripriya" /></div>
+                    <div className="mb-5"><img src="src/images/departments/fransis.jpg" width="150px" height="150px" alt="Haripriya" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr.Francis M Fernandez</h5></div>

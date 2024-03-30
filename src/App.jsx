@@ -62,6 +62,13 @@ import EE from './pages/EE';
 import CE from './pages/CE';
 import BOG from './pages/BOG';
 import Scholarships from './pages/Scholarships';
+import Tender from './pages/Tender';
+import Facilities from './pages/Facilties';
+import Communities from './pages/Communities';
+import Programmes from './pages/Programmes';
+import Departments from './pages/Departments';
+import QEEE from './pages/QEEE';
+import LT from './pages/LT';
 
 const App = () => {
   return (
@@ -127,6 +134,13 @@ const App = () => {
         <Route path="/civilengineering" element={<CE/>}/>
         <Route path="/boardofgoverners" element={<BOG/>}/>
         <Route path="/scholarships" element={<Scholarships/>}/>
+        <Route path="/tenders" element={<Tender/>}/>
+        <Route path="/departments" element={<Departments/>}/>
+        <Route path="/programmes" element={<Programmes/>}/>
+        <Route path="/communities" element={<Communities/>}/>
+        <Route path="/facilities" element={<Facilities/>}/>
+        <Route path="/QEEE" element={<QEEE/>}/>
+        <Route path="/languagelab" element={<LT/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

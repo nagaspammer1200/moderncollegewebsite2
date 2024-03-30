@@ -21,7 +21,7 @@ const GS = () => {
                 <div className="text-primary mb-3 ms-3"><h3>About the Department</h3></div>
                 <div className="mb-5 p-3"><p>The Department offers applied science subjects (mathematics, Physics, Chemistry and Humanities for all students of the institution. The institution has one Physics and one Chemistry Laboratory.</p></div>
                 <div className="d-flex p-3 text-white bg-primary mb-5 departmentcontainer"> 
-                    <div className="mb-5"><img src="src/images/people/default.png" width="150px" height="150px" alt="Sheeba" /></div>
+                    <div className="mb-5"><img src="src/images/departments/sheeba.jpg" width="150px" height="150px" alt="Sheeba" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Sheeba G</h5></div>
