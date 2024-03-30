@@ -33,62 +33,84 @@ const Principal = () => {
                 <div className="border-bottom border-3 border-success p-3 m-3">
                     <div className="text-start"><h2>Dr. Shiny G.</h2></div>
                     <div className="text-start"><p>Principal</p></div>
-                    <div className="text-success">"If you’re looking to progress into engineering and technology, or planning and development role, this is the best institution for you."</div>
+                    <div className="text-success"><i>"If you’re looking to progress into engineering and technology, or planning and development role, this is the best institution for you."</i></div>
                 </div>
-                <div className="p-3 border-bottom border-3 border-success">
-                    <div className="mb-3">
-                        <div class="gap-1">
-                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Area of Research
-                            </a><br /><br />
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
-                            Professional Experience
-                            </button><br /><br />
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+
+
+                <div className="accordion m-5" id="accordionExample">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header">
+                            <button className="accordion-button text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Area of Research
+                            </button>
+                            </h2>
+                            <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div className="accordion-body">
+                                    <div className="principallist">
+                                        <ul>
+                                            <li className="mb-2">Power Electronics and Drives</li>
+                                            <li className="mb-5">Biomedical Engineering</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Professional Experience
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div className="accordion-body">
+                                    <div className="principallist">
+                                        <ul>
+                                            <li className="mb-2">College of Engineering Trivandrum : 2022 June onwards</li>
+                                            <li className="mb-2">Govt. College of Engineering, Kannur : 2019 – 2022</li>
+                                            <li className="mb-2">College of Engineering Trivandrum : 2005 – 2019</li>
+                                            <li className="mb-2">Govt. Engineering College, West Hill, Kozhikide : 2002 – 2005</li>
+                                            <li className="mb-5">Govt. Poytechnic College, Neyyattinakara, Thiruvananthapuram : 1998 – 2002</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Responsibilities/Position (Department, College and University/Organization)
-                            </button><br /><br />
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-                            Education
-                            </button><br /><br />
-                        </div>
-                        <div class="collapse" id="collapseExample">
-                                <div className="principallist">
-                                    <ul>
-                                        <li className="mb-2">Power Electronics and Drives</li>
-                                        <li className="mb-5">Biomedical Engineering</li>
-                                    </ul>
+                            </button>
+                            </h2>
+                            <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div className="accordion-body">
+                                    <div className="principallist">
+                                        <ul>
+                                            <li className="mb-2">Controller of Examinations, APJAKTU (Full additional charge)</li>
+                                            <li className="mb-2">Dean – Research, APJAKTU (Full additional charge)</li>
+                                            <li className="mb-5">Director-Research (APJAKTU)</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                        </div>
-                        <div class="collapse" id="collapseExample1">
-                                <div className="principallist">
-                                    <ul>
-                                        <li className="mb-2">College of Engineering Trivandrum : 2022 June onwards</li>
-                                        <li className="mb-2">Govt. College of Engineering, Kannur : 2019 – 2022</li>
-                                        <li className="mb-2">College of Engineering Trivandrum : 2005 – 2019</li>
-                                        <li className="mb-2">Govt. Engineering College, West Hill, Kozhikide : 2002 – 2005</li>
-                                        <li className="mb-5">Govt. Poytechnic College, Neyyattinakara, Thiruvananthapuram : 1998 – 2002</li>
-                                    </ul>
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample2">
-                            <div className="principallist">
-                                <ul>
-                                    <li className="mb-2">Controller of Examinations, APJAKTU (Full additional charge)</li>
-                                    <li className="mb-2">Dean – Research, APJAKTU (Full additional charge)</li>
-                                    <li className="mb-5">Director-Research (APJAKTU)</li>
-                                </ul>
                             </div>
                         </div>
-                        <div class="collapse" id="collapseExample3">
-                            <div className="principallist">
-                                <ul>
-                                    <li className="mb-2">PhD – University of Kerala</li>
-                                    <li className="mb-2">M.Tech – Applied Electronics and Instrumentation – University of Kerala</li>
-                                    <li className="mb-5">B.E – Electronics and Communication – Maduari Kamaraj Univetsity</li>
-                                </ul>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Education
+                            </button>
+                            </h2>
+                            <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div className="accordion-body">
+                                    <div className="principallist">
+                                        <ul>
+                                            <li className="mb-2">PhD – University of Kerala</li>
+                                            <li className="mb-2">M.Tech – Applied Electronics and Instrumentation – University of Kerala</li>
+                                            <li className="mb-5">B.E – Electronics and Communication – Maduari Kamaraj Univetsity</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
           </div>

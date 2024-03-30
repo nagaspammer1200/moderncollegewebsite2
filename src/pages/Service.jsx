@@ -38,6 +38,7 @@ const Service = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
+          <div className="bg-primary p-5 text-white"><h2>Service</h2></div>
           <div className="d-flex gap-1 personcontainer">
             <div>
                 <div className="d-flex flex-column text-center w-60 rulecontainer">

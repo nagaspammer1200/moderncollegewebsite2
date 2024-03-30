@@ -124,7 +124,10 @@
     display:flex;
     gap:10%;
 }
-
+/* Stylng the ADAM*/
+.linkcontainerhover a:hover{
+    color:blue;
+}
 @media only screen and (max-width: 500px) {
 
     /* Mobile View of About*/
@@ -213,10 +216,9 @@
     .raggingimage {
         display:flex;
         flex-direction: column;
-
         img {
-            width:50%;
-            height:30%;
+            width:250px;
+            height:300px;
         }
     }
     .personcontainer4{

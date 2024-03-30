@@ -21,13 +21,14 @@ const FixedNavbar = () => {
                       <li><a className="dropdown-item" href="/about">About GECBH</a></li>
                       <li><a href="/boardofgoverners" className="dropdown-item">Board of Governers</a></li>
                       <li><a className="dropdown-item" href="/principal">Principal</a></li>
-                      <li><a href="http://gecbh.ac.in/static/docs/College%20Council.pdf" className="dropdown-item">College Council</a></li>
+                      <li><a href="https://gecbh.ac.in/uploads/College%20Council.pdf" className="dropdown-item">College Council</a></li>
                       <li className="dropstart">
                         <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Administration</a>
                         <ul className="dropdown-menu">
                           <li><a href="/adminstaff" className="dropdown-item">Staff</a></li>
                           <li><a href="/righttoinformation" className="dropdown-item">Right To Information</a></li>
                           <li><a href="/service" className="dropdown-item">Service Rules</a></li>
+                          <li><a href="/tenders" className="dropdown-item">Tenders and Quotations</a></li>
                           <li><a href="/budget" className="dropdown-item">Budget Utilization</a></li>
                           <li><a href="/com" className="dropdown-item">Commitees</a></li>
                         </ul>
@@ -55,11 +56,11 @@ const FixedNavbar = () => {
                         <ul className="dropdown-menu">
                           <li><a href="/btech" className="dropdown-item">Bachelor of Technology</a></li>
                           <li><a href="/mtech" className="dropdown-item">Master of Technology</a></li>
-                          <li><a href="http://www.tplc.gecbh.ac.in/" className="dropdown-item">TPL Programmes</a></li>
+                          <li><a href="/tplc" className="dropdown-item">TPL Programmes</a></li>
                           <li><a href="/adam" className="dropdown-item">ADAM</a></li>
                         </ul>
                       </li>
-                      <li className="dropdown-item">Admissions</li>
+                      <li className="dropdown-item"><a href="/admission" className="dropdown-item">Admissions</a></li>
                       <li className="dropstart">
                         <a href="#" className="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
                         <ul className="dropdown-menu">

@@ -69,6 +69,7 @@ import Programmes from './pages/Programmes';
 import Departments from './pages/Departments';
 import QEEE from './pages/QEEE';
 import LT from './pages/LT';
+import TPCL from './pages/TPCL';
 
 const App = () => {
   return (
@@ -141,6 +142,7 @@ const App = () => {
         <Route path="/facilities" element={<Facilities/>}/>
         <Route path="/QEEE" element={<QEEE/>}/>
         <Route path="/languagelab" element={<LT/>}/>
+        <Route path="/tplc" element={<TPCL/>}/>
       </Routes> 
     </BrowserRouter>
     </div>

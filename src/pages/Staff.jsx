@@ -38,10 +38,11 @@ const Staff = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
+          <div className="bg-primary p-5 text-white"><h2>Administrative Staff</h2></div>
           <div className="d-flex hodcontainer p-3 mt-3">
             <div>
                 {staffList.map((movie) => (
-                <div className="mb-4">
+                <div className="mb-5">
                         <PersonDetails personimage={movie.img} personname={movie.name}  personnumber={movie.pnum} personemail={movie.email} persondesignation={movie.desig2} />
                 </div>
                 ))}

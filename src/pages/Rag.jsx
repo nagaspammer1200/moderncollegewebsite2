@@ -15,10 +15,10 @@ const Rag = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
+          <div className="bg-primary p-5 text-white"><h2>Anti-ragging</h2></div>
           <div className="d-flex personcontainer3">
             <div className="rulecontainer3">
                 <div className="d-flex flex-column text-center">
-                    <div className="mb-5 mt-3 text-primary"><h4>Anti-ragging</h4></div>
                     <div className="mb-5 text-secondary text-start">
                         <p>Ragging in any form is prohibited and any incidence of indulging in ragging will be reported to the police. Ragging is a non-bailable offence.</p>
                     </div>
@@ -27,7 +27,7 @@ const Rag = () => {
                         <p>Ragging may also attract punishment as per section 4 of the “The Kerala Prohibition of Raggig Act 1998” which leads to imprisonment, for a term of maximum 2 years and a fine for ten thousand rupees in conviction.</p>
                         </div>
                         <div className="ptaimage">
-                            <img src="src/images/rag.png" alt="Anti Ragging Logo" /> 
+                            <img src="src/images/rag.png" width="300px" height="300px"alt="Anti Ragging Logo" /> 
                         </div>
                     </div>
                     <div className="mb-5 text-secondary text-start">

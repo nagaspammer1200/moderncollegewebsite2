@@ -16,7 +16,6 @@ const IC = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
           <div className="bg-primary p-5 text-white mb-5"><h2>Internal Complaints Committee</h2></div>
-          <div className="text-primary mb-3 ms-5"><h3>Internal Complaints Committee</h3></div>
           <div className="personcontainer5">
                 <div className="table-responsive tablecontainer">
                     <table className="table  table-striped table-dark">

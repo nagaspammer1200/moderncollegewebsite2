@@ -19,7 +19,7 @@ const Tender = () => {
           <div className="d-flex personcontainer2">
             <div className="nsscontainer p-2">
                 <div className="table-responsive tablecontainer mb-5">
-                    <table className="table  table-striped table-dark">
+                    <table className="table table-striped table-dark">
                         <thead>
                             <tr>
                             <th scope="col" colspan="1" className="text-center">Date</th>

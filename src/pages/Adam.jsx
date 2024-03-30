@@ -15,7 +15,7 @@ const Adam = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="bg-primary p-3 text-white">
+          <div className="bg-primary p-5 text-white">
             <div className="mb-3">Advanced Diploma in Automotive Mechatronics</div>
             <div className="mb-5"><h2>ADAM</h2></div>
           </div>
@@ -49,7 +49,7 @@ const Adam = () => {
                             </ol>
                         </div>
                     </div>
-                    <div className="w-50 ms-5 mb-5">
+                    <div className="w-50 ms-5 mb-5 linkcontainerhover">
                       <div className="bg-dark p-4 text-center">
                         <div className="mb-3 text-white"><h6><a href="https://drive.google.com/file/d/1jaImxN7frJI8l1Y2QpprQ3F9_jHGn51O/view?usp=sharing">Notification</a></h6></div>
                         <div className="mb-3 text-white"><h6><a href="https://drive.google.com/file/d/1ejKJk3bXnW_WPv7Yj0qCB_1HZuhQPbRJ/view?usp=sharing">More Details</a></h6></div>
@@ -67,6 +67,10 @@ const Adam = () => {
                     </div>
                     <div className="mb-3 text-success">Mon – Fri 9:00A.M. – 5:00P.M.</div>
                     <div className="mb-3 text-white">Social Info</div>
+                    <div className="mb-3 text-success"><a href="https://www.thehindubusinessline.com/companies/mercedes-benz-celebrates-10-years-of-adam-course-in-kerala/article67849094.ece"> The Hindubusinessline</a></div>
+                    <div className="mb-3 text-success"><a href="https://www.thehindu.com/sci-tech/technology/gadgets/mercedes-benz-and-gecbh-celebrate-10-years-of-adam-course/article67852714.ece">The Hindu</a></div>
+                    <div className="mb-3 text-success"><a href="https://www.financialexpress.com/business/express-mobility-mercedes-benz-india-gecbh-complete-10-years-of-advanced-mechatronics-course-milestone-3395641/">Financial Express</a></div>
+                    <div className="mb-3 text-success"><a href="https://www.autocarpro.in/news/mercedes-benz-india-and-government-engineering-college-barton-hill-kerala-celebrate-10-years-of-automotive-mechatronics-course-119220">Autocar Professional</a></div>
                </div>
             </div>
           </div>

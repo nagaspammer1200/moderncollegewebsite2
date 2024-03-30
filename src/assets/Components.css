@@ -29,6 +29,9 @@
         gap:5%;
         padding:4%;
         margin-left:8%;
+        img{
+            margin:0% 0% 10% 0%;
+        }
     }
 
     /*Announcements */

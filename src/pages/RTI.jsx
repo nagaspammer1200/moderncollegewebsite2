@@ -34,8 +34,8 @@ const RTI = () => {
                                 <td className="p-3">Ajithambili K <br />Accounts officer <br />Phone: 9446368897</td>&nbsp;
                             </tr>
                             <tr>
-                                <th scope="row" colspan="2">Smt.Mini S.</th>
-                                <td className="p-3">Associate Professor in ECE<br />Junior Superintendent <br />Phone: 0471-2300485</td>&nbsp;
+                                <th scope="row" colspan="2">Assistant Public Information Officer</th>
+                                <td className="p-3">Smt.Mini S.<br />Junior Superintendent <br />Phone: 0471-2300485</td>&nbsp;
                             </tr>
                         </tbody>
                     </table>
