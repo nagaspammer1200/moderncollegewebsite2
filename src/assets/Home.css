@@ -4,17 +4,8 @@
 .vision {
     padding:5%;
     gap:10%;
-    ul {
+    ul{
         list-style-image: url('./src/images/circlefill.svg');
-      }
-}
-.sublinksection {
-    display:flex;
-    padding:5%;
-    gap:10%;
-    img {
-        height:90px;
-        width:80px;
     }
 }
 .events {
@@ -40,6 +31,10 @@
         padding:5%;
     }
 }
+/* Light Mode Hover Animation */
+.es1:hover,.es2:hover,.es3:hover{
+    border: 3px solid rgb(255, 115, 0);
+}
 .bannercontainer, .linkscontainer {
     display:flex;
     gap:5%;
@@ -49,19 +44,12 @@
 }
 
 
-/* Mobile View*/
-
 @media only screen and (max-width: 500px) {
  /*General Styling */
 
     body{
         margin:0;
         padding:0;
-    }
-    .sublinksection{
-        display: flex;
-        flex-direction: column;
-        padding-left:25%;
     }
     .events{
         display:block;

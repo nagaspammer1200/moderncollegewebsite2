@@ -16,9 +16,9 @@ const TEQIP = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
           <div className="bg-primary p-5 text-white"><h2>All India Council for Technical Education</h2></div>
-          <div className="d-flex personcontainer3">
-            <div className="rulecontainer3">
-                <div className="d-flex flex-column text-center">
+          <div className="d-flex personcontainer3 p-3 ms-3">
+            <div className="p-3">
+            <div className="d-flex flex-column text-center">
                     <div className="mb-5 mt-3 text-primary"><h4>Technical Education Quality Improvement Programme (TEQIP) Phase-II</h4></div>
                     <div className="mb-5">
                         <div className="mb-5 mt-3 text-primary text-start"><h4>Introduction</h4></div>
@@ -36,7 +36,6 @@ const TEQIP = () => {
             </div>
             <AnnouncementsBar/>
           </div>
-          <div><BannerFooter/></div>
           <div><PermanentFooter/></div>
         </div>
     </div>

@@ -18,9 +18,8 @@ const CL = () => {
           <div className="bg-primary p-5 text-white"><h2>Central Library</h2></div>
           <div className="d-flex personcontainer2">
             <div className="nsscontainer p-2">
-                <div className="text-primary mb-3"><h3>Central Library at a Glance</h3></div>
-                <div className="mb-5 gap-5 nsscontainer1">
-                    <div><p>NIn any academic institution Library plays an important role in the dissemination of knowledge. In fact, the ambience of the library reflects the quality of the education imparted by the Government Engineering College ,Barton Hill (GECBH) Campus has recognized the importance of the academic vibrations required in the library and has been growing in this direction, right from its very inception. The current location of the Central Library is well planned. The well stacked racks are user friendly. A special zone has been carved out for the digital library. Our college was established and functioned in the academic year 1999-2000, with Central Technical library.</p></div>
+                <div className="mb-5 mt-3 gap-5 nsscontainer1">
+                    <div><p>In any academic institution Library plays an important role in the dissemination of knowledge. In fact, the ambience of the library reflects the quality of the education imparted by the Government Engineering College ,Barton Hill (GECBH) Campus has recognized the importance of the academic vibrations required in the library and has been growing in this direction, right from its very inception. The current location of the Central Library is well planned. The well stacked racks are user friendly. A special zone has been carved out for the digital library. Our college was established and functioned in the academic year 1999-2000, with Central Technical library.</p></div>
                     <div><img src="src/images/library.jpg" width="250px" height="200px" alt="Student Looking for Books in the College Library" /></div>
                 </div>
                 <div className="table-responsive tablecontainer">
@@ -283,14 +282,14 @@ const CL = () => {
                     </table>
                 </div>
                 <div className="mb-5">
-                    <div className="accordion" id="accordionExample">
+                    <div className="accordion" id="accordionExample1">
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button className="accordion-button text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                                 Book Lending Services
                             </button>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 Book lending service is provided to all the members of the library. A B.Tech student member is entitled to get three books and PG students and Research Scholars can avail five books at a time. A teaching staff member is entitled to get eight books at a time and a non teaching staff member can avail four books at a time. Under this section the job of issue and return (circulation) of documents, renewal of loan period, fine collection for delayed return of books and membership management functions, and also possible to reserve a book which one is on loan.
                                 </div>
@@ -298,11 +297,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 Renewal and Reservation Services
                             </button>
                             </h2>
-                            <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 The period of loan will be 14 days including the day of issue for all users. A book can be renewed for further one term, if the book is not being reserved by any one. Thus a user can keep a book for a maximum of one month. If a member wishes to keep the book after one renewal he/she has to present the book in the library and get it reissued (if available), after keeping the book in the Stack room for one week or the report of the Scientific Information Officer. Also provide a user can reserve a book, which one is borrowed another one.
                                 </div>
@@ -310,11 +309,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                 Reference Services
                             </button>
                             </h2>
-                            <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 The library maintains a good Reference Collection. It includes valuable reference sources like Encyclopaedias, Handbooks, Multilingual dictionaries, Text books etc.
                                 </div>
@@ -322,11 +321,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 Internet/ Digital Library Services
                             </button>
                             </h2>
-                            <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseNine" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 Welcome to the Knowledge portal of Government Engineering College, Barton hill. Online Information Resources are vital for academic and research institutes in today‟s knowledge economy. Central library provides access to a variety of electronic resources such as e-journals, e-books and databases. Browsing facility is available in the Library for staff and students free of cost.
                                 </div>
@@ -334,11 +333,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 Digital Library(Learning Resource Centre)
                             </button>
                             </h2>
-                            <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseTen" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 A fully automated modern Learning Resource Centre (LRC), established with a view to enrich an outstanding learning resource materials catering to the ever growing and uncompromising information and intellectual requirements of the students, faculty, and researchers. Internet browsing, e-journal and e-books services are provided as a part of this section. The following e-Journals are available.
                                 </div>
@@ -346,11 +345,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                 Reprographic Services
                             </button>
                             </h2>
-                            <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseEleven" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 The Library provides photocopying facilities allowed within the copyright rules. An amount of one rupee per page is charged for the facility. Colour photocopying and printouts from WhatsApp, pen drives etc are done and the charges such facilities depends upon the device and nature of documents.
                                 </div>
@@ -358,23 +357,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                                 User Awareness Programme
                             </button>
                             </h2>
-                            <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div className="accordion-body">
-                                The Library provides photocopying facilities allowed within the copyright rules. An amount of one rupee per page is charged for the facility. Colour photocopying and printouts from WhatsApp, pen drives etc are done and the charges such facilities depends upon the device and nature of documents.
-                                </div>
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                User Awareness Programme
-                            </button>
-                            </h2>
-                            <div id="collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseThirteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 GECB library takes an active part in the orientation programme organized by the institute for the benefit of new students in the beginning of academic year. They are taken around the library to familiarize them with various resources and services available and to learn how to use a particular resource like OPAC, e-journals, e-books, databases etc. <br />Central Library also organizes training, workshops and seminars etc. for library and information professionals working and students to help them update their knowledge and skills. <br />Recently we conduct a one day seminar on “”How to use e-Resources to enrich the study & Research “” and” Plagiarism” for students and staffs of our campus, with Department of Translational Engineering i our college and also conduct, Two days workshop on “”D-Space customisation -National digital Library”” in collaboration with NDL Project,IIT,Khargpur , KEDES and P N Panicker Foundation.
                                 </div>
@@ -382,11 +369,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
                                 OPAC(Online Public Access Catalogue)
                             </button>
                             </h2>
-                            <div id="collapseNine" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseFourteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 The Library provides photocopying facilities allowed within the copyright rules. An amount of one rupee per page is charged for the facility. Colour photocopying and printouts from WhatsApp, pen drives etc are done and the charges such facilities depends upon the device and nature of documents.
                                 </div>
@@ -394,11 +381,11 @@ const CL = () => {
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header">
-                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            <button className="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
                                 Book Bank Scheme
                             </button>
                             </h2>
-                            <div id="collapseTen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseFifteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div className="accordion-body">
                                 Book Bank titles are issued for one full semester which has to be returned within a week after the end of exams enabling them to get the books for next semester or they wish. Book Bank books issued for PG & UG courses: One set( 6 Books) to one student individually.
                                 </div>

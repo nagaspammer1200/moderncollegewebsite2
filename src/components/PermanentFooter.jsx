@@ -42,6 +42,8 @@ const PermanentFooter = () => {
               <div className="mb-2"><li><a href="/tenders">Tenders</a></li></div>
               <div className="mb-2"><li><a href="https://gecbhlibrary.knimbus.com/user#/home">E-Journals</a></li></div>
               <div className="mb-2"><li><a href="/download">Downloads</a></li></div>
+              <div className="mb-2"><li><a href="/admission">Admissions</a></li></div>
+              <div className="mb-2"><li><a href="/placement">Placements and Career</a></li></div>
             </ul>
           </div>
         </div>

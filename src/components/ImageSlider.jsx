@@ -12,17 +12,17 @@ const ImageSlider = ({imgone,imgtwo,imgthree,imgfour,altone,alttwo,altthree,altf
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="1800">
-                <img src={imgone} className="d-block w-100" alt={altone}/>
+            <div className="carousel-item active imagesilderimg" data-bs-interval="1800">
+                <img src={imgone} className="d-block w-100" height="750px" alt={altone}/>
             </div>
-            <div className="carousel-item" data-bs-interval="1800">
-                <img src={imgtwo} className="d-block w-100" alt={alttwo}/>
+            <div className="carousel-item imagesilderimg" data-bs-interval="1800">
+                <img src={imgtwo} className="d-block w-100" height="750px"alt={alttwo}/>
             </div>
-            <div className="carousel-item" data-bs-interval="1800">
-                <img src={imgthree} className="d-block w-100" alt={altthree}/>
+            <div className="carousel-item imagesilderimg" data-bs-interval="1800">
+                <img src={imgthree} className="d-block w-100" height="750px" alt={altthree}/>
             </div>
-            <div className="carousel-item" data-bs-interval="1800">
-                <img src={imgfour} className="d-block w-100" alt={altfour}/>
+            <div className="carousel-item imagesilderimg" data-bs-interval="1800">
+                <img src={imgfour} className="d-block w-100" height="750px" alt={altfour}/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

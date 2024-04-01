@@ -41,7 +41,7 @@ const CE = () => {
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                     <div className="card card-body p-2" >
-                                    <p>aspiration for life-long learning in the field of Civil Engineering. <br /><br />Motivate students for higher studies, research and innovation to make them globally competitive for Civil Engineering Profession.<br /><br />Inculcate a tradition of professional ethics, social commitment and sustainable engineering practices.<br /><br /></p>
+                                    <p>Aspiration for life-long learning in the field of Civil Engineering. <br /><br />Motivate students for higher studies, research and innovation to make them globally competitive for Civil Engineering Profession.<br /><br />Inculcate a tradition of professional ethics, social commitment and sustainable engineering practices.<br /><br /></p>
                                     </div>
                                 </div>
                             </div>

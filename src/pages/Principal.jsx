@@ -44,7 +44,7 @@ const Principal = () => {
                                 Area of Research
                             </button>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
                                     <div className="principallist">
                                         <ul>

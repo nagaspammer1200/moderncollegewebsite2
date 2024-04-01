@@ -67,7 +67,7 @@ const Adam = () => {
                     </div>
                     <div className="mb-3 text-success">Mon – Fri 9:00A.M. – 5:00P.M.</div>
                     <div className="mb-3 text-white">Social Info</div>
-                    <div className="mb-3 text-success"><a href="https://www.thehindubusinessline.com/companies/mercedes-benz-celebrates-10-years-of-adam-course-in-kerala/article67849094.ece"> The Hindubusinessline</a></div>
+                    <div className="mb-3 text-success"><a href="https://www.thehindubusinessline.com/companies/mercedes-benz-celebrates-10-years-of-adam-course-in-kerala/article67849094.ece"> The Hindu businessline</a></div>
                     <div className="mb-3 text-success"><a href="https://www.thehindu.com/sci-tech/technology/gadgets/mercedes-benz-and-gecbh-celebrate-10-years-of-adam-course/article67852714.ece">The Hindu</a></div>
                     <div className="mb-3 text-success"><a href="https://www.financialexpress.com/business/express-mobility-mercedes-benz-india-gecbh-complete-10-years-of-advanced-mechatronics-course-milestone-3395641/">Financial Express</a></div>
                     <div className="mb-3 text-success"><a href="https://www.autocarpro.in/news/mercedes-benz-india-and-government-engineering-college-barton-hill-kerala-celebrate-10-years-of-automotive-mechatronics-course-119220">Autocar Professional</a></div>

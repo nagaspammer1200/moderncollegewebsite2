@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+.hidden-listicon{
+    display:none;
+}
+
 /*Fixed Navbar */
 
 .fnavbar {
@@ -32,11 +36,7 @@ a {
     font-weight:600;
     margin:0% 5% 0% 5%;
 }
-.hidden-listicon{
-    display:none;
-}
 
-/* Mobile View for Fixed Navbar*/
 
 @media only screen and (max-width: 500px) {
     /* Styling The PermanentNavbar*/
@@ -66,18 +66,14 @@ a {
             margin-left:5%;
         }
     }
-    .fnavbarimg{
+    /*Styling the Fixed Navbar*/
+    .navbarlinksmai{
         display:none;
     }
     .fnavbar{
         padding:none;
         margin:none;
         justify-content: none;
-    }
-    .fnavbarlinksmain{
-        display:block;
-        width:500%;
-        color:red;
     }
     .navlinksactive{
         padding:5%;

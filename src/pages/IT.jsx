@@ -63,7 +63,7 @@ const IT = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>ch
+                        </div>
                     </div>
                 </div>
                 <div className="mb-3">

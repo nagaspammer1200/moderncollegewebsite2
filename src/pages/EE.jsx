@@ -58,7 +58,7 @@ const EE = () => {
                             </p>
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
-                                    <div className="card card-body p-2" ><p>oster a sense of values and ethics to create Electrical and Electronics engineers with integrity. <br /><br />Promote the aptitude for innovation, sustainability and research among students.<br /><br />Collaborate with industries, academic and research centres to expose students to latest technological advances. <br /><br /></p>
+                                    <div className="card card-body p-2 shadow" ><p>Foster a sense of values and ethics to create Electrical and Electronics engineers with integrity. <br /><br />Promote the aptitude for innovation, sustainability and research among students.<br /><br />Collaborate with industries, academic and research centres to expose students to latest technological advances. <br /><br /></p>
                                     </div>
                                 </div>
                             </div>

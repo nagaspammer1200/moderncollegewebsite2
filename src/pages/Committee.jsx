@@ -15,30 +15,16 @@ const Committee = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="d-flex personcontainer2">
-            <div className="rulecontainer2">
-                <div className="d-flex flex-column text-center">
-                    <div className="mb-5 mt-3">
-                        <div className="text-primary"><a href="/pta"><h6>Parent-Teacher Association</h6></a></div>
-                    </div>
-                    <div className="mb-5">
-                        <div className="text-primary"><a href="/ipr"><h6>Intellectual Property Right Cell</h6></a></div>
-                    </div>
-                    <div className="mb-5">
-                        <div className="text-primary"><a href="/antiragging"><h6>Anti-Ragging Committee</h6></a></div>
-                    </div>
-                    <div className="mb-5">
-                        <div className="text-primary"><a href="/grievancecell"><h6>Grievance Cell</h6></a></div>
-                    </div>
-                    <div className="mb-5">
-                        <div className="text-primary"><a href="/disciplinaryaction"><h6>Disciplinary Action</h6></a></div>
-                    </div>
-                    <div className="mb-5">
-                        <div className="text-primary"><a href="/internalcomplaints"><h6>Internal Complaints</h6></a></div>
-                    </div>
-                    <div className="mb-5">
-                        <div className="text-primary"><a href="/studentswelfare"><h6>Student Welfare</h6></a></div>
-                    </div>
+          <div className="personcontainer4">
+            <div>
+                <div className="m-5 p-5 shadow text-success">
+                    <div className="mb-3"><a href="/pta">Parent-Teacher Association</a></div>
+                    <div className="mb-3"><a href="/ipr">Intellectual Property Right Cell</a></div>
+                    <div className="mb-3"><a href="/antiragging">Anti-Ragging Committee</a></div>
+                    <div className="mb-3"><a href="grievancecell">Grievance Cell</a></div>
+                    <div className="mb-3"><a href="/disciplinaryaction">Disciplinary Action</a></div>
+                    <div className="mb-3"><a href="/internalcomplaints">Internal Complaints</a></div>
+                    <div className="mb-3"><a href="/studentswelfare">Student Welfare</a></div>
                 </div>
             </div>
             <AnnouncementsBar/>

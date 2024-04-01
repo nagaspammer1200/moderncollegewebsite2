@@ -40,4 +40,8 @@
         padding:4%;
         margin-left:10%;
     }
+    /* Responsive Design for Image Slider images*/
+    .imagesilderimg img {
+        height:550px;
+    }
 }

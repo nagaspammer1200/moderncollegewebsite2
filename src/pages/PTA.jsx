@@ -17,7 +17,7 @@ const PTA = () => {
           <div><FixedNavbar/></div>
           <div className="bg-primary p-5 text-white"><h2>Parent Teacher Association</h2></div>
           <div className="d-flex personcontainer3">
-            <div className="rulecontainer3">
+            <div >
                 <div className="d-flex flex-column text-center">
                     <div className="mb-5 text-secondary text-start">
                         <p>The Parent Teacher Association of Government Engineering College Barton hill is very active and is giving considerable assistance and financial support for the improvement of facilities within the institution. A large number of developmental programs have been taken up under the patronage of the PTA for the benefit of students and staff, including the funding for the establishing departmental libraries for the faculty. The objectives of the association are:</p>

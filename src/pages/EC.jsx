@@ -50,7 +50,7 @@ const EC = () => {
                     </div>
                     <div className="cardcontainer mb-5">
                         <div className="text-primary mb-3 ms-3"><h3>MISSION</h3></div>
-                        <div className="mb-2 p-3"><p><i>EEstablish a learning environment that enables students build the fundamentals and study advanced disciplines related to electronics and communication</i></p></div>
+                        <div className="mb-2 p-3"><p><i>Establish a learning environment that enables students build the fundamentals and study advanced disciplines related to electronics and communication</i></p></div>
                         <div>
                             <p>
                             <button className="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" onClick={changeMenuTwo}>{readMenuTwo?"Close":"Read More"}
