@@ -1,16 +1,20 @@
-import React from 'react'
+import React,{useContext,useEffect,useState} from 'react'
+import { darkModeContext } from '../App';
 import "../assets/Components.css"
 
 
 const AnnouncementsBar = () => {
-
-
-  return (
+    const {darkMode,setDarkMode} = useContext(darkModeContext);
+    useEffect(() => {
+      const darkModeValue2 = localStorage.getItem("darkModeValue");
+      setDarkMode(darkModeValue2)
+    }, []);
+    return (
     <div className="acontainer">
-      <div className="text-dark p-3">
+      <div className={darkMode?"text-info p-3":"text-dark p-3"}>
           <h6>Important Links</h6>
       </div>
-      <div className="p-3">
+      <div className={darkMode?"p-3 border border-1 border-warning":"p-3 border border-1 border-secondary shadow"}>
           <button type="button" className="btn btn-success m-1"><a href="/departments">Departments</a></button>
           <button type="button" className="btn btn-success m-1"><a href="/admission">Admissions</a></button>
           <button type="button" className="btn btn-success m-1"><a href="/placement">Placments</a></button>

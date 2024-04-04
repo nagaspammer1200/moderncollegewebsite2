@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useContext,useEffect} from 'react'
+import { darkModeContext } from '../App';
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
@@ -8,12 +9,17 @@ import "../assets/About.css"
 
 
 const About = () => {
+  const {darkMode,setDarkMode} = useContext(darkModeContext);
+  useEffect(() => { 
+    setDarkMode(localStorage.getItem("darkModeValue2"))
+  }, []);
+
   return (
     <div>
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="aboutcontainer">
+          <div className={darkMode?"aboutcontainer bg-dark text-info":"aboutcontainer"}>
             <div className="card text">
               <div className="m-3"><img src="src/images/about/college_abt.jpg" height="500px" className="card-img" alt="Image of GECBH"/></div>
               <div className="card-img-overlay">
@@ -23,7 +29,7 @@ const About = () => {
             </div>
             <div className="pcontainer">
               <div className="pitem">
-                <div className="text-start p-3">
+                <div>
                   <h3 className="border-success border-bottom border-3 mb-3"><b>GECBH at a Glance</b></h3>
                   <img src="src/images/about/college4.jpeg" width="300px" height="250px" alt="College Image 2" />
                 </div>
@@ -32,7 +38,7 @@ const About = () => {
                 </div>
               </div>
               <div className="pitem">
-                <div className="text-start p-3">
+                <div>
                   <h3 className="border-success border-bottom border-3 mb-3"><b>History</b></h3>
                   <img src="src/images/about/history.jpg" width="300px" height="250px" alt="College History Image" />
                 </div>
@@ -41,7 +47,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-dark">
+            <div className={darkMode?"bg-dark border-top border-3 border-primary":"bg-dark"}>
               <div className="text-white d-flex p-3 darkcontainer">
                 <div className="infoitem p-3">
                   <div className="mb-3 text-success"><i className="bi bi-eye"></i></div>

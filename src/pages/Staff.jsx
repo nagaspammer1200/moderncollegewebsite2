@@ -1,4 +1,5 @@
-import React,{useState,useEffect} from 'react'
+import React,{useContext,useEffect,useState} from 'react'
+import { darkModeContext } from '../App';
 import { db } from '../pages/firebase.js'
 import { getDocs,collection } from 'firebase/firestore'
 import PermanentNavbar from '../components/PermanentNavbar'
@@ -14,6 +15,10 @@ const Staff = () => {
 
     const [staffList,setStaffList] = useState([]);
     const staff = collection(db,"adminstaff");
+    const {darkMode,setDarkMode} = useContext(darkModeContext);
+    useEffect(() => { 
+      setDarkMode(localStorage.getItem("darkModeValue"))
+    }, []);
 
     useEffect(()=>{
         const displaystaff = async () => {
@@ -38,8 +43,8 @@ const Staff = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="bg-primary p-5 text-white"><h2>Administrative Staff</h2></div>
-          <div className="d-flex hodcontainer p-3 mt-3">
+          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Administrative Staff</h2></div>
+          <div className={darkMode?"d-flex hodcontainer border-top border-primary border-1 p-3 bg-dark text-info":"d-flex hodcontainer p-3 mt-3"}>
             <div>
                 {staffList.map((movie) => (
                 <div className="mb-5">

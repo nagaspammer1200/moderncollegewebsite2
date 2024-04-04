@@ -1,11 +1,18 @@
-import React,{useState} from 'react'
+import React,{useState,useContext} from 'react'
+import { darkModeContext } from '../App';
 import "../assets/Navbar.css"
 
 const PermanentNavbar = () => {
   const [menuValue,setMenuValue] = useState(false);
   const displaySettings = () => {
     setMenuValue(!menuValue) 
-}
+  }
+  const {darkMode,setDarkMode} = useContext(darkModeContext)
+  const changeDarkMode = () => {
+    setDarkMode(!darkMode)
+    localStorage.setItem("darkModeValue",darkMode)
+    localStorage.setItem("darkModeValue2",!darkMode)
+  }
   return (
     <div>
       <div className="navdetails bg-primary text-black">
@@ -27,10 +34,7 @@ const PermanentNavbar = () => {
             <div><a href="/tenders">Tenders</a></div>
         </div>
         <div className="navlinksselect">
-              <select className="form-select">
-                <option selected>English</option>
-                <option>Malaylam</option>
-              </select>
+          <button type="button" onClick={changeDarkMode} className={darkMode?"btn btn-dark text-white m-1":"btn bg-white text-primary m-1"}>Dark Mode{darkMode?<i className="ms-1 bi bi-toggle-on"></i>:<i className=" ms-1 bi bi-toggle-off"></i> }</button>
         </div>
       </div>
 

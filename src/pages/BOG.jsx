@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useContext,useEffect,useState} from 'react'
+import { darkModeContext } from '../App';
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
@@ -9,17 +10,21 @@ import "../assets/About.css"
 import "../assets/Components.css"
 
 const BOG = () => {
+  const {darkMode,setDarkMode} = useContext(darkModeContext);
+  useEffect(() => { 
+    setDarkMode(localStorage.getItem("darkModeValue2"))
+  }, []);
 
   return (
     <div>
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="bg-primary p-5 text-white"><h2>Board of Governors</h2></div>
-          <div className="d-flex personcontainer2">
+          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Board of Governors</h2></div>
+          <div className={darkMode?"d-flex personcontainer2 border-top border-1 border-info bg-dark":"d-flex personcontainer2"}>
             <div className="nsscontainer p-2">
-                <div className="table-responsive tablecontainer mb-5">
-                    <table className="table  table-striped table-dark">
+                <div className="table-responsive tablecontainer mt-4 mb-5">
+                    <table className={darkMode?"table  table-striped table-dark":"table  table-striped"}>
                         <thead>
                             <tr>
                             <th scope="col" colspan="2" className="text-center">Sl. No</th>

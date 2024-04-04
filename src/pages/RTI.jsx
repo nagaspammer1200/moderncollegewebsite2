@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useContext,useEffect,useState} from 'react'
+import { darkModeContext } from '../App';
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
@@ -9,16 +10,20 @@ import "../assets/About.css"
 import "../assets/Components.css"
 
 const RTI = () => {
+    const {darkMode,setDarkMode} = useContext(darkModeContext);
+    useEffect(() => { 
+      setDarkMode(localStorage.getItem("darkModeValue"))
+    }, []);
 
   return (
     <div>
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="bg-primary p-5 text-white mb-5"><h2>Right to Information</h2></div>
-          <div className="personcontainer5">
-                <div className="table-responsive tablecontainer">
-                    <table className="table  table-striped table-dark">
+          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Right to Information</h2></div>
+          <div className={darkMode?"personcontainer5 bg-dark border-top border-1 border-primary":"personcontainer5"}>
+                <div className="table-responsive tablecontainer  mt-4">
+                    <table className={darkMode?"table  table-striped table-dark":"table  table-striped"}>
                         <thead>
                             <tr>
                             <th scope="col" colspan="3" className="text-center">RTI Officials</th>

@@ -1,13 +1,19 @@
-import React from 'react'
+import React,{useContext,useEffect} from 'react'
+import { darkModeContext } from '../App';
 import "../assets/Components.css"
 
 const PersonDetails = ({personimage,personname,personemail,personnumber,persondesignation,persondept}) => {
+  const {darkMode,setDarkMode} = useContext(darkModeContext);
+  useEffect(() => {
+    const darkModeValue2 = localStorage.getItem("darkModeValue");
+    setDarkMode(darkModeValue2)
+  }, []);
   return (
     <div>
-      <div className="detailscontainer">
+      <div className={darkMode?"detailscontainer border-bottom border-1 border-white":"detailscontainer"}>
         <div className="me-5"><img src={personimage} alt="profileimage" /></div>
         <div>
-          <div className="ps-3">
+          <div className={darkMode?"ps-3 text-success":"ps-3"}>
             <h3>{personname}</h3>
           </div>
           <div className="ps-3">

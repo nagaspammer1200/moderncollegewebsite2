@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ createContext,useState,useEffect } from 'react'
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -72,81 +72,84 @@ import LT from './pages/LT';
 import TPCL from './pages/TPCL';
 
 const App = () => {
+  const [darkMode,setDarkMode] = useState(false);
   return (
     <div>
-    <BrowserRouter> 
-      <Routes> 
-        <Route Index element={<Home/>}/> 
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/principal" element={<Principal/>}/>
-        <Route path="/pgdean" element={<PDean/>}/>
-        <Route path="/ugdean" element={<UDean/>}/>
-        <Route path="/researchdean" element={<RDean/>}/>
-        <Route path="/studentandinternationalaffairdean" element={<SIADean/>}/>
-        <Route path="/hods" element={<Head/>}/>
-        <Route path="/adminstaff" element={<Staff/>}/>
-        <Route path="/service" element={<Service/>}/>
-        <Route path="/budget" element={<Budget/>}/>
-        <Route path="/com" element={<Committee/>}/>
-        <Route path="/pta" element={<PTA/>}/>
-        <Route path="/ipr" element={<IPR/>}/>
-        <Route path="/antiragging" element={<Rag/>}/>
-        <Route path="/aicte" element={<AICTE/>}/>
-        <Route path="/teqip" element={<TEQIP/>}/>
-        <Route path="/download" element={<Download/>}/>
-        <Route path="/btech" element={<Btech/>}/>
-        <Route path="/mtech" element={<Mtech/>}/>
-        <Route path="/adam" element={<Adam/>}/>
-        <Route path="/nss" element={<NSS/>}/>
-        <Route path="/ieee" element={<IEEE/>}/>
-        <Route path="/iste" element={<ISTE/>}/>
-        <Route path="/csi" element={<CSI/>}/>
-        <Route path="/iedc" element={<IEDC/>}/>
-        <Route path="/cerd" element={<CERD/>}/>
-        <Route path="/igs" element={<IGS/>}/>
-        <Route path="/asme" element={<ASME/>}/>
-        <Route path="/staffclub" element={<Staffclub/>}/>
-        <Route path="/canteen" element={<Canteen/>}/>
-        <Route path="/video" element={<Video/>}/>
-        <Route path="/bus" element={<Bus/>}/>
-        <Route path="/tbi" element={<TBI/>}/>
-        <Route path="/iiic" element={<IIIC/>}/>
-        <Route path="/hostel" element={<Hostel/>}/>
-        <Route path="/campuswifi" element={<CW/>}/>
-        <Route path="/cce" element={<CCE/>}/>
-        <Route path="/womenscell" element={<WC/>}/>
-        <Route path="/formerprincipals" element={<FP/>}/>
-        <Route path="/grievancecell" element={<SGAC/>}/>
-        <Route path="/disciplinaryaction" element={<DA/>}/>
-        <Route path="/internalcomplaints" element={<IC/>}/>
-        <Route path="/studentswelfare" element={<SW/>}/>
-        <Route path="/righttoinformation" element={<RTI/>}/>
-        <Route path="/centrallibrary" element={<CL/>}/>
-        <Route path="/centralcomputingfacility" element={<CCF/>}/>
-        <Route path="/admission" element={<Admission/>}/>
-        <Route path="/placement" element={<Placement/>}/>
-        <Route path="/generalscience" element={<GS/>}/>
-        <Route path="/physicaleducation" element={<PE/>}/>
-        <Route path="/informationtechnology" element={<IT/>}/>
-        <Route path="/mechanicalengineering" element={<ME/>}/>
-        <Route path="/electronicsandcommunication" element={<EC/>}/>
-        <Route path="/electricalandelectronics" element={<EE/>}/>
-        <Route path="/civilengineering" element={<CE/>}/>
-        <Route path="/boardofgoverners" element={<BOG/>}/>
-        <Route path="/scholarships" element={<Scholarships/>}/>
-        <Route path="/tenders" element={<Tender/>}/>
-        <Route path="/departments" element={<Departments/>}/>
-        <Route path="/programmes" element={<Programmes/>}/>
-        <Route path="/communities" element={<Communities/>}/>
-        <Route path="/facilities" element={<Facilities/>}/>
-        <Route path="/QEEE" element={<QEEE/>}/>
-        <Route path="/languagelab" element={<LT/>}/>
-        <Route path="/tplc" element={<TPCL/>}/>
-      </Routes> 
-    </BrowserRouter>
+      <darkModeContext.Provider value={{darkMode,setDarkMode}}>
+        <BrowserRouter> 
+          <Routes> 
+            <Route Index element={<Home/>}/> 
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/principal" element={<Principal/>}/>
+            <Route path="/pgdean" element={<PDean/>}/>
+            <Route path="/ugdean" element={<UDean/>}/>
+            <Route path="/researchdean" element={<RDean/>}/>
+            <Route path="/studentandinternationalaffairdean" element={<SIADean/>}/>
+            <Route path="/hods" element={<Head/>}/>
+            <Route path="/adminstaff" element={<Staff/>}/>
+            <Route path="/service" element={<Service/>}/>
+            <Route path="/budget" element={<Budget/>}/>
+            <Route path="/com" element={<Committee/>}/>
+            <Route path="/pta" element={<PTA/>}/>
+            <Route path="/ipr" element={<IPR/>}/>
+            <Route path="/antiragging" element={<Rag/>}/>
+            <Route path="/aicte" element={<AICTE/>}/>
+            <Route path="/teqip" element={<TEQIP/>}/>
+            <Route path="/download" element={<Download/>}/>
+            <Route path="/btech" element={<Btech/>}/>
+            <Route path="/mtech" element={<Mtech/>}/>
+            <Route path="/adam" element={<Adam/>}/>
+            <Route path="/nss" element={<NSS/>}/>
+            <Route path="/ieee" element={<IEEE/>}/>
+            <Route path="/iste" element={<ISTE/>}/>
+            <Route path="/csi" element={<CSI/>}/>
+            <Route path="/iedc" element={<IEDC/>}/>
+            <Route path="/cerd" element={<CERD/>}/>
+            <Route path="/igs" element={<IGS/>}/>
+            <Route path="/asme" element={<ASME/>}/>
+            <Route path="/staffclub" element={<Staffclub/>}/>
+            <Route path="/canteen" element={<Canteen/>}/>
+            <Route path="/video" element={<Video/>}/>
+            <Route path="/bus" element={<Bus/>}/>
+            <Route path="/tbi" element={<TBI/>}/>
+            <Route path="/iiic" element={<IIIC/>}/>
+            <Route path="/hostel" element={<Hostel/>}/>
+            <Route path="/campuswifi" element={<CW/>}/>
+            <Route path="/cce" element={<CCE/>}/>
+            <Route path="/womenscell" element={<WC/>}/>
+            <Route path="/formerprincipals" element={<FP/>}/>
+            <Route path="/grievancecell" element={<SGAC/>}/>
+            <Route path="/disciplinaryaction" element={<DA/>}/>
+            <Route path="/internalcomplaints" element={<IC/>}/>
+            <Route path="/studentswelfare" element={<SW/>}/>
+            <Route path="/righttoinformation" element={<RTI/>}/>
+            <Route path="/centrallibrary" element={<CL/>}/>
+            <Route path="/centralcomputingfacility" element={<CCF/>}/>
+            <Route path="/admission" element={<Admission/>}/>
+            <Route path="/placement" element={<Placement/>}/>
+            <Route path="/generalscience" element={<GS/>}/>
+            <Route path="/physicaleducation" element={<PE/>}/>
+            <Route path="/informationtechnology" element={<IT/>}/>
+            <Route path="/mechanicalengineering" element={<ME/>}/>
+            <Route path="/electronicsandcommunication" element={<EC/>}/>
+            <Route path="/electricalandelectronics" element={<EE/>}/>
+            <Route path="/civilengineering" element={<CE/>}/>
+            <Route path="/boardofgoverners" element={<BOG/>}/>
+            <Route path="/scholarships" element={<Scholarships/>}/>
+            <Route path="/tenders" element={<Tender/>}/>
+            <Route path="/departments" element={<Departments/>}/>
+            <Route path="/programmes" element={<Programmes/>}/>
+            <Route path="/communities" element={<Communities/>}/>
+            <Route path="/facilities" element={<Facilities/>}/>
+            <Route path="/QEEE" element={<QEEE/>}/>
+            <Route path="/languagelab" element={<LT/>}/>
+            <Route path="/tplc" element={<TPCL/>}/>
+          </Routes> 
+        </BrowserRouter>
+      </darkModeContext.Provider>
     </div>
   )
 }
-
+export const darkModeContext = createContext();
 export default App

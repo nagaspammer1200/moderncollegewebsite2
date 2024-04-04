@@ -27,9 +27,9 @@
 }
 /* Principal Page CSS*/
 .pdc {
-    width:90%;
+    width:100%;
     text-align:center;
-    margin-left:5%;
+    padding-left:5%;
 
     img {
         margin:5% 28% 0% 0%;
@@ -44,12 +44,11 @@
 }
 /* Styling the HOD*/
 .hodcontainer {
-    gap:40%;
+    gap:30%;
 }
 /* Styling the Service*/
 .rulecontainer{
-    margin-left:30%;
-    padding:10%;
+    padding:10% 10% 10% 30%;
 }
 
 /*Styling the Budget */
@@ -179,7 +178,7 @@
     .personcontainer{
         display:flex;
         flex-direction: column;
-        margin-left:15%;
+        padding-left:10%;
     }
     /* Responsive Design for HoD*/
     .hodcontainer{

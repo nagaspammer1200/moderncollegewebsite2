@@ -24,8 +24,9 @@
     }
 }
 .extrasection {
-    width:80%;
-    margin-left:20%;
+    text-align: center;
+    padding:5% 0% 5% 5%;
+    gap:5%;
     .es1,.es2,.es3 {
         width:25%;
         padding:5%;
@@ -67,12 +68,18 @@
             margin-bottom:40%;
         }
     }
-    .extrasection, .linkscontainer{
+    .linkscontainer{
         display:flex;
         flex-direction: column;
         margin-left:10%;
+    }
+    .extrasection{
+        display:flex;
+        flex-direction: column;
+        padding-left:10%;
         .es1,.es2,.es3{
-            width:100%;
+            width:80%;
+            margin-bottom:5%;
         }
     }
     .extrasection, .linkscontainer{
