@@ -23,7 +23,7 @@ const Budget = () => {
           <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Budget</h2></div>
           <div className={darkMode?"personcontainer4 bg-dark border-top border-primary border-1":"personcontainer4"}>
             <div>
-                <div className={darkMode?"m-5 p-4 text-warning":"m-5 p-4 shadow text-success"}>
+                <div className={darkMode?"m-5 p-4 text-info":"m-5 p-4 shadow text-success"}>
                     <div className="mb-3"><a href="https://gecbh.ac.in/uploads/2020-21%20_m.pdf">Budget 2020-21</a></div>
                     <div className="mb-3"><a href="https://gecbh.ac.in/uploads/2021-22%20m.pdf">Budget 2021-22</a></div>
                     <div className="mb-3"><a href="https://gecbh.ac.in/uploads/2022-23m.pdf">Budget 2022-23</a></div>

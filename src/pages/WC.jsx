@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useContext,useEffect,useState} from 'react'
+import { darkModeContext } from '../App';
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
@@ -9,13 +10,17 @@ import "../assets/About.css"
 import "../assets/Components.css"
 
 const WC = () => {
+  const {darkMode,setDarkMode} = useContext(darkModeContext);
+    useEffect(() => { 
+        setDarkMode(localStorage.getItem("darkModeValue2"))
+    }, []);
 
   return (
     <div>
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="bg-primary text-white p-5"><h2>Women Cell </h2></div>
+          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Women Cell </h2></div>
           <div className="d-flex personcontainer3 p-3">
             <div className="p-3 ms-4">
                 <div className="mb-5"><p>Women cell started its activities with programmes that improves social commitment among youngsters.We organized one week long kindness day celebration under the name Nirvrithi.It included visiting Nirmala shishu Bhavan, spending time with those children and providing them necessary items.It also included bringing refugees of Pulayanarkotta old age home to our college spending a day with those ones, organizing food and cultural events for them.</p></div>

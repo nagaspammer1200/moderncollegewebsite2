@@ -22,7 +22,7 @@ const Committee = () => {
           <div><FixedNavbar/></div>
           <div className={darkMode?"personcontainer4 bg-dark border-top border-primary border-1":"personcontainer4"}>
             <div>
-                <div className={darkMode?"m-5 p-4 text-warning":"m-5 p-4 shadow text-success"}>
+                <div className={darkMode?"m-5 p-4 text-info":"m-5 p-4 shadow text-success"}>
                     <div className="mb-3"><a href="/pta">Parent-Teacher Association</a></div>
                     <div className="mb-3"><a href="/ipr">Intellectual Property Right Cell</a></div>
                     <div className="mb-3"><a href="/antiragging">Anti-Ragging Committee</a></div>

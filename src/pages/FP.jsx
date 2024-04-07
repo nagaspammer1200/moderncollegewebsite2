@@ -21,9 +21,9 @@ const FP = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
           <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Former Principals</h2></div>
-          <div className={darkMode?"personcontainer5 border-top border-1 border-info bg-dark":"personcontainer5"}>
+          <div className={darkMode?"personcontainer5 border-top border-1 border-primary bg-dark":"personcontainer5"}>
                 <div className="table-responsive tablecontainer">
-                    <table className={darkMode?"m-5 p-4 text-warning":"m-5 p-4 shadow text-success"}>
+                    <table className={darkMode?"m-5 p-4 text-info":"m-5 p-4 shadow text-success"}>
                         <thead>
                             <tr>
                             <th scope="col" colspan="2" className="p-3">Name of the Principal</th>

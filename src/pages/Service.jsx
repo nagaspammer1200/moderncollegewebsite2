@@ -44,7 +44,7 @@ const Service = () => {
           <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Service</h2></div>
           <div className={darkMode?"personcontainer4 bg-dark border-top border-primary border-1":"personcontainer4"}>
             <div>
-              <div className={darkMode?"m-5 p-4 text-warning":"m-5 p-4 shadow text-success"}>
+              <div className={darkMode?"m-5 p-4 text-info":"m-5 p-4 shadow text-success"}>
                 <div className="mb-3"><a href="https://drive.google.com/file/d/1qjWxX_eY3qNq3BV6_l1bViFx2fczFQk6/view?usp=drive_link">The Kerala Account Code Volume III</a></div>
                 <div className="mb-3"><a href="https://drive.google.com/file/d/1W5EV-YhJPLDbE6zVhnUix-aX-R7wxj33/view?usp=drive_link">Kerala Budget Manual</a></div>
                 <div className="mb-3"><a href="https://drive.google.com/file/d/1LeolyZqJlSriYIb0F0x9N_CnIepCz2Rq/view?usp=drive_link">Kerala Civil Services (Classification, Control & Appeal) Rules 1960</a></div>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useContext,useEffect,useState} from 'react'
+import { darkModeContext } from '../App';
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
@@ -9,6 +10,10 @@ import "../assets/About.css"
 import "../assets/Components.css"
 
 const Scholarships = () => {
+    const {darkMode,setDarkMode} = useContext(darkModeContext);
+  useEffect(() => { 
+    setDarkMode(localStorage.getItem("darkModeValue2"))
+  }, []);
 
   return (
     <div>

@@ -13,16 +13,16 @@ const ImageSlider = ({imgone,imgtwo,imgthree,imgfour,altone,alttwo,altthree,altf
         </div>
         <div className="carousel-inner">
             <div className="carousel-item active imagesilderimg" data-bs-interval="1800">
-                <img src={imgone} className="d-block w-100" height="750px" alt={altone}/>
+                <img src={imgone} className="d-block w-100" height="650px" alt={altone}/>
             </div>
             <div className="carousel-item imagesilderimg" data-bs-interval="1800">
-                <img src={imgtwo} className="d-block w-100" height="750px"alt={alttwo}/>
+                <img src={imgtwo} className="d-block w-100" height="650px"alt={alttwo}/>
             </div>
             <div className="carousel-item imagesilderimg" data-bs-interval="1800">
-                <img src={imgthree} className="d-block w-100" height="750px" alt={altthree}/>
+                <img src={imgthree} className="d-block w-100" height="650px" alt={altthree}/>
             </div>
             <div className="carousel-item imagesilderimg" data-bs-interval="1800">
-                <img src={imgfour} className="d-block w-100" height="750px" alt={altfour}/>
+                <img src={imgfour} className="d-block w-100" height="650px" alt={altfour}/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

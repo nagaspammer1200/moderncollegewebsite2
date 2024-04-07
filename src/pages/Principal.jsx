@@ -33,7 +33,7 @@ const Principal = () => {
                     <div><i className="bi bi-cursor-fill"></i></div>
                     <div><p>The Principal <br />Admin Block, Government Engineering <br /> College - Barton Hill, <br /> Thiruvananthapuram Kerala, INDIA-695 035.</p></div>
                 </div>
-                <div className="p-3"><button type="button" class="btn btn-success"><a href="http://gecbh.ac.in/static/docs/Dr.Shiny%20G.pdf">View More</a> <i className="bi bi-file-earmark"></i></button></div>
+                <div className="p-3"><button type="button" class="btn btn-success text-black"><a href="http://gecbh.ac.in/static/docs/Dr.Shiny%20G.pdf">View More</a> <i className="bi bi-file-earmark"></i></button></div>
             </div>
             <div>
                 <div className="border-bottom border-3 border-success p-3 m-3">

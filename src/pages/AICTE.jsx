@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useContext,useEffect,useState} from 'react'
+import { darkModeContext } from '../App';
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter'
@@ -9,18 +10,22 @@ import "../assets/About.css"
 import "../assets/Components.css"
 
 const AICTE = () => {
+  const {darkMode,setDarkMode} = useContext(darkModeContext);
+  useEffect(() => { 
+    setDarkMode(localStorage.getItem("darkModeValue2"))
+  }, []);
 
   return (
     <div>
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className="bg-primary p-5 text-white"><h5>All India Council for Technical Education</h5></div>
-          <div className="personcontainer4">
+          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>All India Council for Technical Education</h2></div>
+          <div className={darkMode?"personcontainer4 bg-dark border-top border-primary border-1":"personcontainer4"}>
             <div>
-                <div className="text-primary m-3 text-center"><h5>Feedback facility of students and Faculty available in the AICTE WebPortal</h5></div>
-                <div className="text-dark text-center"><h5>AICTE Documents/Downloads</h5></div>
-                <div className="m-5 p-5 shadow text-success">
+                <div className={darkMode?"text-success m-5 text-center":" text-primary m-5 text-center"}><h5>Feedback facility of students and Faculty available in the AICTE WebPortal</h5></div>
+                <div className={darkMode?"text-white text-center":"text-dark text-center"}><h5>AICTE Documents/Downloads</h5></div>
+                <div className={darkMode?"m-5 p-4 text-info":"m-5 p-4 shadow text-success"}>
                     <div className="mb-3"><a href="https://drive.google.com/file/d/1-9ZPK2wBeZ1tXl9kpNMogcrGYr8Gxkby/view?usp=drive_link">EOA Report 2022-23</a></div>
                     <div className="mb-3"><a href="https://drive.google.com/file/d/1HE_6QNTwTVhkZ-wJmcutXx3DAn5nGUJ1/view?usp=drive_link">EOA Report 2021-22</a></div>
                     <div className="mb-3"><a href="https://drive.google.com/file/d/1MfCNs42JuCeEsDJBRB-uFjhU1G6gEmgK/view?usp=drive_link">EOA Report 2020-21</a></div>
