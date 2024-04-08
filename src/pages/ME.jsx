@@ -93,7 +93,7 @@ const ME = () => {
                                 Faculty
                             </button>
                         </div>
-                        <div class="collapse" id="collapseExample1">
+                        <div className="collapse" id="collapseExample1">
                             <div class={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                                 <div className={darkMode?"text-success":"text-primary"}><h4><u>PEO 1</u></h4></div>
                                 <div className={darkMode?"text-info":"text-secondary"}><p>To prepare students for successful careers in industry/ research/ academics/ administration and to become successful entrepreneurs.</p></div>
@@ -107,7 +107,7 @@ const ME = () => {
                                 <div className={darkMode?"text-info":"text-secondary"}><p>To provide an environment that promotes leadership qualities, provides awareness to latest developments in engineering practices and creates a quest for lifelong learning.</p></div>
                             </div>
                         </div>
-                        <div class="collapse" id="collapseExample2">
+                        <div className="collapse" id="collapseExample2">
                             <div class={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                                 <div className={darkMode?"text-success":"text-primary"}><h4><u>PSO 1</u></h4></div>
                                 <div className={darkMode?"text-info":"text-secondary"}><p>Apply scientific and mathematical principles to the design, analysis and synthesis of mechanical engineering systems.</p></div>
@@ -115,7 +115,7 @@ const ME = () => {
                                 <div className={darkMode?"text-info":"text-secondary"}><p>Apply modern management tools and mechanical engineering principles to resolve complex industrial and real life problems.</p></div>
                             </div>
                         </div>
-                        <div class="collapse" id="collapseExample3">
+                        <div className="collapse" id="collapseExample3">
                             <div class={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                                 <div className={darkMode?"text-success":"text-primary"}><h4><u>PO</u></h4></div>
                                 <div className={darkMode?"text-info":"text-secondary"}><p>i Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems</p></div>
@@ -132,7 +132,7 @@ const ME = () => {
                                 <div className={darkMode?"text-info":"text-secondary"}><p>xii Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change</p></div>
                             </div>
                         </div>
-                        <div class="collapse" id="collapseExample4">
+                        <div className="collapse" id="collapseExample4">
                             <div class={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                                 <div className={darkMode?"text-success":"text-primary"}><h4><u>Department Programmes</u></h4></div>
                                 <div className={darkMode?"text-success":"text-primary"}><h4><u>Courses Offered</u></h4></div>
@@ -141,7 +141,7 @@ const ME = () => {
                                 <div className={darkMode?"text-info":"text-secondary"}><p>All the students for B.Tech course are allotted from among the top ranked students of Kerala Engineering Entrance Examination. Many of the students bagged top ranks in the Kerala Technological University. Most of the students passed out from the department are working in top ranked international and multinational companies. Lots of students from the department got selection for PG programmes in Indian Institute of Technologies and top ranked foreign universities.</p></div>
                             </div>
                         </div>
-                        <div class="collapse" id="collapseExample5">
+                        <div className="collapse" id="collapseExample5">
                             <div class={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                                 <div className={darkMode?"text-warning mb-3 ms-3":"text-primary mb-3 ms-3"}><h3>Department Facilities</h3></div>
                                 <div className={darkMode?"mb-5 p-3 text-info":"mb-5 p-3"}><p>Department of Mechanical Engineering has six laboratories. This include Computer aided Design Lab, Mechanical Engineering Lab, Thermal Engineering Lab, Strength of Materials Lab and Engineering Workshop. IC Engines Lab and Fluid Mechanics & Machines Lab are nearing completion.</p></div>
@@ -159,7 +159,7 @@ const ME = () => {
                                 <div className={darkMode?"mb-5 p-3 text-info":"mb-5 p-3"}><p>All branch of students of this college perform workshop experiments in the first year of UG course. Workshop includes carpentry, sheet metal, smithy, plumbing, fitting, welding and foundry sections.</p></div>
                             </div>
                         </div>
-                        <div class="collapse" id="collapseExample6">
+                        <div className="collapse" id="collapseExample6">
                             <div class={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                                 <div className={darkMode?"text-warning mb-3 ms-3":"text-primary mb-3 ms-3"}><h3>Faculty</h3></div>
                                 <div className={darkMode?"text-info mb-3 bg-dark gap-3":"text-primary mb-3 gap-3"}>
