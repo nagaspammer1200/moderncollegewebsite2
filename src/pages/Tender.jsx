@@ -20,7 +20,7 @@ const Tender = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Tenders & Quotaions</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Tenders & Quotaions</h2></div>
           <div className={darkMode?"d-flex personcontainer2 bg-dark border-top border-1 border-primary":"d-flex personcontainer2"}>
             <div className="nsscontainer p-2">
                 <div className="table-responsive tablecontainer mb-5">

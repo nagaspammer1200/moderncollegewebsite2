@@ -20,9 +20,9 @@ const Admission = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Admission</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Admission</h2></div>
           <div className={darkMode?"d-flex personcontainer3 bg-dark border-top border-1 border-primary":"d-flex personcontainer3"}>
-            <div className={darkMode?"p-3 ms-4 bg-dark":"p-3 ms-4"}>
+            <div className={darkMode?"p-3 ms-4 bg-dark":"p-3"}>
                 <div className="text-primary pb-3 ps-2"><h3>B.Tech Admission 2023 - Spot Admission on 15-09-2023</h3></div>
                 <div className={darkMode?"mb-3 p-3 text-info":"bg-primary mb-3 p-3 text-white"}><h4>Venue : Conference Hall, Main Building, GEC Barton Hill</h4></div>
                 <div className={darkMode?"mb-3 p-3 text-info":"bg-primary mb-3 p-3 text-white"}><h4>Time of Registration : 12.00 noon to 02.00PM</h4></div>
@@ -116,7 +116,7 @@ const Admission = () => {
                     </table>
                 </div>
                 <div className={darkMode?"mb-3 p-3 text-warning":"bg-primary mb-3 p-3 text-white"}><p><b>Note : PTA fees can be paid through SBI collect using the following link :</b></p></div>
-                <button type="button" className="btn btn-primary text-white m-3"><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=5064408">PTA ONLINE PAYMENT</a></button>
+                <button type="button" className={darkMode?"btn btn-warning text-black m-2":"btn btn-primary text-black m-2"}><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=5064408">PTA ONLINE PAYMENT</a></button>
                 <div className={darkMode?"mb-3 p-3 text-info":"bg-primary mb-3 p-3 text-white"}><p>Kindly ensure to bring the receipt copy of payment while coming for the admission process at the Institute. <br /> <br />4. You are requested to bring all relevant documents and original of all certificates that are uploaded to CEE. <br /> <br />5. Report at the institution entrance on time on the date specified as per the published schedule. <br /> <br />6. Park the vehicle, if any, at the space as directed by the security person at the gate. <br /> <br />7. Report at the help desk / front office (near the car porch, main building). <br /> <br />8. Register at the help desk with name, phone number, email ID, Branch, etc. <br /> <br />9. A token will be given and further necessary instruction / details of admission procedure will be given to you at the help desk and will be directed to a waiting room. <br /> <br />10. Fill all the forms distributed in the room/registration desk. <br /> <br />11. You will be directed for academic and other certificate verifications in the order of the token. <br />12. After the certificate verification, you will be directed to the main admission procedure. <br /> <br />13. Finally you will visit the Principal and get admitted to the course and collect the admission slip.</p></div>
                 <div className="accordion m-5" id="accordionExample">
                     <div className="accordion-item">

@@ -15,7 +15,7 @@ const PermanentNavbar = () => {
   }
   return (
     <div>
-      <div className="navdetails bg-primary text-black">
+      <div className="navdetails bg-primary text-black fixed-top">
         <div className="cdetails">
           <div className="pdetails">
             <div><i className="bi bi-envelope-open"></i></div>

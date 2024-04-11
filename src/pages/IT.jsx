@@ -29,7 +29,7 @@ const IT = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Department of Information Technology</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Information Technology</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 border-top border-1 border-primary bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
                 <div className="mb-5"><ImageSlider imgone="src/images/departments/it1.jpg" imgtwo="src/images/departments/it2.jpg" imgthree="src/images/departments/it3.jpg" imgfour="src/images/departments/it2.jpg" altone="IT Toppers" alttwo="IT Block" altthree="IT Lab" altfour="IT Block"/></div>
@@ -47,7 +47,7 @@ const IT = () => {
                             <div>
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample1">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                    engineering education and fosters innovative research reaching out to the society.
+                                    <i>engineering education and fosters innovative research reaching out to the society.</i>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ const IT = () => {
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                    <p>Mould IT professionals with ethical values to address the needs of the society. Collaborate with academic, industrial, and research organization of repute.</p>
+                                    <p><i>Mould IT professionals with ethical values to address the needs of the society. Collaborate with academic, industrial, and research organization of repute.</i></p>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +202,8 @@ const IT = () => {
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr. Haripriya A. P.</h5></div>
-                        <div><p>Associate Professor</p></div>
+                        <div><h6>Associate Professor</h6></div>
+                        <div><h6>+91 9446084495</h6></div>
                     </div>
                 </div>
             </div>

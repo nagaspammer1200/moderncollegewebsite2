@@ -20,7 +20,7 @@ const WC = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Women Cell </h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Women Cell </h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark text-info border-top border-1 border-primary":"d-flex p-3 personcontainer3"}>
             <div className="p-3 ms-4">
                 <div className="mb-5"><p>Women cell started its activities with programmes that improves social commitment among youngsters.We organized one week long kindness day celebration under the name Nirvrithi.It included visiting Nirmala shishu Bhavan, spending time with those children and providing them necessary items.It also included bringing refugees of Pulayanarkotta old age home to our college spending a day with those ones, organizing food and cultural events for them.</p></div>

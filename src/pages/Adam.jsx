@@ -22,13 +22,13 @@ const Adam = () => {
           <div><FixedNavbar/></div>
           <div className={darkMode?"bg-dark p-5":"bg-primary p-5 text-white"}>
             <div className={darkMode?"ps-5 text-warning":"bg-primary text-white"}>Advanced Diploma in Automotive Mechatronics</div>
-            <div className={darkMode?"p-5 text-warning":"bg-primary p-5 text-white"}><h2>ADAM</h2></div>
+            <div className={darkMode?"ps-5 pt-3 text-warning":"bg-primary ps-5 pt-3 text-white"}><h2>ADAM</h2></div>
           </div>
           <div>
             <div className={darkMode?"d-flex personcontainer3 bg-dark border-top border-1 border-primary":"d-flex personcontainer3"}>
                <div  className="rulecontainer3">
                     <div className={darkMode?"mb-3 text-success":"mb-3 text-primary"}>Advanced Diploma in Automotive Mechatronics (ADAM)</div>
-                    <div className={darkMode?"mb-3 text-info":"mb-3"}>
+                    <div className={darkMode?"mb-3 text-info tcontainer":"mb-3 tcontainer"}>
                         <p>Mercedes -Benz India Private Ltd is wholly owned subsidiary of Daimler AG, Germany with its headquarters in Pune, Maharashtra, India.</p><br />
                         <p>Mercedes-Benz has been associated with India for more than 50 years. Presently, Mercedes-Benz India’s engagement in India covers several domains:</p>
                     </div>
@@ -39,7 +39,7 @@ const Adam = () => {
                             <li className="mb-3">Captive automotive technology research and development.</li>
                         </ul>
                     </div>
-                    <div className={darkMode?"mb-3 text-info":"mb-3"}><p>Advanced Diploma in Automotive Mechatronics (ADAM) course is one of the social-oriented programs initiated by Mercedes-Benz India in collaboration with prestigious Government Institutions across India.</p></div>
+                    <div className={darkMode?"mb-3 text-info tcontainer":"mb-3 tcontainer"}><p>Advanced Diploma in Automotive Mechatronics (ADAM) course is one of the social-oriented programs initiated by Mercedes-Benz India in collaboration with prestigious Government Institutions across India.</p></div>
                     <div className={darkMode?"mb-3 text-success mt-5":"mb-3 text-primary mt-5"}><h4>Syllabus for the ADAM Entrance Examination</h4></div>
                     <div className={darkMode?"text-white":"text-success"}>
                         <div className="mb-3"><h6>Written Test (Total 125 Marks)</h6></div>

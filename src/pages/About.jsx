@@ -52,19 +52,19 @@ const About = () => {
                 <div className="infoitem p-3">
                   <div className="mb-3 text-success"><i className="bi bi-eye"></i></div>
                   <div className="mb-3 text-success"><h5>Our Vision</h5></div>
-                  <div className="mb-3"><p>A centre of higher learning in engineering that nurtures inquisitive young minds, fosters innovative research and reaches out to the society, while incessantly improving itself.</p></div>
+                  <div className="mb-3"><p><i>A centre of higher learning in engineering that nurtures inquisitive young minds, fosters innovative research and reaches out to the society, while incessantly improving itself.</i></p></div>
                 </div>
                 <div className="infoitem p-3">
                   <div className="mb-3 text-success"><i className="bi bi-file-check"></i></div>
                   <div className="mb-3 text-success"><h5>Our Mission</h5></div>
-                  <div className="mb-3"><p>Impart Engineering knowledge and skills.Mould professionals with integrity.
+                  <div className="mb-3"><p><i>Impart Engineering knowledge and skills.Mould professionals with integrity.
                   Nurture the spirit of innovation, creativity and sustainability to address needs of society.
-                  Collaborate with industry, academic and research institutions of repute.</p></div>
+                  Collaborate with industry, academic and research institutions of repute.</i></p></div>
                 </div>
                 <div className="infoitem p-3">
                   <div className="mb-3 text-success"><i className="bi bi-hand-thumbs-up"></i></div>
                   <div className="mb-3 text-success"><h5>Quality Policy</h5></div>
-                  <div className="mb-3"><p>Government Engineering College Barton Hill committed to develop as a centre of excellence in the field of engineering education by improving the academic performance of the students and supporting them for placement and higher education.</p></div>
+                  <div className="mb-3"><p><i>Government Engineering College Barton Hill committed to develop as a centre of excellence in the field of engineering education by improving the academic performance of the students and supporting them for placement and higher education.</i></p></div>
                 </div>
               </div>
             </div>

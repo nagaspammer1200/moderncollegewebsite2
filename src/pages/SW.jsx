@@ -20,7 +20,7 @@ const SW = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Student Welfare</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Student Welfare</h2></div>
           <div className={darkMode?"personcontainer5 border-top border-1 border-primary bg-dark":"personcontainer5"}>
                 <div className="table-responsive tablecontainer pt-5">
                     <table className={darkMode?"table table-striped table-dark":"table table-striped"}>

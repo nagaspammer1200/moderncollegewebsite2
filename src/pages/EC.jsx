@@ -29,7 +29,7 @@ const EC = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Department of Electronics & Communication Engineering</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Electronics & Communication Engineering</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 border-top border-1 border-primary bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
                 <div className="mb-5"><ImageSlider imgone="src/images/departments/ec1.jpg" imgtwo="src/images/departments/ec2.jpg" imgthree="src/images/departments/ec1.jpg" imgfour="src/images/departments/ec2.jpg" altone="Laboratory" alttwo="Soldering" altthree="Lab Work" altfour="Soldering"/></div>
@@ -47,7 +47,7 @@ const EC = () => {
                             <div>
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample1">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                    bridges with leading industries and world-class research centers.
+                                    <i>bridges with leading industries and world-class research centers.</i>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const EC = () => {
                             </p>
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
-                                    <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}><p>engineering. <br /><br />Promote innovation and aptitude for research by exposing students and faculty into new areas of technology.<br /><br />Provide an ethical and value-based education by encouraging activities addressing societal needs. <br /><br /></p>
+                                    <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}><p><i>engineering. <br /><br />Promote innovation and aptitude for research by exposing students and faculty into new areas of technology.<br /><br />Provide an ethical and value-based education by encouraging activities addressing societal needs. </i><br /><br /></p>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +195,8 @@ const EC = () => {
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr. Hari R.</h5></div>
-                        <div><p>Professor</p></div>
+                        <div><h6>Professor</h6></div>
+                        <div><h6>9447725443</h6></div>
                     </div>
                 </div>
             </div>

@@ -11,10 +11,10 @@ const AnnouncementsBar = () => {
     }, []);
     return (
     <div className="acontainer">
-      <div className={darkMode?"text-info p-3":"text-dark p-3"}>
+      <div className={darkMode?"text-info p-3 textaninightbar":"text-dark p-3 textanidaybar"}>
           <h6>Important Links</h6>
       </div>
-      <div className={darkMode?"p-3 border border-1 border-warning":"p-3 border border-1 border-secondary shadow"}>
+      <div className={darkMode?"p-3 border border-1 border-warning rounded":"p-3 border border-1 border-secondary shadow rounded"}>
           <button type="button" className="btn btn-success m-1"><a href="/departments">Departments</a></button>
           <button type="button" className="btn btn-success m-1"><a href="/admission">Admissions</a></button>
           <button type="button" className="btn btn-success m-1"><a href="/placement">Placments</a></button>

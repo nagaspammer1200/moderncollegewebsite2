@@ -20,7 +20,7 @@ const Placement = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>The Career Guidance & Placement Unit (CGPU)</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>The Career Guidance & Placement Unit (CGPU)</h2></div>
           <div className={darkMode?"d-flex personcontainer2 border-top border-1 border-primary bg-dark":"d-flex personcontainer2"}>
             <div className={darkMode?"nsscontainer p-2 text-info":"nsscontainer p-2"}>
                 <div><p><b>The Career Guidance & Placement Unit (CGPU) committee comprises of the Principal, the Coordinator, Faculty Members and Student representatives. Prof. Ramesh S, Associate Professor (ME) is the coordinator (TPO) who can be reached at remeshnair2000@gmail.com (Ph. 9895342277). <br /><br />The raison d’etre of the Career Guidance and Placement Unit (CGPU) is the overall development of the individual student and providing a platform to launch their careers. Specifically, each student graduating from GECB should</b><br /><br />1. Have a positive and winning attitude

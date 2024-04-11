@@ -20,7 +20,7 @@ const CCF = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Central Computing Facility</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Central Computing Facility</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark border-top border-1 border-primary":"d-flex p-3 personcontainer3"}>
             <div className="nsscontainer p-2">
                 <div className="mb-5 mt-3 ms-3"><img src="src/images/ccf.jpg" width="85%" height="60%" alt="Central Computing Facility" /></div>

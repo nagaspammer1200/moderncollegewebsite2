@@ -21,15 +21,15 @@ const Principal = () => {
           <div className={darkMode?"d-flex gap-2 pdc bg-dark text-info":"d-flex gap-2 pdc"}>
             <div>
                 <div className="principalimage mb-4"><img src="src/images/people/principal.jpeg" width="200px" height="200px" alt="Principal Shiny" /></div>
-                <div className="d-flex gap-3 pe-3 ps-3">
+                <div className="d-flex gap-3 pe-3 ps-3 tcontainer">
                     <div><i className="bi bi-envelope-open"></i></div>
                     <div><p>principal@gecbh.ac.in</p></div>
                 </div>
-                <div className="d-flex gap-3 pe-3 ps-3">
+                <div className="d-flex gap-3 pe-3 ps-3 tcontainer">
                     <div><i className="bi bi-telephone-fill"></i></div>
                     <div><p>&nbsp;+91-&nbsp;0471-&nbsp;2300484</p></div>
                 </div>
-                <div className="d-flex text-start gap-3 ps-3">
+                <div className="d-flex text-start gap-3 ps-3 dcontainer">
                     <div><i className="bi bi-cursor-fill"></i></div>
                     <div><p>The Principal <br />Admin Block, Government Engineering <br /> College - Barton Hill, <br /> Thiruvananthapuram Kerala, INDIA-695 035.</p></div>
                 </div>
@@ -37,7 +37,7 @@ const Principal = () => {
             </div>
             <div>
                 <div className="border-bottom border-3 border-success p-3 m-3">
-                    <div className={darkMode?"text-start text-warning":"text-start"}><h2>Dr. Shiny G.</h2></div>
+                    <div className={darkMode?"text-start text-warning textaninight ":"text-start textaniday"}><h2>Dr. Shiny G.</h2></div>
                     <div className="text-start"><p>Principal</p></div>
                     <div className="text-success"><i>"If you’re looking to progress into engineering and technology, or planning and development role, this is the best institution for you."</i></div>
                 </div>

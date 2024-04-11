@@ -5,7 +5,7 @@
     gap:25%;
     font-weight:600;
 }
-.cdetails, .pdetails, .codetails, .navlinks ,.navlinkslinks{
+.cdetails, .pdetails, .codetails, .navlinks{
     display:flex;
 }
 .cdetails {
@@ -34,7 +34,7 @@ a {
     padding:1%;
     justify-content: space-between;
     font-weight:600;
-    margin:0% 5% 0% 5%;
+    margin:10% 5% 0% 5%;
 }
 
 
@@ -74,6 +74,7 @@ a {
         padding:none;
         margin:none;
         justify-content: none;
+        margin:60% 5% 0% 5%;
     }
     .navlinksactive{
         padding:5%;

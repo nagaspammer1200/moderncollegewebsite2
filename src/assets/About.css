@@ -14,17 +14,6 @@
     text-align: center;
     margin-left:10%;
 }
-
-.lat {
-    margin-left:20%;
-    width:40%;
-}
-.rat {
-    margin-left:20%;
-}
-.rat2{
-    width:60%;
-}
 /* Principal Page CSS*/
 .pdc {
     width:100%;
@@ -46,18 +35,10 @@
 .hodcontainer {
     gap:30%;
 }
-/* Styling the Service*/
-.rulecontainer{
-    padding:10% 10% 10% 30%;
-}
 
 /*Styling the Budget */
 .personcontainer2 {
     gap:10%;
-}
-.rulecontainer2{
-    margin:5% 0% 0% 20%;
-    width:60%;
 }
 
 /*Styling the PTA*/
@@ -80,11 +61,8 @@
 /* Styling the Download*/
 .personcontainer4{
     display:flex;
-    gap:25%;
-}
-.rulecontainer4{
-    margin: 10% 0% 0% 60%;
-    width:100%;
+    gap:20%;
+    padding-left:5%;
 }
 /*Styling the Adam and Campus Wifi*/
 .listdiv2 {
@@ -127,6 +105,121 @@
 .linkcontainerhover a:hover{
     color:blue;
 }
+
+/*Animation Start */
+
+
+
+  
+  /* .vision div p, .vision div ul li{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll 5s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }*/
+/* Fade in Animation */
+  .ptaimage {
+    animation: pulseAnimation 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulseAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+
+/* Image Zoom out*/
+  .pitem div img:hover{
+    animation: popOut 0.5s ease-in-out forwards;
+    transform-origin: center;
+  }
+
+  @keyframes popOut {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+/* General Text Fade In  for Home Vision Class, About Pitem , Titles of Main Sections*/
+
+.vision div p, .vision div ul li, .pitem div p,.textaniday h2, .textaninight h2, .ncontainer h3 ,.tcontainer p, .emailcontainer p, .dcontainer p,.listdiv2 ul li{
+    animation: fadeingeneral 3.5s ease-in-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeingeneral {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .textcontainer4 h6{
+    animation: fadeingeneralfour 4s ease-in-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeingeneralfour {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .textcontainer6 ol li{
+    animation: fadeingeneralsix 6s ease-in-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeingeneralsix {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Animations for Announcement Bar*/
+  .textanidaybar h6, .quicklinks1 h4{
+    animation: shake 0.5s ease-in-out infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+  }
+
+  .textaninightbar h6, .quicklinks1 h4{
+    animation: shake 0.5s ease-in-out infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+  }
 @media only screen and (max-width: 500px) {
 
     /* Mobile View of About*/
@@ -148,15 +241,6 @@
             width:250px;
             height:200px;
         }
-    }
-    .lat{
-        margin-left:5%;
-    }
-    .latimg {
-        margin-left:5%;
-    }
-    .rat{
-        margin-left:10%;
     }
 
     /* Responsive Design for Principal */
@@ -191,9 +275,6 @@
         flex-direction: column;
         gap:10%;
     }
-    .rulecontainer2{
-        margin-left:-10%;
-    }
     /* Responsive Design of PTA*/
     .rulecontainer3{
         margin:5% 0% 0% 0%;
@@ -202,10 +283,6 @@
         display:flex;
         flex-direction: column;
         gap:20%;
-    }
-    /* Styling the AICTE */ 
-    .reporttext{
-        margin-left:50%;
     }
     .ptaimage img {
         width:350px;
@@ -224,10 +301,6 @@
         display:flex;
         flex-direction: column;
         gap:5%;
-    }
-    .rulecontainer4{
-        margin-left:25%;
-        width:50%;
     }
     /* Responsive Design for NSS*/
     .nsscontainer1 {
@@ -274,12 +347,6 @@
     .cardcontainer{
         width:100%;
     }
-    .departmentcollapsecontrol{
-        display:block;
-    }
-    .emailcontainer p{
-        width:50%;
-    } 
     .ieeeimg img{
         width:300px;
         height:350px;

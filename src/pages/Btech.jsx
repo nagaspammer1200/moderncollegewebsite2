@@ -20,11 +20,11 @@ const Btech = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Bachelor of Technology</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Bachelor of Technology</h2></div>
           <div className={darkMode?"d-flex personcontainer3 bg-dark border-top border-1 border-primary":"d-flex personcontainer3"}>
             <div className="rulecontainer3">
-               <div className={darkMode?"mb-5 mt-2 text-success":"mb-5 mt-2"}><h6>GOVERNMENT ENGINEERING COLLEGE, BARTONHILL OFFERS FIVE B.TECH DEGREE COURSES:</h6></div>
-               <div className={darkMode?"text-info":"text-primary"}>
+               <div className={darkMode?"mb-5 mt-2 text-success textcontainer4":"mb-5 mt-2 textcontainer4"}><h6>GOVERNMENT ENGINEERING COLLEGE, BARTONHILL OFFERS FIVE B.TECH DEGREE COURSES:</h6></div>
+               <div className={darkMode?"text-info textcontainer6":"text-primary textcontainer6"}>
                     <ol>
                         <li className="mb-3"><h6><a href="/electronicsandcommunication">B.Tech in Electronics and Communication Engineering</a></h6></li>
                         <li className="mb-3"><h6><a href="/electricalandelectronics">B.Tech in Electronics and Electronics Engineering</a></h6></li>

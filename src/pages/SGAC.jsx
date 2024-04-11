@@ -20,7 +20,7 @@ const SGAC = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Grievance Cell</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Grievance Cell</h2></div>
           <div className={darkMode?"personcontainer5 border-top border-1 border-primary bg-dark":"personcontainer5"}>
                 <div>
                   <div className={darkMode?"mb-5 p-3 ms-5 text-success":"mb-5 p-3 ms-5"}><p>A committee has been constituted to redress the complaints of the students of the college regarding the inconveniences met by them. The committee will take up matters related to actions and find solutions to the problems and issues raised by the students for the smooth functioning of the college.</p></div>

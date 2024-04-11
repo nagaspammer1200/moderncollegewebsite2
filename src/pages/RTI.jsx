@@ -20,7 +20,7 @@ const RTI = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Right to Information</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Right to Information</h2></div>
           <div className={darkMode?"personcontainer5 bg-dark border-top border-1 border-primary":"personcontainer5"}>
                 <div className="table-responsive tablecontainer  mt-4">
                     <table className={darkMode?"table  table-striped table-dark":"table  table-striped"}>

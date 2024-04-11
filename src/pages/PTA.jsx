@@ -20,15 +20,15 @@ const PTA = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Parent Teacher Association</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Parent Teacher Association</h2></div>
           <div className={darkMode?"d-flex personcontainer3 bg-dark border-top border-1 border-primary":"d-flex personcontainer3"}>
             <div>
                 <div className="d-flex flex-column text-center">
-                    <div className={darkMode?"mb-5 text-secondary text-start text-info":"mb-5 text-secondary text-start"}>
+                    <div className={darkMode?"mb-5 text-secondary text-start textaninight text-info":"mb-5 textaniday text-secondary text-start"}>
                         <p>The Parent Teacher Association of Government Engineering College Barton hill is very active and is giving considerable assistance and financial support for the improvement of facilities within the institution. A large number of developmental programs have been taken up under the patronage of the PTA for the benefit of students and staff, including the funding for the establishing departmental libraries for the faculty. The objectives of the association are:</p>
                     </div>
-                    <div className="mb-5 text-start text-success border-bottom border-success border-3">
-                        <p><i className="bi bi-plus"></i>To work for the welfare of the students and the institution <br /><br /><i className="bi bi-plus"></i> 
+                    <div className="mb-5 text-start text-success border-bottom border-success border-3 s">
+                        <p><i className="bi bi-plus "></i>To work for the welfare of the students and the institution <br /><br /><i className="bi bi-plus"></i> 
                         To offer constructive suggestions for the smooth and successful functioning of this college. <br /><br /><i className="bi bi-plus"></i> 
                         To promote better participation of the parents in the various programs of the college and to establish better liaison with the teachers</p>
                     </div>

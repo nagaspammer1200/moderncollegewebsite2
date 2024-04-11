@@ -20,7 +20,7 @@ const AICTE = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>All India Council for Technical Education</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>All India Council for Technical Education</h2></div>
           <div className={darkMode?"personcontainer4 bg-dark border-top border-primary border-1":"personcontainer4"}>
             <div>
                 <div className={darkMode?"text-success m-5 text-center":" text-primary m-5 text-center"}><h5>Feedback facility of students and Faculty available in the AICTE WebPortal</h5></div>

@@ -25,7 +25,7 @@ const CE = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Department of Civil Engineering</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Civil Engineering</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 border-top border-1 border-primary bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
                 <div className="text-primary mb-3 ms-3"><h3>About the Department</h3></div>
@@ -46,7 +46,7 @@ const CE = () => {
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                    <p>Aspiration for life-long learning in the field of Civil Engineering. <br /><br />Motivate students for higher studies, research and innovation to make them globally competitive for Civil Engineering Profession.<br /><br />Inculcate a tradition of professional ethics, social commitment and sustainable engineering practices.<br /><br /></p>
+                                    <p><i>Aspiration for life-long learning in the field of Civil Engineering. <br /><br />Motivate students for higher studies, research and innovation to make them globally competitive for Civil Engineering Profession.<br /><br />Inculcate a tradition of professional ethics, social commitment and sustainable engineering practices.</i><br /><br /></p>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,8 @@ const CE = () => {
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr.Thulaseedharan V</h5></div>
-                        <div><p>Professor</p></div>
+                        <div><h6>Professor</h6></div>
+                        <div><h6>9567896655</h6></div>
                     </div>
                 </div>
             </div>

@@ -20,7 +20,7 @@ const GS = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Department of General Science</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of General Science</h2></div>
           <div className={darkMode?"d-flex personcontainer3 border-top border-1 border-primary p-3 bg-dark":"d-flex personcontainer3 p-3 ms-3"}>
             <div className="p-3">
                 <div className="text-primary mb-3 ms-3"><h3>About the Department</h3></div>
@@ -30,7 +30,8 @@ const GS = () => {
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Sheeba G</h5></div>
-                        <div><p>Assistant Professor</p></div>
+                        <div><h6>Assistant Professor</h6></div>
+                        <div><h6>9847541300</h6></div>
                     </div>
                 </div>
             </div>

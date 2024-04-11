@@ -28,7 +28,7 @@ const TPCL = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Translation Research and Professional Leadership Centre</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Translation Research and Professional Leadership Centre</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark border-top border-1 border-primary":"d-flex p-3 personcontainer3"}>
             <div className={darkMode?"p-3 bg-dark":"p-3"}>
                 <div className="mb-5 ptaimage">
@@ -48,8 +48,7 @@ const TPCL = () => {
                             <div>
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample1">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                        To empower the student community with professional, ethical and social awareness, there-by moulding them to become smart and wise professionals with global outlook and social commitment. <br /><br />To analyse the social, political, economic and cultural aspects under the technology umbrella.
-
+                                        <i>To empower the student community with professional, ethical and social awareness, there-by moulding them to become smart and wise professionals with global outlook and social commitment. <br /><br />To analyse the social, political, economic and cultural aspects under the technology umbrella.</i>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +65,7 @@ const TPCL = () => {
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                        <p>To inculcate the concept of sustainability and green technologies in Engineering disciplines. <br /><br />To sensitize students to the practical challenges that organizations face and understand the nuances and realities of the industry apart from technical knowledge.<br /><br />To inculcate the spirit of working in multi- disciplinary teams and gain on-the-job experience through active and challenging work on real engineering projects.<br /><br />To foster creative talents, innovative research, self-awareness and life-long learning.<br /><br />
+                                        <p><i>To inculcate the concept of sustainability and green technologies in Engineering disciplines. <br /><br />To sensitize students to the practical challenges that organizations face and understand the nuances and realities of the industry apart from technical knowledge.<br /><br />To inculcate the spirit of working in multi- disciplinary teams and gain on-the-job experience through active and challenging work on real engineering projects.<br /><br />To foster creative talents, innovative research, self-awareness and life-long learning.</i><br /><br />
 
                                         </p>
                                     </div>

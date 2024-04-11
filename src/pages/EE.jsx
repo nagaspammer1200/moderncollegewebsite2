@@ -29,7 +29,7 @@ const EE = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Department of Electrical & Electronics Engineering</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Electrical & Electronics Engineering</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 border-top border-1 border-primary bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
                 <div className="mb-5"><ImageSlider imgone="src/images/departments/ee1.jpg" imgtwo="src/images/departments/ee1.jpg" imgthree="src/images/departments/ee1.jpg" imgfour="src/images/departments/ee2.jpg" altone="Laboratory" alttwo="Laboratory" altthree="Lab Work" altfour="Laboratory"/></div>
@@ -47,7 +47,7 @@ const EE = () => {
                             <div>
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample1">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                    and nature.
+                                    <i>and nature.</i>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const EE = () => {
                             </p>
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
-                                    <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}><p>Foster a sense of values and ethics to create Electrical and Electronics engineers with integrity. <br /><br />Promote the aptitude for innovation, sustainability and research among students.<br /><br />Collaborate with industries, academic and research centres to expose students to latest technological advances. <br /><br /></p>
+                                    <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}><p><i>Foster a sense of values and ethics to create Electrical and Electronics engineers with integrity. <br /><br />Promote the aptitude for innovation, sustainability and research among students.<br /><br />Collaborate with industries, academic and research centres to expose students to latest technological advances.</i><br /><br /></p>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +204,8 @@ const EE = () => {
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr.Francis M Fernandez</h5></div>
-                        <div><p>Professor</p></div>
+                        <div><h6>Professor</h6></div>
+                        <div><h6>9074866202</h6></div>
                     </div>
                 </div>
             </div>

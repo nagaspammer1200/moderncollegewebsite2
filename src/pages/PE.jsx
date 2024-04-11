@@ -28,7 +28,7 @@ const PE = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div><FixedNavbar/></div>
-          <div className={darkMode?"bg-dark p-5 text-warning":"bg-primary p-5 text-white"}><h2>Department of Physical Education</h2></div>
+          <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Physical Education</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
                 <div className="mb-5"><ImageSlider imgone="src/images/departments/sp1.jpg" imgtwo="src/images/departments/sp2.jpg" imgthree="src/images/departments/sp3.jpg" imgfour="src/images/departments/sp4.jpg" altone="PE Team" alttwo="Running" altthree="Football" altfour="Trophy"/></div>
@@ -46,7 +46,7 @@ const PE = () => {
                             <div>
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample1">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                    To create adequate sports infrastructure; raise the standard of sports in the college. To promote games; adopt maximum disciplines of the Olympic Games; broad base sports; synergize the activities of the Sports. To promote the cause of healthy living among all sections of the student and society. To promote the spirit of sportsmanship, camaraderie and self-discipline; harness talent at the grassroots level; nurture the potential talent and achieve excellence at both the National and International level. Provide for incentives to sports persons who win laurels for the college, State and country at the National and International"
+                                    <i>To create adequate sports infrastructure; raise the standard of sports in the college. To promote games; adopt maximum disciplines of the Olympic Games; broad base sports; synergize the activities of the Sports. To promote the cause of healthy living among all sections of the student and society. To promote the spirit of sportsmanship, camaraderie and self-discipline; harness talent at the grassroots level; nurture the potential talent and achieve excellence at both the National and International level. Provide for incentives to sports persons who win laurels for the college, State and country at the National and International"</i>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const PE = () => {
                             <div className="mb-5">
                                 <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                     <div className={darkMode?"card card-body text-info bg-dark p-2":"card card-body shadow p-2"}>
-                                    To develop, maintain and optimally utilise high quality sports infrastructure. To encourage, train and support talented sports persons in large numbers. To lay special emphasis on strengthening of infrastructure in educational institutions. <br /><br />To create a culture of sports by imbibing higher moral and ethical values, spirit of sportsmanship and camaraderie and thereby raise the level of desire to excel among the students’ in the college. <br /><br />To channelize sports activities as a vehicle to help the people of the State to achieve at least a minimum level of physical fitness. To recognise talent in sports and reward them for achieving excellence in sports. <br /><br /><br />To recognise special needs of the differentially abled and facilitate their participation in sports and games. To ensure autonomy in sports so much so the spirit of the Olympic Charter is respected. To take appropriate steps to encourage involvement of sports infrastructure, training and conduct of sports competition leading to broad basing of sports in the college."
+                                    <i>To develop, maintain and optimally utilise high quality sports infrastructure. To encourage, train and support talented sports persons in large numbers. To lay special emphasis on strengthening of infrastructure in educational institutions. <br /><br />To create a culture of sports by imbibing higher moral and ethical values, spirit of sportsmanship and camaraderie and thereby raise the level of desire to excel among the students’ in the college. <br /><br />To channelize sports activities as a vehicle to help the people of the State to achieve at least a minimum level of physical fitness. To recognise talent in sports and reward them for achieving excellence in sports. <br /><br /><br />To recognise special needs of the differentially abled and facilitate their participation in sports and games. To ensure autonomy in sports so much so the spirit of the Olympic Charter is respected. To take appropriate steps to encourage involvement of sports infrastructure, training and conduct of sports competition leading to broad basing of sports in the college."</i>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +75,8 @@ const PE = () => {
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr.Rana Prathap AO</h5></div>
-                        <div><p>Assistant Professor</p></div>
+                        <div><h6>Assistant Professor</h6></div>
+                        <div><h6>"944743646469"</h6></div>
                     </div>
                 </div>
             </div>
