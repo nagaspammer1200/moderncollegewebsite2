@@ -27,31 +27,31 @@ const QEEE = () => {
                 <div className="mb-3">
                         <div class="gap-1">
                             <button className={darkMode?"btn btn-warning text-black m-2":"btn btn-primary text-black m-2"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
-                            Live Class
+                              <b>Live Class</b>
                             </button>
                             <button className={darkMode?"btn btn-warning text-black m-2":"btn btn-primary text-black m-2"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-                            Coursepack
+                              <b>Coursepack</b>
                             </button>
                             <button className={darkMode?"btn btn-warning text-black m-2":"btn btn-primary text-black m-2"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-                            Live Labs
+                              <b>Live Labs</b>
                             </button>
                             <button className={darkMode?"btn btn-warning text-black m-2":"btn btn-primary text-black m-2"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
-                            Bridge Programs
+                              <b>Bridge Programs</b>
                             </button>
                         </div>
                         <div className="collapse" id="collapseExample1">
-                            <div className={darkMode?"card card-body bg-dark border-white border-1 border text-info":"card card-body"}><p>IIT faculty deliver live lecture classes to participating colleges. The schedule of lectures are sent to colleges priorly and notifications are provided before start of each session.</p></div>
+                            <div className={darkMode?"textcontainer4 card card-body bg-dark border-white border-1 border text-info":"textcontainer4 card card-body"}><p>IIT faculty deliver live lecture classes to participating colleges. The schedule of lectures are sent to colleges priorly and notifications are provided before start of each session.</p></div>
                         </div>
                         <div className="collapse" id="collapseExample2">
-                          <div className={darkMode?"card card-body bg-dark border-white border-1 border text-info":"card card-body"}><p>A supplement study material with lecture notes, live class videos, discussion forums, assessment and evaluation tools to serve as a reference material for QEEE courses.</p></div>
+                          <div className={darkMode?"textcontainer4 card card-body bg-dark border-white border-1 border text-info":"textcontainer4 card card-body"}><p>A supplement study material with lecture notes, live class videos, discussion forums, assessment and evaluation tools to serve as a reference material for QEEE courses.</p></div>
                         </div>
                         <div className="collapse" id="collapseExample3">
-                            <div className={darkMode?"card card-body bg-dark border-white border-1 border text-info":"card card-body"}>
+                            <div className={darkMode?"textcontainer4 card card-body bg-dark border-white border-1 border text-info":"textcontainer4 card card-body"}>
                               <p>To provide virtual hands-on experience to students on experiments undertaken remotely. It creates an opportunity to work on a real lab experiment tailored to suit their syllabus and curriculum.</p>
                             </div>
                         </div>
                         <div className="collapse" id="collapseExample4">
-                        <div className={darkMode?"card card-body bg-dark border-white border-1 border text-info":"card card-body"}>
+                        <div className={darkMode?"textcontainer4 card card-body bg-dark border-white border-1 border text-info":"textcontainer4 card card-body"}>
                               <p>To bridge the gap between the initial skills of individuals and what they need to enter and succeed in postsecondary education and career-path employment.</p>
                             </div>
                         </div>

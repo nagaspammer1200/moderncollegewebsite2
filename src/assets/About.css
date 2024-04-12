@@ -105,7 +105,10 @@
 .linkcontainerhover a:hover{
     color:blue;
 }
-
+/* Styling the ASME */
+.asmeimage{
+    margin-left:10%;
+}
 /*Animation Start */
 
 
@@ -122,7 +125,7 @@
     100% { transform: translateX(-100%); }
   }*/
 /* Fade in Animation */
-  .ptaimage {
+  .ptaimage img, .asmeimage img,.nssimage img{
     animation: pulseAnimation 1s ease-in-out infinite alternate;
   }
 
@@ -144,10 +147,10 @@
 
   @keyframes popOut {
     0% {
-      transform: scale(0.8);
+      transform: scale(1);
     }
     100% {
-      transform: scale(1);
+      transform: scale(0.95);
     }
   }
 
@@ -167,8 +170,9 @@
       opacity: 1;
     }
   }
+  /* Text Fade For 4 Seconds*/
 
-  .textcontainer4 h6{
+  .textcontainer4 h6,.textcontainer4 p, .nsscontainer1 p, .textcontainer4 h5 a, .textcontainer5 h6{
     animation: fadeingeneralfour 4s ease-in-out forwards;
     opacity: 0;
   }
@@ -181,6 +185,8 @@
       opacity: 1;
     }
   }
+
+  /* Text Fade for 6 seconds*/
 
   .textcontainer6 ol li{
     animation: fadeingeneralsix 6s ease-in-out forwards;
@@ -284,9 +290,17 @@
         flex-direction: column;
         gap:20%;
     }
-    .ptaimage img {
+    .ptaimage img{
         width:350px;
         height:280px;
+    }
+    /* Responsive Design for ASME */
+    .asmeimage {
+        margin-left:5%;
+        img{
+            width:300px;
+            height:280px;
+        }
     }
     /* Responsive Design of Ragging*/
     .raggingimage {
@@ -346,10 +360,6 @@
     }
     .cardcontainer{
         width:100%;
-    }
-    .ieeeimg img{
-        width:300px;
-        height:350px;
     }
     /*Styling the Placement*/
     .nsscontainerimg img {

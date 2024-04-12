@@ -26,14 +26,14 @@ const Btech = () => {
                <div className={darkMode?"mb-5 mt-2 text-success textcontainer4":"mb-5 mt-2 textcontainer4"}><h6>GOVERNMENT ENGINEERING COLLEGE, BARTONHILL OFFERS FIVE B.TECH DEGREE COURSES:</h6></div>
                <div className={darkMode?"text-info textcontainer6":"text-primary textcontainer6"}>
                     <ol>
-                        <li className="mb-3"><h6><a href="/electronicsandcommunication">B.Tech in Electronics and Communication Engineering</a></h6></li>
-                        <li className="mb-3"><h6><a href="/electricalandelectronics">B.Tech in Electronics and Electronics Engineering</a></h6></li>
-                        <li className="mb-3"><h6><a href="/civilengineering">B.Tech in Civil Engineering</a></h6></li>
-                        <li className="mb-3"><h6><a href="/mechanicalengineering">B.Tech in Mechanical Engineering</a></h6></li>
-                        <li className="mb-5"><h6><a href="/informationtechnology">B.Tech in Information Technology</a></h6></li>
+                        <li className="mb-3"><h6><a href="/electronicsandcommunication"><b>B.Tech in Electronics and Communication Engineering</b></a></h6></li>
+                        <li className="mb-3"><h6><a href="/electricalandelectronics"><b>B.Tech in Electronics and Electronics Engineering</b></a></h6></li>
+                        <li className="mb-3"><h6><a href="/civilengineering"><b>B.Tech in Civil Engineering</b></a></h6></li>
+                        <li className="mb-3"><h6><a href="/mechanicalengineering"><b>B.Tech in Mechanical Engineering</b></a></h6></li>
+                        <li className="mb-5"><h6><a href="/informationtechnology"><b>B.Tech in Information Technology</b></a></h6></li>
                     </ol>
                </div>
-               <div className={darkMode?"text-success":"text-primary"}>
+               <div className={darkMode?"text-success textcontainer4":"text-primary textcontainer4"}>
                     <p>Admission to all the seats are based on the Entrance Examination Conducted by the Commissioner for Entrance Examinations, Government of Kerala which ensures only meritorious students join the institution</p>
                </div>
             </div>

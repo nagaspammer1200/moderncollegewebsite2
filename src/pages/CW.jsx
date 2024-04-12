@@ -23,9 +23,9 @@ const CW = () => {
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Campus Wi-Fi</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark border-top border-1 border-primary":"d-flex p-3 personcontainer3"}>
             <div className="mb-2">
-                <div className={darkMode?"mb-2  ms-3 mt-3 text-info":"mb-2  ms-3 mt-3"}><p>The college is a member of the National Knowledge Network (NKN) which is a high-speed network backbone interconnecting major educational and research institutions. NKN is maintained by National Informatics Network (NIC), Government of India. NKN provides a bandwidth of 1000 Mbps (1 Gbps) to the college. In addition, a 16 Mbps internet connection has been taken from BSNL. This connection is being maintained as a backup to be used in the rare event of an NKN connection failure. <br /><br />The network traffic between the college intranet and the internet is monitored and controlled through a firewall. Cisco routers and switches are used at the backbone level of the intranet. A fiber-optic backbone has been laid to provide connectivity to various parts of the campus. <br /><br />The campus is completely connected by WiFi. A Ruckus ZoneDirector 3000 WiFi controller kept in the server room manages the WiFi access. Access points have been deployed throughout the campus so that online facilities like e-journals (which are provided on IP-based access) can be accessed from anywhere within the college premises.</p></div>
-                <div className={darkMode?"mb-2 ms-3 text-info":"mb-2 ms-3"}><p>TWi-Fi access will be available for all staff, students, guests</p></div>
-                <div className={darkMode?"mb-3 text-info ms-3":"mb-3 text-dark ms-3"}><p>The various departments/sections covered under Wi-Fi are:</p></div>
+                <div className={darkMode?"mb-2  ms-3 mt-3 text-info textcontainer4":"mb-2  ms-3 mt-3 textcontainer4"}><p>The college is a member of the National Knowledge Network (NKN) which is a high-speed network backbone interconnecting major educational and research institutions. NKN is maintained by National Informatics Network (NIC), Government of India. NKN provides a bandwidth of 1000 Mbps (1 Gbps) to the college. In addition, a 16 Mbps internet connection has been taken from BSNL. This connection is being maintained as a backup to be used in the rare event of an NKN connection failure. <br /><br />The network traffic between the college intranet and the internet is monitored and controlled through a firewall. Cisco routers and switches are used at the backbone level of the intranet. A fiber-optic backbone has been laid to provide connectivity to various parts of the campus. <br /><br />The campus is completely connected by WiFi. A Ruckus ZoneDirector 3000 WiFi controller kept in the server room manages the WiFi access. Access points have been deployed throughout the campus so that online facilities like e-journals (which are provided on IP-based access) can be accessed from anywhere within the college premises.</p></div>
+                <div className={darkMode?"mb-2 ms-3 text-info textcontainer4":"mb-2 ms-3 textcontainer4"}><p>TWi-Fi access will be available for all staff, students, guests</p></div>
+                <div className={darkMode?"mb-3 text-info ms-3 textcontainer4":"mb-3 text-dark ms-3 textcontainer4"}><p>The various departments/sections covered under Wi-Fi are:</p></div>
                 <div className={darkMode?"mb-3 listdiv2 text-info":"mb-3 listdiv2"}>
                     <ul>
                         <div className="ms-2 mb-2"><li>Main Administrative building (All 7 floors including Library)</li></div>
@@ -53,9 +53,9 @@ const CW = () => {
                                 How to get a Wi-Fi/ Internet Account for a student
                             </button>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div className={darkMode?"accordion-body bg-dark text-info":"accordion-body"}>
-                                A student desirous of getting a Wi-Fi/Internet account will have to register for the same. Copy of the Registration Form is available in the college website and at Students’ Facilitation Centre. <br /><br />The filled-up Registration Form, duly recommended by the Staff Advisor, should be submitted at the IT Lab, EC/IT Block, on any working day. <br /><br />On accepting an application, the student will receive an email from itsupport@gecbh.ac.in requesting him/her to forward his/her username and password (for WI-Fi / Internet access), by return mail. <br /><br />On receipt of username/password as above, the student will be intimated about activation of his/her Wi-Fi/ Internet account through his/her registered e-mail ID.
+                            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div className={darkMode?"accordion-body bg-dark text-info textcontainer4":"textcontainer4 accordion-body"}>
+                                <p>A student desirous of getting a Wi-Fi/Internet account will have to register for the same. Copy of the Registration Form is available in the college website and at Students’ Facilitation Centre. <br /><br />The filled-up Registration Form, duly recommended by the Staff Advisor, should be submitted at the IT Lab, EC/IT Block, on any working day. <br /><br />On accepting an application, the student will receive an email from itsupport@gecbh.ac.in requesting him/her to forward his/her username and password (for WI-Fi / Internet access), by return mail. <br /><br />On receipt of username/password as above, the student will be intimated about activation of his/her Wi-Fi/ Internet account through his/her registered e-mail ID.</p>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +66,8 @@ const CW = () => {
                             </button>
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div className={darkMode?"accordion-body bg-dark text-info":"accordion-body"}>
-                                A staff desirous of getting a Wi-Fi / Internet account shall send a request by mail from his/her e-mail ID (as given in the Information Bulletin)with particulars of his/her Name, Designation and Department, addressed to itsupport@gecbh.ac.in. Any change in one’s mail-ID from that listed in Information Bulletin shall be intimated in advance before sending the request. <br /><br />He/she will then receive a mail from itsupport@gecbh.ac.in requesting to forward his/her username and password (for WI-Fi / Internet access), by return mail. Thereafter, the concerned staff will be intimated about activation of his/her Wi-Fi/ Internet account through mail.
+                                <div className={darkMode?"accordion-body bg-dark text-info textcontainer4":"textcontainer4 accordion-body"}>
+                                <p>A staff desirous of getting a Wi-Fi / Internet account shall send a request by mail from his/her e-mail ID (as given in the Information Bulletin)with particulars of his/her Name, Designation and Department, addressed to itsupport@gecbh.ac.in. Any change in one’s mail-ID from that listed in Information Bulletin shall be intimated in advance before sending the request. <br /><br />He/she will then receive a mail from itsupport@gecbh.ac.in requesting to forward his/her username and password (for WI-Fi / Internet access), by return mail. Thereafter, the concerned staff will be intimated about activation of his/her Wi-Fi/ Internet account through mail.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,8 +78,8 @@ const CW = () => {
                             </button>
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div className={darkMode?"accordion-body bg-dark text-info":"accordion-body"}>
-                                The details on how to activate a Wi-Fi / Internet account on receipt of a username and password will also be intimated through mail.
+                                <div className={darkMode?"accordion-body bg-dark text-info textcontainer4":"textcontainer4 accordion-body"}>
+                                <p>The details on how to activate a Wi-Fi / Internet account on receipt of a username and password will also be intimated through mail.</p>
                                 </div>
                             </div>
                         </div>
@@ -87,8 +87,8 @@ const CW = () => {
                 </div>
                 <div className="mb-5 p-3 ms-3"></div>
                 <div className={darkMode?"text-success mb-5":"text-primary mb-5"}><h3>Usage Policy</h3></div>
-                <div className={darkMode?"mb-5 p-3 ms-3 text-info":"mb-5 p-3 ms-3"}><p>Wi-Fi will be available on Laptops, Desktops and in all devices (other than running Android application).<br />Wi-Fi will be active in campus from 8.00 AM to 6.00 PM on all days.<br />In Ladies Hostel (lobby area), Wi-Fi will be active only from 6.00 AM to 8.00 AM and from 4.00 PM to 10 PM.<br />All social media and networking sites are currently blocked. However, such sites will be open for limited usage from 12 Noon to 1.00 PM and from 4.00 PM to 5.00 PM on all days.</p></div>
-                <div className={darkMode?"mb-5 p-3 ms-5 text-white border-bottom border-warning border-3":"mb-5 p-3 ms-5 text-success border-bottom border-success border-3"}><h6>In the light of introduction of a user account system for Wi-Fi / Internet connectivity in campus, it is essential that all students/staff obtaining a WiFi / Internet account, leaving the institution, should report the IT department (Server Room) to surrender their account.</h6></div>
+                <div className={darkMode?"mb-5 p-3 ms-3 text-info textcontainer4":"mb-5 p-3 ms-3 textcontainer4"}><p>Wi-Fi will be available on Laptops, Desktops and in all devices (other than running Android application).<br />Wi-Fi will be active in campus from 8.00 AM to 6.00 PM on all days.<br />In Ladies Hostel (lobby area), Wi-Fi will be active only from 6.00 AM to 8.00 AM and from 4.00 PM to 10 PM.<br />All social media and networking sites are currently blocked. However, such sites will be open for limited usage from 12 Noon to 1.00 PM and from 4.00 PM to 5.00 PM on all days.</p></div>
+                <div className={darkMode?"mb-5 p-3 ms-5 text-white border-bottom border-warning border-3 textcontainer5":"mb-5 p-3 ms-5 text-success border-bottom border-success border-3 textcontainer5"}><h6>In the light of introduction of a user account system for Wi-Fi / Internet connectivity in campus, it is essential that all students/staff obtaining a WiFi / Internet account, leaving the institution, should report the IT department (Server Room) to surrender their account.</h6></div>
             </div>
             <AnnouncementsBar/>
           </div>
