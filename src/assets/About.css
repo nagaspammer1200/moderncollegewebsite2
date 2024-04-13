@@ -109,21 +109,7 @@
 .asmeimage{
     margin-left:10%;
 }
-/*Animation Start */
 
-
-
-  
-  /* .vision div p, .vision div ul li{
-    white-space: nowrap;
-    overflow: hidden;
-    animation: scroll 5s linear infinite;
-  }
-
-  @keyframes scroll {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-  }*/
 /* Fade in Animation */
   .ptaimage img, .asmeimage img,.nssimage img{
     animation: pulseAnimation 1s ease-in-out infinite alternate;
@@ -172,7 +158,7 @@
   }
   /* Text Fade For 4 Seconds*/
 
-  .textcontainer4 h6,.textcontainer4 p, .nsscontainer1 p, .textcontainer4 h5 a, .textcontainer5 h6{
+  .textcontainer4 h6,.textcontainer4 p, .nsscontainer1 p, .textcontainer4 h5 a, .textcontainer5 h6, .principallist ul li{
     animation: fadeingeneralfour 4s ease-in-out forwards;
     opacity: 0;
   }
@@ -362,7 +348,7 @@
         width:100%;
     }
     /*Styling the Placement*/
-    .nsscontainerimg img {
+    .placementimg img {
         width:100%;
         height:130%;
     }

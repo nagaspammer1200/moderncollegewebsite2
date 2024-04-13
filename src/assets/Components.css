@@ -18,6 +18,27 @@
     padding:5%;
     margin-left:10%;
 }
+
+/*Styling the Floating TExt */
+.floatingtextcontainer{
+    display:flex;
+    gap:2%;
+    padding: 0.3% 0% 0.5% 0%;
+}
+
+/*Animation Start */
+
+    .floatingtextcontainer{
+        overflow: hidden;
+        white-space: nowrap;
+        animation: marquee 20s linear infinite;
+    }
+
+    @keyframes marquee {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+
 @media only screen and (max-width: 500px){
     /* Person Details*/
     .detailscontainer{
@@ -44,5 +65,14 @@
     /* Responsive Design for Image Slider images*/
     .imagesilderimg img {
         height:550px;
+    }
+
+    /* Responsive Design for Floating Text*/
+    .floatingtextcontainer{
+        overflow-x: auto;
+        animation: none;
+        padding:5%;
+        gap:8%;
+        white-space: nowrap;
     }
 }

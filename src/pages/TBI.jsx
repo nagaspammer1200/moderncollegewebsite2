@@ -23,8 +23,7 @@ const TBI = () => {
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Technology Business Incubation Centre</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark text-info border-top border-1 border-primary":"d-flex p-3 personcontainer3"}>
             <div className="p-3 ms-4">
-                <div className="mb-2"><p>Proposals invited from eligible students and alumni of Government Engineering College Bartonhill, Thiruvananthapuram for becoming technology business incubators.</p></div>
-                <div className="mb-5"><p>As part of skill development initiatives of Technology Business Incubation Centre, Government Engineering College Barton Hill, help students to acquire the latest technical skills, so that they can take up industrially relevant projects effectively and to enhance their career.</p></div>
+                <div className="mb-2"><p>Proposals invited from eligible students and alumni of Government Engineering College Bartonhill, Thiruvananthapuram for becoming technology business incubators. <br /><br />As part of skill development initiatives of Technology Business Incubation Centre, Government Engineering College Barton Hill, help students to acquire the latest technical skills, so that they can take up industrially relevant projects effectively and to enhance their career.</p></div>
             </div>
             <AnnouncementsBar/>
           </div>

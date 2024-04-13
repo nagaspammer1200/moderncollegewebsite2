@@ -5,6 +5,7 @@ import FixedNavbar from '../components/FixedNavbar';
 import ImageSlider from '../components/ImageSlider';
 import BannerFooter from '../components/BannerFooter';
 import PermanentFooter from '../components/PermanentFooter';
+import FloatingText from '../components/FloatingText';
 import "../assets/Home.css"
 import "../assets/About.css"
 import "../assets/Components.css"
@@ -19,6 +20,7 @@ const Home = () => {
         <div>
           <div className="mb-4"><PermanentNavbar/></div>
           <div className="mb-4"><FixedNavbar/></div>
+          <div><FloatingText/></div>
           <div><ImageSlider imgone="src/images/home/students.jpg" imgtwo="src/images/home/gokul.jpg" imgthree="src/images/home/people.jpeg" imgfour="src/images/home/toppers.jpg" altone="Students Image" alttwo="Gokul Image" altthree="Graduation Ceremony" altfour="IT Department Toppers"/></div>
           <div>
             <div className={darkMode?"vision d-flex bg-dark text-white":"vision d-flex"}>
