@@ -77,7 +77,7 @@ const App = () => {
   return (
     <div>
       <darkModeContext.Provider value={{darkMode,setDarkMode}}>
-        <BrowserRouter> 
+        <BrowserRouter basename={process.env.PUBLIC_URL}> 
           <Routes> 
             <Route Index element={<Home/>}/> 
             <Route path="/" element={<Home/>}/>
