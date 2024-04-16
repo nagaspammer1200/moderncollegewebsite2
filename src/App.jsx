@@ -16,7 +16,7 @@ import Staff from './pages/Staff';
 import Service from './pages/Service';
 import Budget from './pages/Budget';
 import Committee from './pages/Committee';
-import PTA from './pages/pta';
+import PTA from './pages/PTA';
 import IPR from './pages/IPR';
 import Rag from './pages/Rag';
 import AICTE from './pages/AICTE';
