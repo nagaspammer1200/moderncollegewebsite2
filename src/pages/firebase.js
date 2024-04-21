@@ -16,5 +16,3 @@ import { getStorage,ref } from "firebase/storage";
   
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
-const storage = getStorage();
-export const storageRef = ref(storage);
