@@ -5,7 +5,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import Home from './pages/Home';
 import About from "./pages/About"
-import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import { BrowserRouter ,Route,Routes} from 'react-router-dom';
 import Principal from './pages/Principal';
 import PDean from './pages/PDean';
 import UDean from './pages/UDean';
@@ -154,3 +154,9 @@ const App = () => {
 }
 export const darkModeContext = createContext();
 export default App
+
+
+
+
+
+
