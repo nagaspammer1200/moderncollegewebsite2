@@ -21,7 +21,7 @@ const Home = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div className="mb-4"><FixedNavbar/></div>
           <div><FloatingText/></div>
-          <div><ImageSlider imgone="src/images/home/students.jpg" imgtwo="src/images/home/gokul.jpg" imgthree="src/images/home/people.jpeg" imgfour="src/images/home/toppers.jpg" altone="Students Image" alttwo="Gokul Image" altthree="Graduation Ceremony" altfour="IT Department Toppers"/></div>
+          <div><ImageSlider imgone="students.jpg" imgtwo="gokul.jpg" imgthree="people.jpeg" imgfour="toppers.jpg" altone="Students Image" alttwo="Gokul Image" altthree="Graduation Ceremony" altfour="IT Department Toppers"/></div>
           <div>
             <div className={darkMode?"vision d-flex bg-dark text-white":"vision d-flex"}>
               <div><h4>Vision and Mission Statement</h4></div>

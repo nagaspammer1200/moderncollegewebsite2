@@ -32,7 +32,7 @@ const Rag = () => {
                         <p>Ragging may also attract punishment as per section 4 of the “The Kerala Prohibition of Raggig Act 1998” which leads to imprisonment, for a term of maximum 2 years and a fine for ten thousand rupees in conviction.</p>
                         </div>
                         <div className="ptaimage">
-                            <img src="src/images/rag.png" width="300px" height="300px"alt="Anti Ragging Logo" /> 
+                            <img src="rag.png" width="300px" height="300px"alt="Anti Ragging Logo" /> 
                         </div>
                     </div>
                     <div className={darkMode?"mb-5 text-secondary text-start text-info":"mb-5 text-secondary text-start"}>

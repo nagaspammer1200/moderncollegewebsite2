@@ -32,7 +32,7 @@ const ME = () => {
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Mechanical Engineering</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
-                <div className="mb-5"><ImageSlider imgone="src/images/departments/me1.jpg" imgtwo="src/images/departments/me2.jpg" imgthree="src/images/departments/me3.jpg" imgfour="src/images/departments/me4.jpg" altone="Blood Donation" alttwo="Mechanical Machines" altthree="Pelton Turbine" altfour="Mechanical Machines More"/></div>
+                <div className="mb-5"><ImageSlider imgone="me1.jpg" imgtwo="me2.jpg" imgthree="me3.jpg" imgfour="me4.jpg" altone="Blood Donation" alttwo="Mechanical Machines" altthree="Pelton Turbine" altfour="Mechanical Machines More"/></div>
                 <div className={darkMode?"text-warning mb-3 ms-3":"text-primary mb-3 ms-3"}><h3>About the Department</h3></div>
                 <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The Department of Mechanical Engineering at Government Engineering College, Barton hill was established in the academic year 1999, offering a four-year B.Tech course in Mechanical Engineering. The annual intake is 60 students. Department is planning to start an M.Tech course in Computational Mechanics and AICTE approval for the same is awaited. All the students are allotted from among the top ranked students of the Common Entrance Examination (CEE) conducted by the Govt. of Kerala. Many of the students bagged top ranks in the Kerala University. Most of the students passed out from the department are working in top ranked international and multinational companies. A number of students from the department pursue their higher studies at IITs and IIMs and also at top ranked foreign universities. <br /><br />The academic focus of the department is to impart state of the art technical knowledge to the students. Conceptual understanding supported with experimental knowledge moulds our students competent enough to face the technical challenges of our nation. The faculty of Mechanical Engineering are well qualified and academic as well as industrial expertise is not at dearth. Most of the faculty members have obtained higher qualifications from premier institutions, both national and international. Faculty members actively pursue research through students and many undertake projects funded through Govt. agencies.</p></div>
                 <div className="physicaldepartment p-3">
@@ -178,7 +178,7 @@ const ME = () => {
                         </div>
                     </div>
                 <div className={darkMode?"d-flex p-3 text-info bg-dark border border-white border-1 mb-5 departmentcontainer":"d-flex p-3 text-white bg-primary mb-5 departmentcontainer"}> 
-                    <div className="mb-5"><img src="src/images/departments/kumar.jpg" width="150px" height="150px" alt="Haripriya" /></div>
+                    <div className="mb-5"><img src="kumar.jpg" width="150px" height="150px" alt="Haripriya" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr. K. Bindu Kumar</h5></div>

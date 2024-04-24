@@ -1,7 +1,5 @@
 import React,{useContext,useEffect,useState} from 'react'
 import { darkModeContext } from '../App';
-import { db } from '../pages/firebase.js'
-import { getDocs,collection } from 'firebase/firestore'
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter.jsx'
@@ -13,24 +11,7 @@ import "../assets/Components.css"
 
 const Service = () => {
 
-    const [rules,setRules] = useState([]);
-    const rule = collection(db,"service");
-     useEffect(()=>{
-      const displayRules = async () => {
-        try {
-          const data1 = await getDocs(rule);
-          const filteredData1 = data1.docs.map((doc)=> ({
-            ...doc.data(), id: doc.id,
-          }));
-          console.log(filteredData1)
-          setRules(filteredData1)
-        }
-       catch (err){
-        console.log("error");
-       }
-      };
-      displayRules();
-    },[]);
+    
     const {darkMode,setDarkMode} = useContext(darkModeContext);
     useEffect(() => { 
       setDarkMode(localStorage.getItem("darkModeValue"))

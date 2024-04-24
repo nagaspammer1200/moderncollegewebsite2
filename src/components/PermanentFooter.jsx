@@ -6,7 +6,7 @@ const PermanentFooter = () => {
     <div className="bg-dark">
       <div className="d-flex footermain text-white p-3 linkscontainer">
         <div className="border-success border-bottom border-3 p-3">
-            <div className="mb-3"><img src="src/images/logo-white.png" alt="" /></div>
+            <div className="mb-3"><img src="logo-white.png" alt="" /></div>
             <div className="mb-3 p-3">
                 <h6>Contact</h6>
                 <p>Government Engineering College Barton Hill <br />Kunnukuzhi, Thiruvananthapuram Kerala - 695035.</p>

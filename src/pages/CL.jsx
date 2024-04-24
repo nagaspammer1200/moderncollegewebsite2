@@ -26,7 +26,7 @@ const CL = () => {
             <div className="nsscontainer p-2">
                 <div className={darkMode?"mb-5 mt-3 gap-5 nsscontainer1 text-info":"mb-5 mt-3 gap-5 nsscontainer1"}>
                     <div><p>In any academic institution Library plays an important role in the dissemination of knowledge. In fact, the ambience of the library reflects the quality of the education imparted by the Government Engineering College ,Barton Hill (GECBH) Campus has recognized the importance of the academic vibrations required in the library and has been growing in this direction, right from its very inception. The current location of the Central Library is well planned. The well stacked racks are user friendly. A special zone has been carved out for the digital library. Our college was established and functioned in the academic year 1999-2000, with Central Technical library.</p></div>
-                    <div><img src="src/images/library.jpg" width="250px" height="200px" alt="Student Looking for Books in the College Library" /></div>
+                    <div><img src="library.jpg" width="250px" height="200px" alt="Student Looking for Books in the College Library" /></div>
                 </div>
                 <div className="table-responsive tablecontainer">
                     <table className={darkMode?"table table-striped table-dark":"table table-striped"}>

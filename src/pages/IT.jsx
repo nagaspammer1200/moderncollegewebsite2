@@ -32,7 +32,7 @@ const IT = () => {
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Information Technology</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 border-top border-1 border-primary bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
-                <div className="mb-5"><ImageSlider imgone="src/images/departments/it1.jpg" imgtwo="src/images/departments/it2.jpg" imgthree="src/images/departments/it3.jpg" imgfour="src/images/departments/it2.jpg" altone="IT Toppers" alttwo="IT Block" altthree="IT Lab" altfour="IT Block"/></div>
+                <div className="mb-5"><ImageSlider imgone="it1.jpg" imgtwo="it2.jpg" imgthree="it3.jpg" imgfour="it2.jpg" altone="IT Toppers" alttwo="IT Block" altthree="IT Lab" altfour="IT Block"/></div>
                 <div className="text-primary mb-3 ms-3"><h3>About the Department</h3></div>
                 <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The Department of Information Technology at Government Engineering College, Barton hill was established in the academic year 1999, offering a four year B.Tech. course in Information Technology. M.Tech. Course in Information Technology with specialization in Network Engineering commenced from the academic year 2011-2012. <br />The Department lays strong emphasis on ensuring that the students have a thorough idea of core concepts. Further, the department focuses on nurturing the analytical abilities of students and exposes them to the latest technologies and equips them with industry-specific skills.</p></div>
                 <div className="physicaldepartment p-3">
@@ -98,9 +98,9 @@ const IT = () => {
                     <div className="collapse mb-4" id="collapseExample">
                         <div className={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                             <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The college now offers five full time B. Tech degree courses. The duration of the Under Graduate Programme is four years. As per the AICTE norms, the annual intake of each UG course is sixty.</p></div>
-                            <div className="mb-5 ms-3"><img src="src/images/departments/it4.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
+                            <div className="mb-5 ms-3"><img src="it4.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
                             <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The faculty and staff of the department are well qualified and many of them are alumni of IITs and NITs. Currently we have 3 Ph.D holders in our faculty list. The department has well-equipped labs with state-of–the art technologies.</p></div>
-                        <div className="mb-5 ms-3"><img src="src/images/departments/it5.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
+                        <div className="mb-5 ms-3"><img src="it5.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
                         </div>
                     </div>
                     <div className="collapse mb-4" id="collapseExample1">
@@ -198,7 +198,7 @@ const IT = () => {
                     </div>
                 </div>
                 <div className={darkMode?"d-flex p-3 text-info bg-dark border border-white border-1 mb-5 departmentcontainer":"d-flex p-3 text-white bg-primary mb-5 departmentcontainer"}> 
-                    <div className="mb-5"><img src="src/images/departments/haripriya.png" width="150px" height="150px" alt="Haripriya" /></div>
+                    <div className="mb-5"><img src="haripriya.png" width="150px" height="150px" alt="Haripriya" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr. Haripriya A. P.</h5></div>

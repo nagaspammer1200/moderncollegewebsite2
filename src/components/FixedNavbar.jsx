@@ -6,7 +6,7 @@ const FixedNavbar = () => {
     <div>
       <div className="fnavbar">
         <div className="fnavbarimg">
-          <a href="/"><img src="src/images/logobh.png" class="img-fluid" alt="GECB Logo" /></a>
+          <a href="/"><img src="logobh.png" class="img-fluid" alt="GECB Logo" /></a>
         </div>
         <div className="navbarlinksmain">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">

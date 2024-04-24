@@ -21,7 +21,7 @@ const About = () => {
           <div><FixedNavbar/></div>
           <div className={darkMode?"aboutcontainer bg-dark text-info":"aboutcontainer"}>
             <div className="card text">
-              <div className="m-3"><img src="src/images/about/college_abt.jpg" height="500px" className="card-img" alt="Image of GECBH"/></div>
+              <div className="m-3"><img src="college_abt.jpg" height="500px" className="card-img" alt="Image of GECBH"/></div>
               <div className="card-img-overlay">
                   <h4 className="card-title text-dark mt-5 ms-5"><b>Know Us Better</b></h4>
                   <h1 className="card-text text-black mt-5 ms-5"><b>About Us</b></h1> 
@@ -31,7 +31,7 @@ const About = () => {
               <div className="pitem">
                 <div>
                   <h3 className="border-success border-bottom border-3 mb-3"><b>GECBH at a Glance</b></h3>
-                  <img src="src/images/about/college4.jpeg" width="300px" height="250px" alt="College Image 2" />
+                  <img src="college4.jpeg" width="300px" height="250px" alt="College Image 2" />
                 </div>
                 <div className="mt-4">
                   <p><b>Government Engineering College, Barton Hill</b> was established by the Government of Kerala in the academic year 1999-2000. Within a short span of time since inception, the college has achieved notable academic excellence. The college is affiliated to APJ Abdul kalam Kerala Technological University. It is under the administrative control of the Director of Technical Education, Government of Kerala.The college is situated at scenic hills of Barton Hill and the land was donated by His Highness Sri.Chithira Thirunal Balarama Varma, the last ruling Maharaja of the princely State of Travancore. The college started its functioning in the month of November 1999 on the buildings of the Barton Hill Girl’s High School, Kunnukuzhy which is now defunct. The first principal of the college was Prof. G. Jayasankar.</p>
@@ -40,7 +40,7 @@ const About = () => {
               <div className="pitem">
                 <div>
                   <h3 className="border-success border-bottom border-3 mb-3"><b>History</b></h3>
-                  <img src="src/images/about/history.jpg" width="300px" height="250px" alt="College History Image" />
+                  <img src="history.jpg" width="300px" height="250px" alt="College History Image" />
                 </div>
                 <div className="mt-4">
                   <p><b>Government Engineering College, Barton Hill</b> located near PMG junction, in the heart of the Thiruvananthapuram city. Our college is situated at scenic hills of Barton hill; William Barton designed and built the new Secretariat building in Trivandrum, AD 1869, who was the chief engineer of Travancore. It was built based on Roman Architecture. Later it became the administration centre of Thiru – Kochi and then for whole Kerala. Barton Hill, which was the site of the bungalow of civil engineer Walthew Clarance Barton, who led the construction of the Secretariat, which he could see from the top of the 41-metre hill (same height as the ground on which the Secretariat is built). The hill, which is now crowded with a Government Engineering College, Government Law College and hostels of the Institute of Management in Government, also had two names earlier – Peppatti Kunnu (as it housed an office to treat rabies) and Gundu Kaadu (because gun shots were fired from here to mark the time). Our College building is the distinguish of hosting Travancore‟s First English High school for Girls, HER HIGHNESS MAHARANISETHU PARVATHI BAYI, English High school for Girls, established in 1942.</p>

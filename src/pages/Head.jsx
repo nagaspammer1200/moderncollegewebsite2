@@ -1,7 +1,5 @@
 import React,{useContext,useEffect,useState} from 'react'
 import { darkModeContext } from '../App';
-import { db } from '../pages/firebase.js'
-import { getDocs,collection } from 'firebase/firestore'
 import PermanentNavbar from '../components/PermanentNavbar'
 import FixedNavbar from '../components/FixedNavbar'
 import BannerFooter from '../components/BannerFooter.jsx'
@@ -13,31 +11,11 @@ import "../assets/About.css"
 
 const Head = () => {
 
-    const [headList,setHeadList] = useState([]);
-    const hod = collection(db,"hods");
     const {darkMode,setDarkMode} = useContext(darkModeContext);
     useEffect(() => {
       const darkModeValue2 = localStorage.getItem("darkModeValue");
       setDarkMode(darkModeValue2)
     }, []);
-
-    useEffect(()=>{
-        const displayheadofdepartments = async () => {
-        try {
-            const data1 = await getDocs(hod);
-            const filteredData1 = data1.docs.map((doc)=> ({
-            ...doc.data(), id: doc.id,
-            }));
-            console.log(filteredData1)
-            setHeadList(filteredData1)
-        }
-        catch (err){
-        console.log("error");
-        }
-        };
-        displayheadofdepartments();
-    },[]);
-
 
     return (
     <div>
@@ -50,6 +28,13 @@ const Head = () => {
                 {headList.map((movie) => (
                 <div className="mb-4">
                         <PersonDetails personimage={movie.img} personname={movie.name} personnumber={movie.pnum} personemail={movie.email}  persondesignation={movie.desig2} persondept={movie.dept}/>
+                        <PersonDetails personimage="default.png" personname="Sheeba G" personnumber="9847541300" personemail="sheebaben97@gmail.com"  persondesignation="Assistant Professor in Mathematics" persondept="Department of Applied Science"/>
+                        <PersonDetails personimage="default.png" personname="Dr. Thulaseedharan V" personnumber="9567896655" personemail="thulaseedharanv@gmail.com"  persondesignation="Professor" persondept="Department of Civil Engineering"/>
+                        <PersonDetails personimage="default.png" personname="Dr. Hari R" personnumber="9447725443" personemail="harir@gecbh.ac.in"  persondesignation="Professor" persondept="Department of Electronics and Communications Engineering"/>
+                        <PersonDetails personimage="default.png" personname="Dr.Francis M Fernandez" personnumber="9074866202" personemail="francis@gecbh.ac.in"  persondesignation="Professor" persondept="Department of Electrical and Electronics Engineering"/>
+                        <PersonDetails personimage="default.png" personname="Dr. Haripriya A. P" personnumber="+91 9446084495" personemail="haripriya.ap@gecbh.ac.in"  persondesignation="Associate Professor " persondept="Department of Information Technology"/>
+                        <PersonDetails personimage="default.png" personname="Dr. K Bindu Kumar" personnumber="8129401020" personemail="profkbk@gecbh.ac.in"  persondesignation="Professor" persondept="Department of Mechanical Engineering"/>
+                        <PersonDetails personimage="default.png" personname="Dr. Rana Prathap AO" personnumber="944743646469" personemail="ranaprathap.ao@gecbh.ac.in"  persondesignation="Assistant Professor" persondept="Department of Physical Education"/>
                 </div>
                 ))}
             </div>
