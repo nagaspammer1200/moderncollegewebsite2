@@ -7,7 +7,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyBt59b_Mt5T49xGcufVUn5-78dAAbHrXgs",
   authDomain: "gecbhclone.firebaseapp.com",
   projectId: "gecbhclone",
-  storageBucket: "gecbhclone.appspot.com",
+  storageBucket: "gs://gecbhclone.appspot.com",
   messagingSenderId: "416594936431",
   appId: "1:416594936431:web:dfe9f3f70d232ce72ec39a"
 };
