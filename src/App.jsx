@@ -70,7 +70,6 @@ import Departments from './pages/Departments';
 import QEEE from './pages/QEEE';
 import LT from './pages/LT';
 import TPCL from './pages/TPCL';
-import FloatingText from './components/FloatingText';
 
 const App = () => {
   const [darkMode,setDarkMode] = useState(false);
