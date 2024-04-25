@@ -20,7 +20,7 @@ const Principal = () => {
           <div><FixedNavbar/></div>
           <div className={darkMode?"d-flex gap-2 pdc bg-dark text-info":"d-flex gap-2 pdc"}>
             <div>
-                <div className="principalimage mb-4"><img src="src/images/people/principal.jpeg" width="200px" height="200px" alt="Principal Shiny" /></div>
+                <div className="principalimage mb-4"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/principal.jpeg?alt=media&token=ae805f77-682f-476e-a857-b26d7537a48b" width="200px" height="200px" alt="Principal Shiny" /></div>
                 <div className="d-flex gap-3 pe-3 ps-3 tcontainer">
                     <div><i className="bi bi-envelope-open"></i></div>
                     <div><p>principal@gecbh.ac.in</p></div>

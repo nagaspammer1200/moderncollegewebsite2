@@ -68,7 +68,7 @@ const IEDC = () => {
                                 <div className={darkMode?"textcontainer4 accordion-body bg-dark":"textcontainer4 accordion-body"}>
                                     <div className="d-flex p-3 gap-5 nsscontainer1">
                                         <div className={darkMode?"p-3 text-info":"p-3"}><p>The meeting was officially inaugurated by our principal Dr.K Suresh . He spoke to us laying stress on the relevance of developing entrepreneurship skills amongst engineers in the current scenario. <br /><br />IEDC CEO Aravind B presented the Annual report. Our IEDC nodal officer Shijin Knox sir also addressed the gathering. <br /><br />The principal distributed the certificates of merit to the members of the previous BOG.IEDC IAravind B introduced the members of the new Board of Governers to be led by Adith Harikumar and wished them all success in the coming ventures.</p></div>
-                                        <div><img src="iedc1.jpg" alt="IEDC Members" /></div>
+                                        <div><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/iedc1.jpg?alt=media&token=a4c5628e-a119-4257-8a8a-575b386de0ac" alt="IEDC Members" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ const IEDC = () => {
                             </h2>
                             <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div className={darkMode?"textcontainer4 accordion-body bg-dark":"textcontainer4 accordion-body"}><div className={darkMode?"p-3 text-info":"p-3"}><p>Our team at IEDC Summit 2019, Asia's largest summit for aspiring Entrepreneurs, involved Invited Talks, Startup Exhibition and Activity Hub held at Sahrdaya College of Engineering and Technology, Thrissur on 19th October.</p></div>
-                            <div><img src="iedc2.jpg" alt="IEDC Meeting" /></div></div>
+                            <div><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/iedc2.jpg?alt=media&token=75b62efa-d621-4fbe-95aa-4f5f75c71cd3" alt="IEDC Meeting" /></div></div>
                             </div>
                         </div>
                         <div className="accordion-item">

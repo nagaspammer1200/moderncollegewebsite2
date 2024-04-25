@@ -25,7 +25,7 @@ const Video = () => {
             <div className="p-3">
                 <div className="d-flex mb-5 gap-5 nsscontainer1 ms-3">
                     <div className="mb-5 p-3"><p>The video conferencing facility was officially inaugurated by <b>Sri. K. Muraleedharan</b>, MLA on <b>27th March 2015</b>.This room is equipped with LifeSize VC module, LED TV sets, LCD projectors, Audio Mixers, Microphones and Speakers.The Video Conferencing room facilitate Direct Video conferencing with 3 centers at a time with seating capacity 72 and IP based dedicated VC units.</p></div>
-                    <div><img src="video.jpg" width="300px" height="250px" alt="Video Conference Hall" /></div>
+                    <div><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/video.jpg?alt=media&token=e9b638fe-1087-4d59-9675-415f737867b3" width="300px" height="250px" alt="Video Conference Hall" /></div>
                 </div>
             </div>
             <AnnouncementsBar/>

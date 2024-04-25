@@ -32,7 +32,7 @@ const Rag = () => {
                         <p>Ragging may also attract punishment as per section 4 of the “The Kerala Prohibition of Raggig Act 1998” which leads to imprisonment, for a term of maximum 2 years and a fine for ten thousand rupees in conviction.</p>
                         </div>
                         <div className="ptaimage">
-                            <img src="rag.png" width="300px" height="300px"alt="Anti Ragging Logo" /> 
+                            <img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/rag.png?alt=media&token=d900c64a-aedf-414b-bd02-2bc4a2887a32" width="300px" height="300px"alt="Anti Ragging Logo" /> 
                         </div>
                     </div>
                     <div className={darkMode?"mb-5 text-secondary text-start text-info":"mb-5 text-secondary text-start"}>
@@ -43,15 +43,15 @@ const Rag = () => {
                     </div>
                     <div className={darkMode?"mb-5 text-warning text-start listdiv":"mb-5 text-secondary text-start listdiv"}>
                         <ul>
-                            <li className="mb-2 p-2">Any conduct by any student or students whether by words spoken or written or by an act which has the act of teasing, treating or handling with rudeness to a fresher or any other student.</li>
-                            <li className="mb-2 p-2">Indulging in rowdy or undisciplined activities by any student or students which causes or is likely to cause annoyance, hardship, physical or psychological harm or to raise fear or apprehension thereof in any fresher or any other student.</li>
-                            <li className="mb-2 p-2">Asking any student to do any act which such student will not in the ordinary course do and which has the effect of causing or generating a sense of shame, or torment or embarrassment so as to adversely affect the physique or psyche of such fresher or any other student.</li>
-                            <li className="mb-2 p-2">Any act by a senior student that prevents, disrupts or disturbs the regular academic activity of any other student or a fresher.</li> 
-                            <li className="mb-2 p-2">Exploiting the services of a fresher or any other student for completing the academic tasks assigned to an individual or a group of students.</li>
-                            <li className="mb-2 p-2">Any act of financial extortion or forceful expenditure burden put on a fresher or any other student by students.</li>
-                            <li className="mb-2 p-2">Any act of physical abuse including all variants of it: sexual abuse, homosexual assaults, stripping, forcing obscene and lewd acts, gestures, causing bodily harm or any other danger to health or person.</li>
-                            <li className="mb-2 p-2">Any act or abuse by spoken words, emails, posts, public insults which would also include deriving perverted pleasure, vicarious or sadistic thrill from actively or passively participating in the discomfiture to fresher or any other student.</li>
-                            <li className="mb-2 p-2">Any act that affects the mental health and self-confidence of a fresher or any other student with or without an intent to derive a sadistic pleasure or showing of power, authority or superiority by a studentover any fresher or any other student.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Any conduct by any student or students whether by words spoken or written or by an act which has the act of teasing, treating or handling with rudeness to a fresher or any other student.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Indulging in rowdy or undisciplined activities by any student or students which causes or is likely to cause annoyance, hardship, physical or psychological harm or to raise fear or apprehension thereof in any fresher or any other student.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Asking any student to do any act which such student will not in the ordinary course do and which has the effect of causing or generating a sense of shame, or torment or embarrassment so as to adversely affect the physique or psyche of such fresher or any other student.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Any act by a senior student that prevents, disrupts or disturbs the regular academic activity of any other student or a fresher.</li> 
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Exploiting the services of a fresher or any other student for completing the academic tasks assigned to an individual or a group of students.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Any act of financial extortion or forceful expenditure burden put on a fresher or any other student by students.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Any act of physical abuse including all variants of it: sexual abuse, homosexual assaults, stripping, forcing obscene and lewd acts, gestures, causing bodily harm or any other danger to health or person.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Any act or abuse by spoken words, emails, posts, public insults which would also include deriving perverted pleasure, vicarious or sadistic thrill from actively or passively participating in the discomfiture to fresher or any other student.</li>
+                            <li className="mb-2 p-2"><i className="bi bi-hand-thumbs-up"></i>Any act that affects the mental health and self-confidence of a fresher or any other student with or without an intent to derive a sadistic pleasure or showing of power, authority or superiority by a studentover any fresher or any other student.</li>
                         </ul>
                     </div>
                     <div className={darkMode?"mb-5 text-secondary text-start text-info":"mb-5 text-secondary text-start"}>

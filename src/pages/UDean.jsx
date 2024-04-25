@@ -22,7 +22,7 @@ const UDean = () => {
           <div><FixedNavbar/></div>
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>UG Dean</h2></div>
           <div className={darkMode?"d-flex gap-1 personcontainer pt-3 text-info bg-dark border-top border-primary border-1":"d-flex  pt-3 gap-1 personcontainer"}>
-            <PersonDetails personimage="src/images/people/ugdean.jpg" personname="Dr. Bijulal D." persondepartment="Professor, Dept. of Mechanical Engineering" personnumber="9645357434" personemail="bijulal.d@gecbh.ac.in"  personphd="– PhD, IIT Bombay - Industrial Engineering & Operations Research"
+            <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/ugdean.jpg?alt=media&token=ddc1c43c-da2d-46a6-8a4e-6853bd4af9d2" personname="Dr. Bijulal D." persondepartment="Professor, Dept. of Mechanical Engineering" personnumber="9645357434" personemail="bijulal.d@gecbh.ac.in"  personphd="– PhD, IIT Bombay - Industrial Engineering & Operations Research"
             personmtech="– M.Tech. - Industrial Engineering & Management, IIT Kharagpur" personbtech="– B.Tech. - Mechanical Engineering" personresearch="Research Area: Operations Reserach, IPR, General Management, Supply Chain Management, System Simulation, Metal Composites" personprofile="http://gecbh.ac.in/media/docs/DBLProfile_-single_page_2021.pdf" personspec="Specialization: Industrial Engineering & Operations Research"/>
             <AnnouncementsBar/>
           </div>

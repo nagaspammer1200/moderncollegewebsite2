@@ -23,7 +23,7 @@ const SIADean = () => {
           <div><FixedNavbar/></div>
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Student Dean and International Affairs</h2></div>
           <div className={darkMode?"d-flex gap-1 personcontainer pt-3 text-info bg-dark border-top border-primary border-1":"d-flex  pt-3 gap-1 personcontainer"}>
-            <PersonDetails personimage="src/images/people/shan.jpeg" personname="Dr. Shamna H. R." persondepartment="Professor, Dept. of Information Technology" personnumber="+91 9446422003" personemail="shamna.hr@gecbh.ac.in" persondesignation="Professor , Department of Information Technology, Government Engineering College, Bartonhill, Trivandrum." personphd="– Ph.D from NIT Calicut"
+            <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/shan.jpeg?alt=media&token=22445d12-aba2-4db3-a10c-8e8f5449407c" personname="Dr. Shamna H. R." persondepartment="Professor, Dept. of Information Technology" personnumber="+91 9446422003" personemail="shamna.hr@gecbh.ac.in" persondesignation="Professor , Department of Information Technology, Government Engineering College, Bartonhill, Trivandrum." personphd="– Ph.D from NIT Calicut"
             personmtech="– ME in CSE" personbtech="– B.Tech in IT" personprofile="http://gecbh.ac.in/media/docs/Shamna_CV_New.pdf" />
             <AnnouncementsBar/>
           </div>

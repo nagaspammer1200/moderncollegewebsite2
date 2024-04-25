@@ -32,7 +32,7 @@ const IT = () => {
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Information Technology</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 border-top border-1 border-primary bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
-                <div className="mb-5"><ImageSlider imgone="it1.jpg" imgtwo="it2.jpg" imgthree="it3.jpg" imgfour="it2.jpg" altone="IT Toppers" alttwo="IT Block" altthree="IT Lab" altfour="IT Block"/></div>
+                <div className="mb-5"><ImageSlider imgone="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/it1.jpg?alt=media&token=52820783-6574-4625-b056-d7e9a2a18fcc" imgtwo="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/it2.jpg?alt=media&token=5aeea224-e4db-4a45-9bca-7b4783a138cd" imgthree="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/it3.jpg?alt=media&token=4f82f5aa-b8ef-4177-99bc-d7a6d4110f16" imgfour="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/it2.jpg?alt=media&token=5aeea224-e4db-4a45-9bca-7b4783a138cd" altone="IT Toppers" alttwo="IT Block" altthree="IT Lab" altfour="IT Block"/></div>
                 <div className="text-primary mb-3 ms-3"><h3>About the Department</h3></div>
                 <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The Department of Information Technology at Government Engineering College, Barton hill was established in the academic year 1999, offering a four year B.Tech. course in Information Technology. M.Tech. Course in Information Technology with specialization in Network Engineering commenced from the academic year 2011-2012. <br />The Department lays strong emphasis on ensuring that the students have a thorough idea of core concepts. Further, the department focuses on nurturing the analytical abilities of students and exposes them to the latest technologies and equips them with industry-specific skills.</p></div>
                 <div className="physicaldepartment p-3">
@@ -98,9 +98,9 @@ const IT = () => {
                     <div className="collapse mb-4" id="collapseExample">
                         <div className={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                             <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The college now offers five full time B. Tech degree courses. The duration of the Under Graduate Programme is four years. As per the AICTE norms, the annual intake of each UG course is sixty.</p></div>
-                            <div className="mb-5 ms-3"><img src="it4.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
+                            <div className="mb-5 ms-3"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/it4.jpeg?alt=media&token=0dfe5524-8eb5-43bd-bcc8-ab7f4f5e0eda" width="85%" height="80%" alt="IEEE Members" /></div>
                             <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The faculty and staff of the department are well qualified and many of them are alumni of IITs and NITs. Currently we have 3 Ph.D holders in our faculty list. The department has well-equipped labs with state-of–the art technologies.</p></div>
-                        <div className="mb-5 ms-3"><img src="it5.jpeg" width="85%" height="80%" alt="IEEE Members" /></div>
+                        <div className="mb-5 ms-3"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/it5.jpeg?alt=media&token=464f9dd8-ae5f-4994-91c3-19cb4a98a77e" width="85%" height="80%" alt="IEEE Members" /></div>
                         </div>
                     </div>
                     <div className="collapse mb-4" id="collapseExample1">
@@ -183,22 +183,22 @@ const IT = () => {
                         <div className={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                             <div className={darkMode?"text-success mb-3 ms-3":"text-primary mb-3 ms-3"}><h3>Faculty</h3></div>
                             <div className={darkMode?"text-info mb-3 bg-dark gap-3":"text-primary mb-3 gap-3"}>
-                                <PersonDetails personimage="src/images/people/default.png" personname="Shamna HR" personnumber="+9446422003" persondesignation="Professor" />
-                                <PersonDetails personimage="src/images/people/default.png" personname="Vijayanand KS" personnumber="9447865892" persondesignation="Professor" personemail="vijayanand.ks@gecbh.ac.in"/>
-                                <PersonDetails personimage="src/images/people/default.png" personname="Manju R" personnumber="9961330220" persondesignation="Associate Professor" />
-                                <PersonDetails personimage="src/images/people/default.png" personname="Haripriya AP" personnumber=" 9446084405" persondesignation="Associate Professor" />
+                                <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="Shamna HR" personnumber="+9446422003" persondesignation="Professor" />
+                                <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="Vijayanand KS" personnumber="9447865892" persondesignation="Professor" personemail="vijayanand.ks@gecbh.ac.in"/>
+                                <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="Manju R" personnumber="9961330220" persondesignation="Associate Professor" />
+                                <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="Haripriya AP" personnumber=" 9446084405" persondesignation="Associate Professor" />
                             </div>
                             <div className={darkMode?"text-success mb-3 ms-3":"text-primary mb-3 ms-3"}><h3>Technical Staff</h3></div>
                             <div className={darkMode?"text-info mb-3 bg-dark gap-3":"text-primary mb-3 gap-3"}>
-                                <PersonDetails personimage="src/images/people/default.png" personname="Shamna HR" personnumber="+9446422003" persondesignation="Professor" />
-                                <PersonDetails personimage="src/images/people/default.png" personname="Vijayanand KS" personnumber="9447865892" persondesignation="Professor" personemail="vijayanand.ks@gecbh.ac.in"/>
-                                <PersonDetails personimage="src/images/people/default.png" personname="Manju R" personnumber="9961330220" persondesignation="Associate Professor" />
+                                <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="Shamna HR" personnumber="+9446422003" persondesignation="Professor" />
+                                <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="Vijayanand KS" personnumber="9447865892" persondesignation="Professor" personemail="vijayanand.ks@gecbh.ac.in"/>
+                                <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="Manju R" personnumber="9961330220" persondesignation="Associate Professor" />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className={darkMode?"d-flex p-3 text-info bg-dark border border-white border-1 mb-5 departmentcontainer":"d-flex p-3 text-white bg-primary mb-5 departmentcontainer"}> 
-                    <div className="mb-5"><img src="haripriya.png" width="150px" height="150px" alt="Haripriya" /></div>
+                    <div className="mb-5"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/haripriya.png?alt=media&token=c6d905e9-2a45-4fc8-ac57-e9241bccc151" width="150px" height="150px" alt="Haripriya" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr. Haripriya A. P.</h5></div>

@@ -6,7 +6,7 @@ const FixedNavbar = () => {
     <div>
       <div className="fnavbar">
         <div className="fnavbarimg">
-          <a href="/"><img src="logobh.png" class="img-fluid" alt="GECB Logo" /></a>
+          <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/logo-white.png?alt=media&token=91a639ce-2eb1-461b-8c6d-3278653e8c54" class="img-fluid" alt="GECB Logo" /></a>
         </div>
         <div className="navbarlinksmain">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">

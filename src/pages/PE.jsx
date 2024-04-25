@@ -31,7 +31,7 @@ const PE = () => {
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Department of Physical Education</h2></div>
           <div className={darkMode?"d-flex personcontainer3 p-3 bg-dark":"d-flex personcontainer3 p-3"}>
             <div className="p-3">
-                <div className="mb-5"><ImageSlider imgone="sp1.jpg" imgtwo="sp2.jpg" imgthree="sp3.jpg" imgfour="sp4.jpg" altone="PE Team" alttwo="Running" altthree="Football" altfour="Trophy"/></div>
+                <div className="mb-5"><ImageSlider imgone="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/sp1.jpg?alt=media&token=f94ef39d-4f06-4d2b-84a3-de04e7a56832" imgtwo="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/sp2.jpg?alt=media&token=3b2476a6-8452-4b46-a9de-a48018b21bb6" imgthree="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/sp3.jpg?alt=media&token=7f78c30c-8293-4062-b5dc-ae662fcc2ffe" imgfour="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/sp4.jpg?alt=media&token=7a2fcd04-214f-4772-8c1d-e6c264383f66" altone="PE Team" alttwo="Running" altthree="Football" altfour="Trophy"/></div>
                 <div className="text-primary mb-3 ms-3"><h3>About the Department</h3></div>
                 <div className={darkMode?"mb-5 p-3 text-info textcontainer4":"mb-5 p-3 textcontainer4"}><p>The Institution has a full fledged Physical Education Department, even though the institution has no court facilities due to the insufficient land. The main aim of the department is to provide physical education programme and its activities to all the inmates of the college both staff and students. The department started to make a physical efficiency data card for each student that will be provided to students along with the Transfer Certificate as they leave the college. Talent identification will be done along this test and promised athlete and players is given special training programmes for the participation of Kerala University Intercollegiate Competitions. Sports programmes are arranges near by stadiums such as University Stadium, Central Stadium and Chandrasekharan nair Stadium. 11 students were secured grace marks in different disciplines in 2013-14. Attendance certificate is given by the college for those participating for competitions. <br />Interclass competitions were conducted for all the disciples for men and women and for staff. This is just like a sports carnival. The students participation is 100%. Different coaching programmes were conducted for different sports disciplines.</p></div>
                 <div className="physicaldepartment p-3">
@@ -71,7 +71,7 @@ const PE = () => {
                     </div>
                 </div>
                 <div className={darkMode?"d-flex p-3 text-info bg-dark border border-white border-1 mb-5 departmentcontainer":"d-flex p-3 text-white bg-primary mb-5 departmentcontainer"}> 
-                    <div className="mb-5"><img src="src/images/people/default.png" width="150px" height="150px" alt="Sheeba" /></div>
+                    <div className="mb-5"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" width="150px" height="150px" alt="Sheeba" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr.Rana Prathap AO</h5></div>

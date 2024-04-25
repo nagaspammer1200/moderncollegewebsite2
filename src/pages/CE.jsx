@@ -124,10 +124,10 @@ const CE = () => {
                             <div className={darkMode?"card card-body bg-dark border-white border-1 border":"card card-body"}>
                                 <div className={darkMode?"text-warning mb-3 ms-3":"text-primary mb-3 ms-3"}><h3>Faculty</h3></div>
                                 <div className={darkMode?"text-info mb-3 bg-dark gap-3":"text-primary mb-3 gap-3"}>
-                                    <PersonDetails personimage="src/images/people/default.png" personname="DR. THULASEEDHARAN V" personnumber="+9567896655" persondesignation="Professor" />
-                                    <PersonDetails personimage="src/images/people/default.png" personname="LINI R CHANDRAN" personnumber="9447460832" persondesignation="Assistant Professor" personemail=" lini.sam@gecbh.ac.in"/>
-                                    <PersonDetails personimage="src/images/people/default.png" personname="DR. WILBERT R" personnumber="9495043483" persondesignation="Associate Professor" />
-                                    <PersonDetails personimage="src/images/people/default.png" personname="DR. GIRIJA K" personnumber=" 9496178255" persondesignation="Associate Professor" />
+                                    <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="DR. THULASEEDHARAN V" personnumber="+9567896655" persondesignation="Professor" />
+                                    <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="LINI R CHANDRAN" personnumber="9447460832" persondesignation="Assistant Professor" personemail=" lini.sam@gecbh.ac.in"/>
+                                    <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="DR. WILBERT R" personnumber="9495043483" persondesignation="Associate Professor" />
+                                    <PersonDetails personimage="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/default.png?alt=media&token=9c4eb775-02ac-4ad0-bbb8-0eb8a7cffa14" personname="DR. GIRIJA K" personnumber=" 9496178255" persondesignation="Associate Professor" />
                                 </div>
                             </div>
                         </div>

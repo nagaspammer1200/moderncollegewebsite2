@@ -25,7 +25,7 @@ const LT = () => {
             <div className="p-3 ms-4">
                 <div className={darkMode?"mb-2 gap-5 nsscontainer1 text-info":"mb-2 gap-5 nsscontainer1"}>
                     <div className="textcontainer4"><p>A well equipped and well maintained language lab is maintained in the college to hone the soft skills of students. The students are trained in developing their communication skills through this system. The lab is equipped with server and clients with Express Pro Digital Lab software installed in it.</p></div>
-                    <div><img src="lang.jpg" width="250px" height="200px" alt="Language Lab" /></div>
+                    <div><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/lang.jpg?alt=media&token=24a8fc27-ff01-451d-bbef-096e0fffe752" width="250px" height="200px" alt="Language Lab" /></div>
                 </div>
                 <div className="accordion m-5" id="accordionExample">
                         <div className="accordion-item">

@@ -21,7 +21,7 @@ const Home = () => {
           <div className="mb-4"><PermanentNavbar/></div>
           <div className="mb-4"><FixedNavbar/></div>
           <div><FloatingText/></div>
-          <div><ImageSlider imgone="students.jpg" imgtwo="gokul.jpg" imgthree="people.jpeg" imgfour="toppers.jpg" altone="Students Image" alttwo="Gokul Image" altthree="Graduation Ceremony" altfour="IT Department Toppers"/></div>
+          <div><ImageSlider imgone="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/students.jpg?alt=media&token=0e51b478-9427-47e6-b74b-9da4a29d61a0" imgtwo="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/gokul.jpg?alt=media&token=8ec446d8-ed21-4c67-8412-785b8049ca47" imgthree="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/people.jpeg?alt=media&token=780ff612-6fc3-4e52-9a35-6553dfb885ce" imgfour="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/toppers.jpg?alt=media&token=1ee0aa84-eaee-4609-9d96-a24dffa006dd" altone="Students Image" alttwo="Gokul Image" altthree="Graduation Ceremony" altfour="IT Department Toppers"/></div>
           <div>
             <div className={darkMode?"vision d-flex bg-dark text-white":"vision d-flex"}>
               <div><h4>Vision and Mission Statement</h4></div>

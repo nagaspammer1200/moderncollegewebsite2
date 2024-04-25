@@ -52,7 +52,6 @@
 }
 .listdiv {
     ul {
-        list-style-image: url('./src/images/hand-thumbs-up.svg');
         text-align: left;
         padding-left: 5%;
     }
