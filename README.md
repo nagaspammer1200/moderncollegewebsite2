@@ -12,8 +12,7 @@ Below are screenshots of the Desktop and Mobile View.
 
 
 
-![1](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/aacf2c80-a597-454e-8a46-0b3da0bd9131)
-![5](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/7c7a8772-0d06-4e51-8772-52fd8659a99c)
-![4](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/118578bb-137d-47bf-bfbb-9f7717f8c0cb)
-![3](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/404418f2-cbff-4303-a215-a0ea1925a801)
-![2](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/dbf0106f-db26-46df-9d5b-d6e0051234e2)
+![Home page desktop](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/91a7e58f-a380-4e32-b2b9-43559016c785)
+![Principalpagemobiledark](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/b5398aab-f085-4b7e-ad39-abaea4008217)
+![principalpagemobile](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/d8bb70fa-4fa4-4e6f-81df-4e8693c61019)
+![Principalpage desktop](https://github.com/nagaspammer1200/moderncollegewebsite2/assets/142073795/ea8fc7d1-ea13-4fda-8928-ec3dc26cecba)
