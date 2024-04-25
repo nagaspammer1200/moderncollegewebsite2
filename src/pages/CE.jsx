@@ -133,7 +133,7 @@ const CE = () => {
                         </div>
                     </div>
                 <div className={darkMode?"d-flex p-3 text-info bg-dark border border-white border-1 mb-5 departmentcontainer":"d-flex p-3 text-white bg-primary mb-5 departmentcontainer"}> 
-                    <div className="mb-5"><img src="thulaseedaran.png" width="150px" height="150px" alt="Haripriya" /></div>
+                    <div className="mb-5"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/thulaseedaran.png?alt=media&token=a00c522f-611b-4792-96bb-aa1c4ea91017" width="150px" height="150px" alt="Haripriya" /></div>
                     <div>
                         <div className="mb-2"><h5>HEAD OF DEPARTMENT</h5></div>
                         <div className="mb-2"><h5>Dr.Thulaseedharan V</h5></div>

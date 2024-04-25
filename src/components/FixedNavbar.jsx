@@ -6,7 +6,7 @@ const FixedNavbar = () => {
     <div>
       <div className="fnavbar">
         <div className="fnavbarimg">
-          <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/logo-white.png?alt=media&token=91a639ce-2eb1-461b-8c6d-3278653e8c54" class="img-fluid" alt="GECB Logo" /></a>
+          <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/gecbhclone.appspot.com/o/logo-white.png?alt=media&token=88bf9c02-bf69-4d5c-813e-0efa13423a6f" class="img-fluid" alt="GECB Logo" /></a>
         </div>
         <div className="navbarlinksmain">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -124,7 +124,6 @@ const FixedNavbar = () => {
                           <li><a href="/womenscell" className="dropdown-item">Women Cell</a></li>
                         </ul>
                       </li>
-                      <li><a className="dropdown-item" href="#">Event Calendar</a></li>
                     </ul>
                   </li>
                 

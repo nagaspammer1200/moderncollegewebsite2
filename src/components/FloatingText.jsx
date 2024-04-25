@@ -18,7 +18,6 @@ const FloatingText = () => {
             <div className="floatingtextcontaineritem"><p><b>Online applications for New Adam Batch</b></p></div>
             <div className="floatingtextcontaineritem"><p><b>First Year Student Induction Program 2023</b></p></div>
             <div className="floatingtextcontaineritem"><p><b>M. Tech Admissions 2023</b></p></div>
-            <div className="floatingtextcontaineritem"><p><b>B.Tech Third Phase Admissions 2023-24</b></p></div>
         </div>
     </div>
   )

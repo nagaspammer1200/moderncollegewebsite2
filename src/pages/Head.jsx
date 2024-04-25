@@ -25,9 +25,7 @@ const Head = () => {
           <div className={darkMode?"textaninight bg-dark p-5 text-warning":"textaniday bg-primary p-5 text-white"}><h2>Head of Departments</h2></div>
           <div className={darkMode?"d-flex hodcontainer border-top border-primary border-1 p-3 bg-dark text-info":"d-flex hodcontainer p-3"}>
             <div>
-                {headList.map((movie) => (
                 <div className="mb-4">
-                        <PersonDetails personimage={movie.img} personname={movie.name} personnumber={movie.pnum} personemail={movie.email}  persondesignation={movie.desig2} persondept={movie.dept}/>
                         <PersonDetails personimage="default.png" personname="Sheeba G" personnumber="9847541300" personemail="sheebaben97@gmail.com"  persondesignation="Assistant Professor in Mathematics" persondept="Department of Applied Science"/>
                         <PersonDetails personimage="default.png" personname="Dr. Thulaseedharan V" personnumber="9567896655" personemail="thulaseedharanv@gmail.com"  persondesignation="Professor" persondept="Department of Civil Engineering"/>
                         <PersonDetails personimage="default.png" personname="Dr. Hari R" personnumber="9447725443" personemail="harir@gecbh.ac.in"  persondesignation="Professor" persondept="Department of Electronics and Communications Engineering"/>
@@ -36,7 +34,6 @@ const Head = () => {
                         <PersonDetails personimage="default.png" personname="Dr. K Bindu Kumar" personnumber="8129401020" personemail="profkbk@gecbh.ac.in"  persondesignation="Professor" persondept="Department of Mechanical Engineering"/>
                         <PersonDetails personimage="default.png" personname="Dr. Rana Prathap AO" personnumber="944743646469" personemail="ranaprathap.ao@gecbh.ac.in"  persondesignation="Assistant Professor" persondept="Department of Physical Education"/>
                 </div>
-                ))}
             </div>
               <AnnouncementsBar/>
           </div>
